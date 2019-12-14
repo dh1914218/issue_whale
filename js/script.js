@@ -53,7 +53,10 @@ articleFeedListBtn1.on("click", function() {
     .toggleClass("font__active__red");
 });
 
+let a = null;
 articleFeedListBtn2.on("click", function() {
+  a = $(this).parents();
+
   $(this)
     .parents()
     .find(".feed-comment")
