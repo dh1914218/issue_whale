@@ -1,0 +1,48 @@
+$white: #ffffff;
+$bgColor: #f2f2f2;
+$purple: #6332f6;
+$sky: #13bde9;
+$red: #e55a5a;
+$thinsky: #f6f9ff;
+
+// --bgColor--
+%bgWhite {
+  background-color: #ffffff;
+}
+%bgPurple {
+  background-color: $purple;
+}
+%bgBlack {
+  background-color: #111111;
+}
+%bgGray1 {
+  background-color: #e8e8e8;
+}
+
+// --fontColor--
+%ftColorgray {
+  color: #9b9b9b;
+}
+
+%ftColorWhite {
+  color: $white;
+}
+%ftColorPurple {
+  color: $purple;
+}
+
+// --box(border 포함)
+%bxWhiteGray {
+  border: 1px solid #e8e8ed;
+  background-color: #ffffff;
+}
+
+%bxWhitePurple {
+  border: 1px solid $purple;
+  background-color: $white;
+}
+
+// --transition
+%transition {
+  transition: all 0.3s ease-in-out;
+}

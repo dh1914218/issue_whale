@@ -1,0 +1,149 @@
+@charset "UTF-8";
+.banner .banner__col1 {
+  background-color: #ffffff;
+}
+
+.banner .banner__col2 {
+  background-color: #6332f6;
+}
+
+.side-bar .side-bar__nav ul li a {
+  color: #9b9b9b;
+}
+
+.side-bar .side-bar__nav, .side-bar .side-bar__aside {
+  border: 1px solid #e8e8ed;
+  background-color: #ffffff;
+}
+
+/*-----레이아웃-----*/
+body {
+  background-color: #f2f2f2;
+}
+
+.container {
+  width: 1060px;
+  margin: 0 auto;
+}
+
+main {
+  margin-top: 16px;
+}
+
+.bgblack-layerpopup {
+  display: none;
+  z-index: 50;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*----- active -----*/
+.sidebar__fixed {
+  position: fixed;
+  top: 16px;
+}
+
+.font__active__purple {
+  color: #6332f6 !important;
+  font-weight: 500;
+}
+
+.font__active__sky {
+  color: #13bde9 !important;
+}
+
+.font__active__red {
+  color: red !important;
+}
+
+.div__actvie__thinsky {
+  background-color: #f6f9ff !important;
+}
+
+.div__flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.div__none {
+  display: none !important;
+}
+
+/*-----헤더-----*/
+.blank-header {
+  height: 30px;
+  background-color: #f2f2f2;
+}
+
+.header {
+  background-color: #ffffff;
+  height: 70px;
+}
+
+.header .header__log {
+  float: left;
+}
+
+.header .header__log a {
+  padding: 13px 32px 13px 0;
+  font-size: 30px;
+  color: #6332f6;
+  display: inline-block;
+}
+
+.header .header__nav {
+  float: right;
+}
+
+.header .header__nav ul li {
+  float: left;
+}
+
+.header .header__nav ul li a {
+  display: inline-block;
+  padding: 23px 0 23px 32px;
+}
+
+.header .header__nav ul li a:hover {
+  color: #6332f6;
+  font-weight: 500;
+}
+
+/*-----배너-----*/
+.banner .banner__col1 {
+  height: 230px;
+}
+
+.banner .banner__col2 {
+  height: 70px;
+}
+
+/*----- 사이드바 -----*/
+.side-bar {
+  width: 300px;
+  float: left;
+}
+
+.side-bar .side-bar__nav {
+  padding: 8px 24px;
+}
+
+.side-bar .side-bar__nav ul li a {
+  display: inline-block;
+  padding: 8px 20px 8px 20px;
+}
+
+.side-bar .side-bar__nav ul li a:hover {
+  color: #6332f6;
+  font-weight: 500;
+}
+
+.side-bar .side-bar__aside {
+  margin-top: 16px;
+  width: 100%;
+  height: 500px;
+}
+/*# sourceMappingURL=style.css.map */

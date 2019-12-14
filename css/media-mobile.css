@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@media (max-width: 480px) {
+  .container {
+    width: 100% !important;
+  }
+  .row {
+    padding: 0 16px;
+  }
+  .blank-header {
+    display: none;
+  }
+  .banner {
+    display: none;
+  }
+  .side-bar {
+    display: none;
+  }
+  /*-----헤더-----*/
+  .header {
+    width: 100% !important;
+    position: relative;
+    -webkit-box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+            box-shadow: rgba(27, 29, 31, 0.12) 0px 2px 10px;
+  }
+  .header .header__log {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  .header .header__log a {
+    padding: 0 !important;
+  }
+  .header nav {
+    display: none;
+  }
+  .header .m-header__btn {
+    display: inline-block !important;
+  }
+  .header .m-header__btn a {
+    display: inline-block;
+    padding: 17px 10px;
+  }
+  .header .m-header__btn a img {
+    width: 32px;
+    height: 32px;
+  }
+  .m-sub-header {
+    display: block !important;
+    background-color: #ffffff;
+  }
+  .m-sub-header ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .m-sub-header ul li {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+    text-align: center;
+    float: left;
+  }
+  .m-sub-header ul li a {
+    display: inline-block;
+    padding: 16px 16px;
+    position: relative;
+  }
+  .m-sub-header ul li a::after {
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #6332f6;
+    position: absolute;
+    top: 54px;
+    left: 0;
+  }
+  .main {
+    margin-top: 12px !important;
+  }
+  .vote {
+    width: 100% !important;
+    float: none;
+  }
+  .vote__main {
+    margin-top: 12px !important;
+    padding: 20px 16px !important;
+    width: 100% !important;
+    /*-----투표 그래프-----*/
+    /*-----투표 탭-----*/
+  }
+  .vote__main .graph {
+    display: none;
+  }
+  .vote__main .m-graph {
+    display: block !important;
+    margin-top: 20px;
+  }
+  .vote__main .m-graph .box {
+    width: 56px;
+    height: 56px;
+    background-color: #111111;
+    color: #ffffff;
+    text-align: center;
+    line-height: 56px;
+    float: left;
+  }
+  .vote__main .m-graph .yes {
+    width: 100%;
+    height: 24px;
+    background-color: #e8e8ed;
+  }
+  .vote__main .m-graph .no {
+    margin-top: 8px;
+    width: 100%;
+    height: 24px;
+    background-color: #e8e8ed;
+  }
+  .vote__main .vote__tab .vote__tab-left {
+    padding: 6px 16px !important;
+  }
+  .vote__main .vote__tab .vote__tab-left ul li a {
+    padding: 6px 16px !important;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=media-mobile.css.map */

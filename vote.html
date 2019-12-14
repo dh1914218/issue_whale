@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/media-mobile.css" />
+    <link rel="stylesheet" href="css/vote.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="bgblack-layerpopup"></section>
+    <section class="vote-layerpopup">
+      <h1>
+        왜 <em>찬성</em> 하시나요?
+        <a href="#a">
+          <img src="img/ic_ex_off.svg" alt="cencel" />
+        </a>
+      </h1>
+      <textarea
+        type="text"
+        placeholder="우리같이 건전한 토론문화를 만들어봐요 :)"
+        autofocus="autofocus"
+      ></textarea>
+
+      <div class="btn">
+        <ul>
+          <li><a href="#a">등록하기</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <header class="blank-header"></header>
+    <!-- //블랭크 헤더 -->
+
+    <header class="header">
+      <div class="row">
+        <div class="container clearfix">
+          <h1 class="header__log"><a href="#">로고</a></h1>
+
+          <!-- //헤더로고 -->
+          <nav class="header__nav">
+            <ul class="clearfix">
+              <li><a href="#a">로그인</a></li>
+              <li><a href="#a">내정보</a></li>
+            </ul>
+          </nav>
+          <!-- //헤더네비 -->
+
+          <nav class="m-header__btn" style="display: none;">
+            <span>
+              <a href="#a">
+                <img src="img/ic_ex_on.svg" alt="nav__btn" />
+              </a>
+            </span>
+          </nav>
+          <!-- //모바일 헤더네비 -->
+          <nav class="m-header__nav"></nav>
+          <!-- //모바일 헤더네비 -->
+        </div>
+      </div>
+    </header>
+    <!-- //헤더 -->
+
+    <header class="m-sub-header" style="display: none;">
+      <div class="container">
+        <ul class="clearfix">
+          <li><a href="#a" class="font__active__purple">오늘의 찬반투표</a</li>
+          <li><a href="#a">지난찬반투표</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="banner__col1"></div>
+      <div class="banner__col2"></div>
+    </section>
+    <!-- //배너 -->
+
+    <main>
+      <div class="container clearfix">
+        <section class="side-bar">
+          <nav class="side-bar__nav">
+            <ul>
+              <li><a href="#a" class="font__active__purple">찬반투표</a></li>
+              <li><a href="#a">지난찬반투표</a></li>
+              <li><a href="#a">자유토론방</a></li>
+              <li><a href="#a">유머 / 짤</a></li>
+              <li><a href="#a">건의하기</a></li>
+            </ul>
+          </nav>
+          <!-- //사이드바 네비 -->
+
+          <aside class="side-bar__aside"></aside>
+        </section>
+        <!-- //사이드바 -->
+
+        <section class="vote">
+          <div class="vote__tab clearfix">
+            <div class="row">
+                <div class="vote__tab-left">
+                  <ul class="clearfix">
+                    <li>
+                      <a href="#a">
+                        <img src="/img/ic_ex_on.svg" alt="" />
+                        <span class="font__active">전체</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#a">
+                        <img src="/img/ic_ex_off.svg" alt="" />
+                        <span>찬성</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#a">
+                        <img src="img/ic_ex_off.svg" alt="" />
+                        <span>반대</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- //투표 탭 왼쪽 -->
+
+                <div class="vote__tab-right"></div>
+                <!-- //투표 탭 오른쪽 -->
+            </div>
+          <!-- //투표 탭 -->
+          </div>
+
+
+          <div class="vote__main">
+            <h1>" 전과자 연예인 방송출연을 해도 될까요? "</h1>
+            <div class="graph">
+              <ul class="clearfix">
+                <li class="yes">
+                  <div><span></span></div>
+                  <h2>찬성70% (1320건)</h2>
+                </li>
+                <li class="box">
+                  <div>VOTE</div>
+                </li>
+                <li class="no">
+                  <div><span></span></div>
+                  <h2>반대30% (320건)</h2>
+                </li>
+              </ul>
+            </div>
+
+            <div class="m-graph clearfix" style="display: none;">
+                <div class="box">VOTE</div>
+                <div class="yes">
+                    <div><span></span></div>
+                </div>
+                <div class="no">
+                    <div><span></span></div>
+                </div>
+            </div>
+
+            <h3>13303건</h3>
+            <div class="btn">
+              <ul class="clearfix">
+                <li class="yes">
+                  <a href="#a">
+                    <img src="img/ic_ex_on.svg" alt="" /><span>찬성</span>
+                  </a>
+                </li>
+                <li class="no">
+                  <a href="#a">
+                    <img src="img/ic_ex_off.svg" alt="" /><span>반대</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- //버튼 -->
+
+            <div class="btn-share">
+              <div>
+                <a href="#a">
+                  <img src="img/ic_ex_off.svg" alt="" />
+                  <span>공유하기</span>
+                </a>
+              </div>
+            </div>
+            <!-- //공유버튼 -->
+          </div>
+          <!-- //투표 메인 -->
+
+          <div class="vote__feed">
+            <article class="article-feed__list ">
+              <div class="article-feed__item clearfix div__actvie__thinsky">
+                <div class="cont-left">
+                  <div class="user-profile">
+                    <img src="img/ic_ex_off.svg" alt="" />
+                    <span class="yes">찬성</span>
+                  </div>
+                  <!-- //유저프로필 -->
+                </div>
+
+                <div class="cont-right">
+                  <div class="user-nickname">
+                    <span
+                      >나는해적왕이 될꺼야
+                      <img src="img/ic_ex_on.svg" alt="" />
+                    </span>
+                  </div>
+                  <!-- //유저닉네임 -->
+                  <p>
+                    내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다내내용내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다내내용
+                    내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다내내용내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다내내용
+                  </p>
+                  <!-- //내용 -->
+
+                  <div class="btn">
+                    <ul class="clearfix">
+                      <li class="btn__item--1">
+                        <a href="#a">
+                          <img src="img/ic_ex_off.svg" alt="" />
+                          <span>소중한 한표</span>
+                          <em>1234</em>
+                        </a>
+                      </li>
+                      <li class="btn__item--2">
+                        <a href="#a">
+                          <img src="img/ic_ex_off.svg" alt="" />
+                          <span>다양한 의견</span>
+                          <em>1130</em>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- //버튼 -->
+                </div>
+              </div>
+              <!-- //피드 아이템-->
+
+              <div class="feed-comment">
+                <div class="feed-comment__item">
+                  <div class="cont-left">
+                    <div class="user-profile">
+                      <img src="img/ic_ex_off.svg" alt="" />
+                    </div>
+                  </div>
+
+                  <div class="cont-right clearfix">
+                    <div class="user-nickname clearfix">
+                      <h2>유저닉네임</h2>
+                      <span
+                        >내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다
+                        자동 줄바꿈좀 안되게해주세요 제발 부탁입니다 왜이렇게
+                        말썽이냐 후우..asdfasdfasdfasdfasdfasdfasdfasdf</span
+                      >
+                    </div>
+                    <div class="btn">
+                      <span>답글달기</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- //피드 댓글 -->
+
+                <div class="feed-comment__addreply">
+                  <span>답글보기(13개)</span>
+                </div>
+                <!-- //피드 댓글 더보기 -->
+
+                <div class="feed-comment__relpy clearfix">
+                  <div class="cont-left">
+                    <div class="user-profile">
+                      <img src="img/ic_ex_off.svg" alt="" />
+                    </div>
+                  </div>
+
+                  <div class="cont-right clearfix">
+                    <div class="user-nickname clearfix">
+                      <h2>유저닉네임</h2>
+                      <h3>@상대닉네임</h3>
+                      <span
+                        >내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다
+                        자동 줄바꿈좀 안되게해주세요 제발 부탁입니다 왜이렇게
+                        말썽이냐 후우..asdfasdfasdfasdfasdfasdfasdfasd동
+                        줄바꿈좀 안되게해주세요 제발 부탁입니다 왜이렇게
+                        말썽이냐 후우..asdfasdfasdfasdfasdfasdfasdfasdf</span
+                      >
+                    </div>
+                    <div class="btn">
+                      <span>답글달기</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- //피드 대댓글 -->
+              </div>
+              <!-- //피드댓글영역 -->
+
+              <div class="comment-write">
+                <form>
+                  <input type="text" / placeholder="당신의 의견은 무엇입니까?"
+                  autofocus="autofocus">
+                  <div class="btn">
+                    <ul>
+                      <li>
+                        <a href="#a">
+                          답글달기
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </form>
+              </div>
+            </article>
+            <!-- //피드 아이템 리스트 -->
+
+            <article class="article-feed__list">
+              <div class="article-feed__item clearfix">
+                <div class="cont-left">
+                  <div class="user-profile">
+                    <img src="img/ic_ex_off.svg" alt="" />
+                    <span class="yes">찬성</span>
+                  </div>
+                  <!-- //유저프로필 -->
+                </div>
+
+                <div class="cont-right">
+                  <div class="user-nickname">
+                    <span
+                      >나는해적왕이 될꺼야
+                      <img src="img/ic_ex_on.svg" alt="" />
+                    </span>
+                  </div>
+                  <!-- //유저닉네임 -->
+                  <p>
+                    내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다내내용내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다내내용
+                    내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다내내용내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다내내용
+                  </p>
+                  <!-- //내용 -->
+
+                  <div class="btn">
+                    <ul class="clearfix">
+                      <li class="btn__item--1">
+                        <a href="#a">
+                          <img src="img/ic_ex_off.svg" alt="" />
+                          <span>소중한 한표</span>
+                          <em>1234</em>
+                        </a>
+                      </li>
+                      <li class="btn__item--2">
+                        <a href="#a">
+                          <img src="img/ic_ex_off.svg" alt="" />
+                          <span>다양한 의견</span>
+                          <em>1130</em>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- //버튼 -->
+                </div>
+              </div>
+              <!-- //피드 아이템-->
+
+              <div class="feed-comment">
+                <div class="feed-comment__item">
+                  <div class="cont-left">
+                    <div class="user-profile">
+                      <img src="img/ic_ex_off.svg" alt="" />
+                    </div>
+                  </div>
+
+                  <div class="cont-right clearfix">
+                    <div class="user-nickname clearfix">
+                      <h2>유저닉네임</h2>
+                      <span
+                        >내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다
+                        자동 줄바꿈좀 안되게해주세요 제발 부탁입니다 왜이렇게
+                        말썽이냐 후우..asdfasdfasdfasdfasdfasdfasdfasdf</span
+                      >
+                    </div>
+                    <div class="btn">
+                      <span>답글달기</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- //피드 댓글 -->
+
+                <div class="feed-comment__addreply">
+                  <span>답글보기(13개)</span>
+                </div>
+                <!-- //피드 댓글 더보기 -->
+
+                <div class="feed-comment__relpy clearfix">
+                  <div class="cont-left">
+                    <div class="user-profile">
+                      <img src="img/ic_ex_off.svg" alt="" />
+                    </div>
+                  </div>
+
+                  <div class="cont-right clearfix">
+                    <div class="user-nickname clearfix">
+                      <h2>유저닉네임</h2>
+                      <h3>@상대닉네임</h3>
+                      <span
+                        >내용입니다내용입니다내용입니다내용입니다내용입니다내용입니다
+                        자동 줄바꿈좀 안되게해주세요 제발 부탁입니다 왜이렇게
+                        말썽이냐 후우..asdfasdfasdfasdfasdfasdfasdfasd동
+                        줄바꿈좀 안되게해주세요 제발 부탁입니다 왜이렇게
+                        말썽이냐 후우..asdfasdfasdfasdfasdfasdfasdfasdf</span
+                      >
+                    </div>
+                    <div class="btn">
+                      <span>답글달기</span>
+                    </div>
+                  </div>
+                </div>
+                <!-- //피드 대댓글 -->
+              </div>
+              <!-- //피드댓글영역 -->
+
+              <div class="comment-write">
+                <form>
+                  <input type="text" / placeholder="당신의 의견은 무엇입니까?"
+                  autofocus="autofocus">
+                  <div class="btn">
+                    <ul>
+                      <li>
+                        <a href="#a">
+                          답글달기
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </form>
+              </div>
+            </article>
+            <!-- //피드 아이템 리스트 -->
+          </div>
+          <!-- //피드 -->
+        </section>
+        <!-- //투표영역 -->
+
+
+      </div>
+    </main>
+    <!-- //메인 cont -->
+
+    <div style="height: 3000px;"></div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/jquery.placeholder.js"></script>
+  <script src="/js/script.js"></script>
+</html>
