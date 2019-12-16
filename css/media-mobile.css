@@ -90,6 +90,43 @@
     /*-----투표 그래프-----*/
     /*-----투표 탭-----*/
   }
+  .vote__main h1 {
+    font-size: 20px !important;
+  }
+  .vote__main h3 {
+    font-weight: 400;
+  }
+  .vote__main .btn {
+    margin-top: 44px !important;
+  }
+  .vote__main .btn .yes {
+    position: relative;
+  }
+  .vote__main .btn .yes .m-yes__text {
+    width: 100%;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    display: block !important;
+    font-size: 13px;
+    color: #9b9b9b;
+  }
+  .vote__main .btn .no {
+    position: relative;
+  }
+  .vote__main .btn .no .m-no__text {
+    width: 100%;
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    -webkit-transform: translate(-50%);
+            transform: translate(-50%);
+    display: block !important;
+    font-size: 13px;
+    color: #9b9b9b;
+  }
   .vote__main .graph {
     display: none;
   }
@@ -105,17 +142,38 @@
     text-align: center;
     line-height: 56px;
     float: left;
+    display: block;
   }
-  .vote__main .m-graph .yes {
+  .vote__main .m-graph .wrap {
+    width: 83%;
+    float: left;
+  }
+  .vote__main .m-graph .wrap .yes {
     width: 100%;
     height: 24px;
     background-color: #e8e8ed;
   }
-  .vote__main .m-graph .no {
+  .vote__main .m-graph .wrap .yes span {
+    display: block;
+    width: 70%;
+    height: 24px;
+    background-color: #13bde9;
+    -webkit-animation: yes 1s 0.7s;
+            animation: yes 1s 0.7s;
+  }
+  .vote__main .m-graph .wrap .no {
     margin-top: 8px;
     width: 100%;
     height: 24px;
     background-color: #e8e8ed;
+  }
+  .vote__main .m-graph .wrap .no span {
+    display: block;
+    width: 30%;
+    height: 24px;
+    background-color: #e55a5a;
+    -webkit-animation: no 1s 0.7s;
+            animation: no 1s 0.7s;
   }
   .vote__main .vote__tab .vote__tab-left {
     padding: 6px 16px !important;

@@ -32,10 +32,9 @@ $(".vote__main .btn ul li a").click(function() {
   console.log(1);
 
   if (voteGraphBtn == 0) {
-    $(".bgblack-layerpopup").show();
+    $(".bbgblack-layerpopup").show();
     $(".vote-layerpopup").show();
     console.log(1);
-  } else {
   }
 });
 

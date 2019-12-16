@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/vote.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+
   </head>
   <body>
     <section class="bgblack-layerpopup"></section>
@@ -73,6 +74,7 @@
         </ul>
       </div>
     </header>
+    <!-- //서브헤더 -->
 
     <section class="banner">
       <div class="banner__col1"></div>
@@ -130,7 +132,7 @@
             </div>
           <!-- //투표 탭 -->
           </div>
-
+          <!-- //투표탭 -->
 
           <div class="vote__main">
             <h1>" 전과자 연예인 방송출연을 해도 될까요? "</h1>
@@ -152,23 +154,28 @@
 
             <div class="m-graph clearfix" style="display: none;">
                 <div class="box">VOTE</div>
-                <div class="yes">
+                <div class="wrap">
+                  <div class="yes">
                     <div><span></span></div>
-                </div>
-                <div class="no">
+                  </div>
+                  <div class="no">
                     <div><span></span></div>
+                  </div>
                 </div>
             </div>
 
-            <h3>13303건</h3>
+            <h3><em>전체투표&nbsp;</em>13303건</h3>
+
             <div class="btn">
               <ul class="clearfix">
                 <li class="yes">
+                  <span class="m-yes__text" style="display: none;">찬성70% (1320건)</span>
                   <a href="#a">
                     <img src="img/ic_ex_on.svg" alt="" /><span>찬성</span>
                   </a>
                 </li>
                 <li class="no">
+                  <span class="m-no__text" style="display: none;">반대30% (1320건)</span>
                   <a href="#a">
                     <img src="img/ic_ex_off.svg" alt="" /><span>반대</span>
                   </a>
@@ -435,6 +442,7 @@
             <!-- //피드 아이템 리스트 -->
           </div>
           <!-- //피드 -->
+
         </section>
         <!-- //투표영역 -->
 

@@ -90,7 +90,7 @@
 .vote__main h3 {
   margin-top: 8px;
   text-align: center;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .vote__main .graph {
@@ -236,6 +236,7 @@
 
 .vote__main .btn-share {
   margin-top: 24px;
+  overflow: hidden;
 }
 
 .vote__main .btn-share div {

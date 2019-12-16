@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/board.scss",
+        "../scss/partial/_styles.scss"
+    ],
+    "names": [],
+    "file": "board.css"
+}
