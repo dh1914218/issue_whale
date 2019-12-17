@@ -1,1 +1,60 @@
-/* No CSS *//*# sourceMappingURL=board.css.map */
+.board__tab.tab .tab-left ul li a, .board__tab.tab .tab-right ul li a {
+  color: #9b9b9b;
+}
+
+.board__tab.tab .tab-left, .board__tab.tab .tab-right {
+  border: 1px solid #e8e8ed;
+  background-color: #ffffff;
+}
+
+.board {
+  float: right;
+  width: 744px;
+}
+
+.board__tab.tab .tab-left {
+  padding: 10px 16px;
+  float: left;
+}
+
+.board__tab.tab .tab-left ul li {
+  float: left;
+}
+
+.board__tab.tab .tab-left ul li a {
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.board__tab.tab .tab-left ul li a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.board__tab.tab .tab-left ul li a span {
+  vertical-align: middle;
+}
+
+.board__tab.tab .tab-right {
+  padding: 10px 16px;
+  float: right;
+}
+
+.board__tab.tab .tab-right ul li a {
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.board__tab.tab .tab-right ul li a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  vertical-align: middle;
+}
+
+.board__tab.tab .tab-right ul li a span {
+  vertical-align: middle;
+}
+/*# sourceMappingURL=board.css.map */

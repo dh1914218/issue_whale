@@ -6,8 +6,8 @@
   width: 744px;
 }
 
-.vote__tab {
-  .vote__tab-left {
+.vote__tab.tab {
+  .tab-left {
     padding: 10px 16px;
     @extend %bxWhiteGray;
     float: left;

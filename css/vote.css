@@ -7,19 +7,19 @@
   background-color: #e8e8e8;
 }
 
-.vote__tab .vote__tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input::-webkit-input-placeholder, .vote-layerpopup textarea::-webkit-input-placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input::-webkit-input-placeholder, .vote-layerpopup textarea::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.vote__tab .vote__tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input:-ms-input-placeholder, .vote-layerpopup textarea:-ms-input-placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input:-ms-input-placeholder, .vote-layerpopup textarea:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.vote__tab .vote__tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input::-ms-input-placeholder, .vote-layerpopup textarea::-ms-input-placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input::-ms-input-placeholder, .vote-layerpopup textarea::-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.vote__tab .vote__tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input::placeholder, .vote-layerpopup textarea::placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input::placeholder, .vote-layerpopup textarea::placeholder {
   color: #9b9b9b;
 }
 
@@ -31,7 +31,7 @@
   color: #6332f6;
 }
 
-.vote__tab .vote__tab-left, .vote__main, .vote__feed .article-feed__item, .vote__feed .feed-comment, .vote__feed .comment-write form {
+.vote__tab.tab .tab-left, .vote__main, .vote__feed .article-feed__item, .vote__feed .feed-comment, .vote__feed .comment-write form {
   border: 1px solid #e8e8ed;
   background-color: #ffffff;
 }
@@ -51,28 +51,28 @@
   width: 744px;
 }
 
-.vote__tab .vote__tab-left {
+.vote__tab.tab .tab-left {
   padding: 10px 16px;
   float: left;
 }
 
-.vote__tab .vote__tab-left ul li {
+.vote__tab.tab .tab-left ul li {
   float: left;
 }
 
-.vote__tab .vote__tab-left ul li a {
+.vote__tab.tab .tab-left ul li a {
   display: inline-block;
   padding: 8px 16px;
 }
 
-.vote__tab .vote__tab-left ul li a img {
+.vote__tab.tab .tab-left ul li a img {
   width: 20px;
   height: 20px;
   margin-right: 4px;
   vertical-align: middle;
 }
 
-.vote__tab .vote__tab-left ul li a span {
+.vote__tab.tab .tab-left ul li a span {
   vertical-align: middle;
 }
 

@@ -82,9 +82,16 @@
     }
   }
 
+  .vote-layerpopup {
+    textarea {
+      width: 83.67%;
+    }
+  }
+
   .main {
     margin-top: 12px !important;
   }
+
   .vote {
     width: 100% !important;
     float: none;

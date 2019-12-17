@@ -76,6 +76,9 @@
     top: 54px;
     left: 0;
   }
+  .vote-layerpopup textarea {
+    width: 83.67%;
+  }
   .main {
     margin-top: 12px !important;
   }

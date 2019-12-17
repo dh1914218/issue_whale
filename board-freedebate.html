@@ -6,9 +6,133 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
 
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/media-mobile.css" />
+    <link rel="stylesheet" href="css/board.css">
+    <link rel="stylesheet" href="css/vote.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
   </head>
-  <body></body>
+  <body>
+
+    <header class="blank-header"></header>
+    <!-- //블랭크 헤더 -->
+
+    <header class="header">
+      <div class="row">
+        <div class="container clearfix">
+          <h1 class="header__log"><a href="#">로고</a></h1>
+
+          <!-- //헤더로고 -->
+          <nav class="header__nav">
+            <ul class="clearfix">
+              <li><a href="#a">로그인</a></li>
+              <li><a href="#a">내정보</a></li>
+            </ul>
+          </nav>
+          <!-- //헤더네비 -->
+
+          <nav class="m-header__btn" style="display: none;">
+            <span>
+              <a href="#a">
+                <img src="img/ic_ex_on.svg" alt="nav__btn" />
+              </a>
+            </span>
+          </nav>
+          <!-- //모바일 헤더네비 -->
+          <nav class="m-header__nav"></nav>
+          <!-- //모바일 헤더네비 -->
+        </div>
+      </div>
+    </header>
+    <!-- //헤더 -->
+
+    <header class="m-sub-header" style="display: none;">
+      <div class="container">
+        <ul class="clearfix">
+          <li><a href="#a" class="font__active__purple">자유토론방</a</li>
+          <li><a href="#a">유머 / 짤</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- //서브헤더 -->
+
+    <section class="banner">
+      <div class="banner__col1"></div>
+      <div class="banner__col2"></div>
+    </section>
+    <!-- //배너 -->
+
+    <main>
+      <div class="container clearfix">
+
+        <section class="side-bar">
+          <nav class="side-bar__nav">
+            <ul>
+              <li><a href="vote.html">찬반투표</a></li>
+              <li><a href="#a">지난찬반투표</a></li>
+              <li><a href="board-freedebate.html" class="font__active__purple">자유토론방</a></li>
+              <li><a href="#a">유머 / 짤</a></li>
+              <li><a href="#a">건의하기</a></li>
+            </ul>
+          </nav>
+          <!-- //사이드바 네비 -->
+
+          <aside class="side-bar__aside"></aside>
+        </section>
+        <!-- //사이드바 -->
+
+        <section class="board">
+          <div class="board__tab tab clearfix">
+            <div class="row">
+                <div class="borard__tab-left tab-left">
+                  <ul class="clearfix">
+                    <li>
+                      <a href="#a">
+                        <img src="/img/ic_ex_on.svg" alt="" />
+                        <span class="font__active">인기</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#a">
+                        <img src="/img/ic_ex_off.svg" alt="" />
+                        <span>최신</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- //투표 탭 왼쪽 -->
+
+                <div class="borard__tab-right tab-right">
+                  <ul>
+                    <li>
+                      <a href="#a">
+                        <img src="/img/ic_ex_off.svg" alt="" />
+                        <span>글쓰기</span>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <!-- //게시판 탭 오른쪽 -->
+            </div>
+          <!-- //게시판 탭 -->
+          </div>
+          <!-- //투표탭 -->
+
+          <div class="board-article__list">
+            <article class="board-article__item"></article>
+          </div>
+
+        </section>
+        <!-- //게시판영역 -->
+        
+      </div>
+    </main>
+    <!-- //메인-->
+
+    <div style="height: 3000px;"></div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/jquery.placeholder.js"></script>
+  <script src="/js/script.js"></script>
 </html>

@@ -1,1 +1,57 @@
 @import "partial/styles";
+
+.board {
+  float: right;
+  width: 744px;
+}
+
+.board__tab.tab {
+  .tab-left {
+    padding: 10px 16px;
+    @extend %bxWhiteGray;
+    float: left;
+    ul {
+      li {
+        float: left;
+        a {
+          display: inline-block;
+          padding: 8px 16px;
+          @extend %ftColorgray;
+
+          img {
+            width: 20px;
+            height: 20px;
+            margin-right: 4px;
+            vertical-align: middle;
+          }
+          span {
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+  .tab-right {
+    padding: 10px 16px;
+    float: right;
+    @extend %bxWhiteGray;
+    ul {
+      li {
+        a {
+          display: inline-block;
+          padding: 8px 16px;
+          @extend %ftColorgray;
+          img {
+            width: 20px;
+            height: 20px;
+            margin-right: 4px;
+            vertical-align: middle;
+          }
+          span {
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}

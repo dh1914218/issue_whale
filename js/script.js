@@ -27,12 +27,12 @@ $(document).ready(function() {
 
 // --찬반투표 투표버튼 클릭시
 let voteGraphBtn = 0;
-$(".vote__main .btn ul li a").click(function() {
+$(".vote__main .btn ul li").click(function() {
   voteGraphBtn = $(this).index();
   console.log(1);
 
   if (voteGraphBtn == 0) {
-    $(".bbgblack-layerpopup").show();
+    $(".bgblack-layerpopup").show();
     $(".vote-layerpopup").show();
     console.log(1);
   }
