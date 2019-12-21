@@ -1,8 +1,8 @@
-.board__tab.tab .tab-left ul li a, .board__tab.tab .tab-right ul li a {
+.board__tab.tab .tab-left ul li a, .board__tab.tab .tab-right ul li a, .board-article__list .board-article__item .text ul li.meta-data, .paging-btn ul li a span {
   color: #9b9b9b;
 }
 
-.board__tab.tab .tab-left, .board__tab.tab .tab-right {
+.board__tab.tab .tab-left, .board__tab.tab .tab-right, .board-article__list, .paging-btn ul li, .pagination {
   border: 1px solid #e8e8ed;
   background-color: #ffffff;
 }
@@ -56,5 +56,118 @@
 
 .board__tab.tab .tab-right ul li a span {
   vertical-align: middle;
+}
+
+.board-article__list {
+  margin-top: 16px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.board-article__list .board-article__item {
+  padding: 8px 16px;
+  margin-top: -1px;
+  display: table;
+  table-layout: fixed;
+  border-bottom: 1px solid #e8e8ed;
+}
+
+.board-article__list .board-article__item .text {
+  display: table-cell;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.board-article__list .board-article__item .text ul li.tit {
+  font-size: 14px;
+}
+
+.board-article__list .board-article__item .text ul li.tit em {
+  margin-left: 4px;
+  color: #6332f6;
+  font-weight: 500;
+}
+
+.board-article__list .board-article__item .text ul li.meta-data {
+  margin-top: 4px;
+}
+
+.board-article__list .board-article__item .text ul li.meta-data span {
+  font-size: 14px;
+  margin-right: 8px;
+}
+
+.board-article__list .board-article__item .img {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.board-article__list .board-article__item .img img {
+  width: 93px;
+  height: 60px;
+  display: block;
+}
+
+.paging-btn {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.paging-btn ul {
+  display: inline-block;
+}
+
+.paging-btn ul li {
+  float: left;
+  margin-bottom: -8px;
+  margin-right: 16px;
+}
+
+.paging-btn ul li a {
+  display: inline-block;
+  padding: 12px;
+}
+
+.paging-btn ul li a img {
+  width: 20px;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.paging-btn ul li a span {
+  vertical-align: middle;
+}
+
+.pagination {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.pagination .wrap {
+  display: inline-block;
+}
+
+.pagination .wrap .btn {
+  float: left;
+  margin-bottom: -10px;
+}
+
+.pagination .wrap .btn a {
+  display: inline-block;
+  padding: 16px 10px;
+}
+
+.pagination .wrap .btn a img {
+  width: 20px;
+}
+
+.pagination .wrap .num {
+  float: left;
+  margin-bottom: -4px;
+}
+
+.pagination .wrap .num span a {
+  display: inline-block;
+  padding: 16px 10px;
 }
 /*# sourceMappingURL=board.css.map */
