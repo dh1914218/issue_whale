@@ -104,6 +104,346 @@
   }
 }
 
+/*-----게시판 디테일뷰------*/
+
+.board-detailview .view-article {
+  @extend %bxWhiteGray;
+
+  .view-article__header {
+    padding: 16px;
+    border-bottom: 1px solid #e8e8ed;
+    .tit {
+      font-size: 25px;
+      span {
+        font-size: 14px;
+        @extend %ftColorgray;
+        float: right;
+        margin-top: 10px;
+      }
+    }
+
+    .view-article__sub-header {
+      margin-top: 14px;
+      display: flex;
+      .profile {
+        flex: 1;
+        img {
+          border: 1px solid #e8e8ed;
+          border-radius: 15px;
+          width: 32px;
+          margin-right: 8px;
+          vertical-align: middle;
+        }
+        span {
+          vertical-align: middle;
+          @extend %ftColorgray;
+        }
+      }
+      .meta-data {
+        span {
+          font-size: 14px;
+          @extend %ftColorgray;
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+  .view-article__cont {
+    padding: 24px;
+    img {
+      text-align: center;
+    }
+    p {
+      margin-top: 10px;
+    }
+  }
+}
+
+.board-detailview .view-btn {
+  @extend %bxWhiteGray;
+
+  margin-top: 8px;
+
+  @extend %bxWhiteGray;
+  padding: 16px 24px;
+  width: 100%;
+  ul {
+    li {
+      float: left;
+      margin-right: 40px;
+      a {
+        img {
+          width: 20px;
+          margin-right: 4px;
+          vertical-align: middle;
+        }
+        span {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+/*--댓글작성--*/
+.board-detailview .view-conmment-write {
+  margin-top: 10px;
+  @extend %bxWhiteGray;
+  overflow: hidden;
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 16px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .btn {
+    float: right;
+    font-size: 16px;
+    a {
+      display: inline-block;
+      padding: 8px 16px;
+      color: $purple;
+      font-weight: 500;
+    }
+  }
+}
+
+/*--베스트댓글--*/
+// (맨밑에 div border없애기)
+.commnet-list__best > div:nth-last-child(1) {
+  // border: none !important;
+}
+
+.board-detailview .comment-list .commnet-list__best {
+  margin-top: 8px;
+  border: 1px solid #e8e8ed;
+  background-color: $thinsky;
+  margin-bottom: 8px;
+
+  .commnet-list-item__best {
+    padding: 12px;
+    display: flex;
+    border-bottom: 1px solid #e8e8ed;
+    .cont-left {
+      flex: 1;
+      margin-right: 8px;
+      .profile {
+        img {
+          width: 32px;
+          border: 1px solid #e8e8ed;
+          border-radius: 15px;
+        }
+      }
+    }
+
+    .cont-right {
+      width: 100%;
+      .user-nickname {
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      p {
+        margin-top: 4px;
+        font-size: 14px;
+      }
+      .btn {
+        margin-top: 8px;
+        ul {
+          li {
+            float: left;
+            margin-right: 12px;
+            a {
+              @extend %ftColorgray;
+              font-size: 13px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*--일반댓글--*/
+.comment-list .commnet-list__normal {
+  border: 1px solid #e8e8ed;
+}
+.comment-list .commnet-list__normal .commnet-list-item__normal {
+  .commnet {
+    .wrap {
+      padding: 12px;
+      border-bottom: 1px solid #e8e8ed;
+      background-color: #ffffff;
+      display: flex;
+      .cont-left {
+        flex: 1;
+        margin-right: 8px;
+        .profile {
+          img {
+            width: 32px;
+            border: 1px solid #e8e8ed;
+            border-radius: 15px;
+          }
+        }
+      }
+    }
+
+    .cont-right {
+      width: 100%;
+      .user-nickname {
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+      p {
+        margin-top: 4px;
+        font-size: 14px;
+      }
+      .btn {
+        margin-top: 8px;
+        ul {
+          li {
+            float: left;
+            margin-right: 12px;
+            a {
+              @extend %ftColorgray;
+              font-size: 14px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+/*--대댓글--*/
+.board-detailview .comment-list .commnet-list__normal {
+  .reply {
+    .wrap {
+      border-bottom: 1px solid #e8e8ed;
+      display: flex;
+      padding: 12px;
+      background-color: #f8f9fa;
+      position: relative;
+      .cont-left {
+        padding-left: 64px;
+        flex: 1;
+        margin-right: 8px;
+        img {
+          width: 32px;
+          border: 1px solid #e8e8ed;
+          border-radius: 15px;
+        }
+      }
+      .cont-right {
+        width: 100%;
+        h2 {
+          font-size: 14px;
+          display: inline;
+          font-weight: 500;
+        }
+        span {
+          font-size: 14px;
+          margin-left: 4px;
+          font-weight: 400;
+          color: #9b9b9b !important;
+        }
+        p {
+          font-size: 14px;
+          display: inline;
+          margin-left: 4px;
+          color: #111111;
+          font-weight: 400;
+        }
+      }
+      .btn {
+        margin-top: 8px;
+        ul {
+          li {
+            float: left;
+            // margin-right: 12px;
+            a {
+              @extend %ftColorgray;
+              font-size: 13px;
+              // margin-left: -10px;
+              margin-right: 8px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.board-detailview .comment-list .commnet-list__normal .reply::before {
+  position: absolute;
+  top: 10px;
+  left: 54px;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-left: 1px solid #c5cbd0;
+  border-bottom: 1px solid #c5cbd0;
+}
+
+/*--대댓글 작성--*/
+.commnet-reply-write {
+  // display: none;
+  position: relative;
+  background-color: #f8f9fa;
+  padding: 12px 16px 12px 72px;
+  border-bottom: 1px solid #e8e8ed;
+
+  form {
+    display: flex;
+    background-color: #ffffff;
+    border: 1px solid #e8e8ed;
+    input {
+      padding: 16px;
+      width: 100%;
+      flex: 1;
+      border: none;
+      background-color: rgba(255, 255, 255, 0);
+    }
+    ul {
+      li {
+        a {
+          padding: 16px;
+          color: $purple;
+          line-height: 56px;
+        }
+      }
+    }
+  }
+}
+
+.commnet-reply-write::before {
+  position: absolute;
+  top: 10px;
+  left: 54px;
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-left: 1px solid #c5cbd0;
+  border-bottom: 1px solid #c5cbd0;
+}
+
+/*-----댓글더보기-----*/
+.add-reply {
+  div {
+    margin-top: 8px;
+    width: 100%;
+    background-color: #ffffff;
+    text-align: center;
+    height: 56px;
+    line-height: 56px;
+    color: #9b9b9b;
+  }
+}
+
+/*-----페이지네이션-----*/
 .paging-btn {
   text-align: center;
   margin-top: 8px;

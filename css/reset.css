@@ -121,7 +121,7 @@ input:focus {
 
 /* textarea 초기화 */
 textarea {
-  overflow: auto;
+  /* overflow: auto; */
   outline: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
