@@ -1,0 +1,40 @@
+@import "partial/styles";
+@import "partial/mixins";
+
+.user-feedback__banner {
+  height: 250px;
+  background-color: $purple;
+  > div {
+    padding-top: 58px;
+    h1 {
+      text-align: center;
+      color: $white;
+      font-size: 30px;
+      font-weight: 300;
+      em {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+.user-feedback__textarea {
+  float: right;
+  textarea {
+    @extend %bxWhiteGray;
+    width: 744px;
+    padding: 16px;
+    height: 218px;
+  }
+  .btn {
+    text-align: center;
+    margin-top: 24px;
+    a {
+      display: inline-block;
+      padding: 10px 32px;
+      color: $purple;
+      border: 1px solid $purple;
+      background-color: $white;
+    }
+  }
+}

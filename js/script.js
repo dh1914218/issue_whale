@@ -112,3 +112,10 @@ $(".vote-layerpopup a").click(function() {
   $(".vote-layerpopup").hide();
   $(".bgblack-layerpopup").hide();
 });
+
+// ------------userinfo---------------
+// --메뉴클릭된것 밑줄상태
+
+// if ($(".sub-header__nav ul li a").hasClas("font__active__purple") == true) {
+//   console.log(1);
+// }

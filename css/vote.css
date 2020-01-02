@@ -31,7 +31,7 @@
   color: #6332f6;
 }
 
-.vote__tab.tab .tab-left, .vote__main, .vote__feed .article-feed__item, .vote__feed .feed-comment, .vote__feed .comment-write form {
+.vote__tab.tab .tab-left, .vote__main, .vote__feed .article-feed__item, .vote__feed .feed-comment, .vote__feed .comment-write form, .vote-past-article__list article {
   border: 1px solid #e8e8ed;
   background-color: #ffffff;
 }
@@ -591,5 +591,39 @@
 .vote-layerpopup .btn ul li a {
   padding: 10px 32px;
   display: inline-block;
+}
+
+/*------지난 찬반 투표-----*/
+.vote-past-article__list {
+  margin-top: 16px;
+}
+
+.vote-past-article__list article:hover {
+  background-color: #6332f6;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.vote-past-article__list article:hover a h1 {
+  color: white;
+}
+
+.vote-past-article__list article a {
+  display: inline-block;
+  padding: 16px;
+  width: 100%;
+  position: relative;
+}
+
+.vote-past-article__list article a h1 {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.vote-past-article__list article a img {
+  width: 24px;
+  position: absolute;
+  top: 20px;
+  right: 16px;
 }
 /*# sourceMappingURL=vote.css.map */

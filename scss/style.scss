@@ -39,6 +39,10 @@ main {
 .font__active__red {
   color: red !important;
 }
+
+.underline__active__purple {
+  border-bottom: 3px solid $purple;
+}
 .div__actvie__thinsky {
   background-color: $thinsky !important;
 }

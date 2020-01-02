@@ -1,0 +1,48 @@
+.user-feedback__textarea textarea {
+  border: 1px solid #e8e8ed;
+  background-color: #ffffff;
+}
+
+.user-feedback__banner {
+  height: 250px;
+  background-color: #6332f6;
+}
+
+.user-feedback__banner > div {
+  padding-top: 58px;
+}
+
+.user-feedback__banner > div h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.user-feedback__banner > div h1 em {
+  font-weight: 500;
+}
+
+.user-feedback__textarea {
+  float: right;
+}
+
+.user-feedback__textarea textarea {
+  width: 744px;
+  padding: 16px;
+  height: 218px;
+}
+
+.user-feedback__textarea .btn {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.user-feedback__textarea .btn a {
+  display: inline-block;
+  padding: 10px 32px;
+  color: #6332f6;
+  border: 1px solid #6332f6;
+  background-color: #ffffff;
+}
+/*# sourceMappingURL=user-feedback.css.map */

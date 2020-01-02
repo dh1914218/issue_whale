@@ -533,3 +533,37 @@
     }
   }
 }
+
+/*------지난 찬반 투표-----*/
+.vote-past-article__list {
+  margin-top: 16px;
+  article {
+    @extend %bxWhiteGray;
+    &:hover {
+      background-color: $purple;
+      transition: all 0.5s ease-in-out;
+      a {
+        h1 {
+          color: white;
+        }
+      }
+    }
+
+    a {
+      display: inline-block;
+      padding: 16px;
+      width: 100%;
+      position: relative;
+      h1 {
+        font-size: 20px;
+        font-weight: 300;
+      }
+      img {
+        width: 24px;
+        position: absolute;
+        top: 20px;
+        right: 16px;
+      }
+    }
+  }
+}

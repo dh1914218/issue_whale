@@ -65,14 +65,15 @@
 
     <main>
       <div class="container clearfix">
+
         <section class="side-bar">
           <nav class="side-bar__nav">
             <ul>
               <li><a href="vote.html">찬반투표</a></li>
-              <li><a href="vote-past.html">지난찬반투표</a></li>
-              <li><a href="board-freedebate.html" class="font__active__purple">자유토론방</a></li>
-              <li><a href="board-humor.html">유머 / 짤</a></li>
-              <li><a href="user-feedback.html">건의하기</a></li>
+              <li><a href="#a">지난찬반투표</a></li>
+              <li><a href="board-freedebate.html">자유토론방</a></li>
+              <li><a href="board-humor.html" class="font__active__purple">유머 / 짤</a></li>
+              <li><a href="#a">건의하기</a></li>
             </ul>
           </nav>
           <!-- //사이드바 네비 -->
@@ -81,341 +82,42 @@
         </section>
         <!-- //사이드바 -->
 
-        <div class="board">
-          <div class="board-detailview">
-              <article class="view-article">
-                  <div class="view-article__header">
-                      <div class="tit">
-                        학교축구 포지션별 특징 ㅇㄱㄹㅇ ㅋㅋㅋ
-                          <span>13분전</span>
-                      </div>
-                      <div class="view-article__sub-header">
-                        <div class="profile">
-                            <img src="img/ic_ex_off.svg" alt="">
-                            <span>유저닉네임</span>
-                        </div>
-                        <div class="meta-data">
-                            <span>조회수 
-                                <em>12,345</em>
-                            </span>
-                            <span>댓글 
-                                <em>12,345</em>
-                            </span>
-                            <span>공감 
-                                <em>12,345</em>
-                            </span>    
-                        </div>
-                     </div>
-                     <!-- //디테일뷰 서브헤더 -->
-                  </div>
-                  <!-- //디테일뷰 헤더 -->
-                  <div class="view-article__cont">
-                     <img src="img/img_board_cont.jpg" alt="">
-                     <p>ㅋㅋㅋㅋㅋㅋ 똘배는 축구못하니깐 걍 위에 박혀있어라
-                         <br>
-                         알겠냐??ㅋㅋㅋㅋㅋㅋㅋㅋ
-                         <br>
-                         원범이한테 한번혼나고 
-                         <br>
-                         해성이 한테 한소리듣고
-                         <br>
-                         ㅅㄱ
-                     </p>
-                  </div>
-                  <!-- //디테일뷰 컨텐츠 -->
-              </article>
-              <!-- //게시판 내용 (뷰) -->
-              
-              <div class="view-btn">
+        <section class="board">
+          <div class="board__tab tab clearfix">
+            <div class="row">
+                <div class="borard__tab-left tab-left">
                   <ul class="clearfix">
                     <li>
                       <a href="#a">
-                       <img src="img/ic_ex_off.svg" alt="">
-                       <span>1140</span>
-                     </a>
+                        <img src="/img/ic_ex_on.svg" alt="" />
+                        <span class="font__active">인기</span>
+                      </a>
                     </li>
                     <li>
                       <a href="#a">
-                       <img src="img/ic_ex_off.svg" alt="">
-                       <span>130</span>
-                     </a>
-                    </li>
-                    <li>
-                      <a href="#a">
-                       <img src="img/ic_ex_off.svg" alt="">
-                       <span>공유하기</span>
-                     </a>
+                        <img src="/img/ic_ex_off.svg" alt="" />
+                        <span>최신</span>
+                      </a>
                     </li>
                   </ul>
-              </div>
-              <!-- //게시판 내용 (뷰) 버튼 -->
-
-              <div class="view-conmment-write">
-                  <textarea placeholder="과도한 비방, 혐오를 조장하는 댓글은 제재를 받을 수 있습니다"></textarea >
-                  <div class="btn">
-                    <a href="#a">
-                        댓글달기
-                    </a>  
-                  </div>
-              </div>
-              <!-- //댓글달기 -->
-
-              <div class="comment-list">
-                 <div class="commnet-list__best">
-
-                <div class="commnet-list-item__best">
-                    <div class="cont-left">
-                        <div class="profile">
-                            <img src="img/ic_ex_off.svg" alt="">
-                        </div>
-                    </div>
-                    <!-- //프로필 -->
-                    <div class="cont-right">
-                       <span class="user-nickname">
-                           유저닉네임
-                           <img src="" alt="">
-                       </span>
-                       <!-- //닉네임 -->
-                       <p>
-                           컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다
-                       </p>
-                       <!-- //내용 -->
-
-                       <div class="btn">
-                           <ul class="clearfix">
-                               <li class="btn__item--1">
-                                   <a href="#a">
-                                    <img src="" alt="">
-                                    <span>공감하기</span>
-                                    <em>1234</em>
-                                   </a>
-                               </li>
-                               <li class="btn__item--3">
-                                   <a href="#a">
-                                    <img src="" alt="">
-                                    <span>댓글바로가기</span>
-                                   </a>
-                               </li>
-                           </ul>
-                       </div>
-                       <!-- //버튼 -->
-
-                    </div>
                 </div>
-                <!-- //베스트댓글 아이템 -->
-                <div class="commnet-list-item__best">
-                    <div class="cont-left">
-                        <div class="profile">
-                            <img src="img/ic_ex_off.svg" alt="">
-                        </div>
-                    </div>
-                    <!-- //프로필 -->
-                    <div class="cont-right">
-                       <span class="user-nickname">
-                           유저닉네임
-                           <img src="" alt="">
-                       </span>
-                       <!-- //닉네임 -->
-                       <p>
-                           컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다
-                       </p>
-                       <!-- //내용 -->
+                <!-- //투표 탭 왼쪽 -->
 
-                       <div class="btn">
-                           <ul class="clearfix">
-                               <li class="btn__item--1">
-                                   <a href="#a">
-                                    <img src="" alt="">
-                                    <span>공감하기</span>
-                                    <em>1234</em>
-                                   </a>
-                               </li>
-                               <li class="btn__item--3">
-                                   <a href="#a">
-                                    <img src="" alt="">
-                                    <span>댓글바로가기</span>
-                                   </a>
-                               </li>
-                           </ul>
-                       </div>
-                       <!-- //버튼 -->
-
-                    </div>
+                <div class="borard__tab-right tab-right">
+                  <ul>
+                    <li>
+                      <a href="#a">
+                        <img src="/img/ic_ex_off.svg" alt="" />
+                        <span>글쓰기</span>
+                      </a>
+                    </li>
+                  </ul>
                 </div>
-                <!-- //베스트댓글 아이템 -->
-                <div class="commnet-list-item__best">
-                    <div class="cont-left">
-                        <div class="profile">
-                            <img src="img/ic_ex_off.svg" alt="">
-                        </div>
-                    </div>
-                    <!-- //프로필 -->
-                    <div class="cont-right">
-                       <span class="user-nickname">
-                           유저닉네임
-                           <img src="" alt="">
-                       </span>
-                       <!-- //닉네임 -->
-                       <p>
-                           컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다
-                       </p>
-                       <!-- //내용 -->
-
-                       <div class="btn">
-                           <ul class="clearfix">
-                               <li class="btn__item--1">
-                                   <a href="#a">
-                                    <img src="" alt="">
-                                    <span>공감하기</span>
-                                    <em>1234</em>
-                                   </a>
-                               </li>
-                               <li class="btn__item--3">
-                                   <a href="#a">
-                                    <img src="" alt="">
-                                    <span>댓글바로가기</span>
-                                   </a>
-                               </li>
-                           </ul>
-                       </div>
-                       <!-- //버튼 -->
-
-                    </div>
-                </div>
-                <!-- //베스트댓글 아이템 -->
-               </div>
-              <!-- //베스트댓글 리스트 -->
-
-               <div class="commnet-list__normal">
-                <div class="commnet-list-item__normal">
-                 <div class="commnet">
-                     
-                  <div class="wrap">
-
-                    <div class="cont-left">
-                        <div class="profile">
-                            <img src="img/ic_ex_off.svg" alt="">
-                        </div>
-                    </div>
-                    <!-- //프로필 -->
-
-                    <div class="cont-right">
-                       <span class="user-nickname">
-                           유저닉네임
-                           <img src="" alt="">
-                       </span>
-                       <!-- //닉네임 -->
-                       <p>
-                           컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다컨텐츠내용부분입니다
-                       </p>
-                       <!-- //내용 -->
-
-                       <div class="btn">
-                           <ul class="clearfix">
-                               <li class="btn__item--1">
-                                   <a href="#a">
-                                    <img src="" alt="">
-                                    <span>공감하기</span>
-                                    <em>1234</em>
-                                   </a>
-                               </li>
-                               <li class="btn__item--2">
-                                   <a href="#a">
-                                    <img src="" alt="">
-                                    <span>댓글달기</span>
-                                   </a>
-                               </li>
-                           </ul>
-                       </div>
-                       <!-- //버튼 -->
-
-                    </div>
-
-                 </div>
-                 <!-- //워랩 -->
-
-                    <div class="write">
-                        <div class="commnet-reply-write">
-                            <form>
-                                <input type="text" placeholder="@상대닉네임">
-                                <ul>
-                                    <li><a href="#">댓글달기</a></li>
-                                </ul>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- //댓글쓰기 -->
-                 </div>
-                 <!-- //코멘트영역 -->
-                 
-
-                <div class="reply">
-                  <div class="wrap">
-                    <div class="cont-left">
-                        <div class="profile">
-                            <img src="img/ic_ex_off.svg" alt="">
-                        </div>
-                    </div>
-                    <!-- //프로필영역 -->
-                    <div class="cont-right">
-                        <h2 class="user-nickname">유저닉네임<h2>
-                        <span class="reply-nickname">@상대닉네임</span>
-                        
-                        <p>진심개웃기네ㅋㅋ내용입니다내용입니다내용입니다내용입니</p>     
-                        
-                        <div class="btn">
-                            <ul class="clearfix">
-                                <li class="btn__item--1">
-                                    <a href="#a">
-                                     <img src="" alt="">
-                                     <span>공감하기</span>
-                                     <em>1234</em>
-                                    </a>
-                                </li>
-                                <li class="btn__item--2">
-                                    <a href="#a">
-                                     <img src="" alt="">
-                                     <span>댓글달기</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- //버튼 -->
-                     </div>
-                    </div>
-
-
-                    <div class="write">
-                        <div class="commnet-reply-write">
-                            <form>
-                                <input type="text" placeholder="@상대닉네임">
-                                <ul>
-                                    <li><a href="#">댓글달기</a></li>
-                                </ul>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- //댓글쓰기 -->
-                </div>
-                <!-- //대댓글영역 -->
-
-                </div>
-                <!-- //노말댓글 아이템 -->
-
-               </div>
-               <!-- //노말댓글 리스트 -->
-              </div>
-              <!-- //댓글리스트 -->
-
-              <a href="#a" class="add-reply">
-                  <div>
-                      댓글더보기
-                  </div>
-              </a>
-
-              <!-- //댓글더보기 -->
+                <!-- //게시판 탭 오른쪽 -->
+            </div>
+          <!-- //게시판 탭 -->
           </div>
-
+          <!-- //탭 -->
 
           <div class="board-article__list">
             <article class="board-article__item">
@@ -423,7 +125,7 @@
               <div class="text">
                 <ul>
                   <li class="tit">
-                    <a href="#a">안녕하세요 게시판 제목부분입니다<em>[13]</em> </a></li>
+                    <a href="board-detailview.html">안녕하세요 게시판 제목부분입니다<em>[13]</em> </a></li>
                   <li class="meta-data">
                     <span>유저닉네임</span>
                     <span>13시간전</span>
@@ -1237,6 +939,7 @@
             <!-- //게시판 리스트 아이템 -->
 
             <article class="board-article__item">
+
               <div class="text">
                 <ul>
                   <li class="tit">
@@ -1256,8 +959,9 @@
             </article>
             <!-- //게시판 리스트 아이템 -->
           </div>
+          <!-- //게시판리스트 -->
 
-          <div class="paging-btn">
+        <div class="paging-btn">
           <ul class="clearfix">
             <li>
               <a href="#">
@@ -1272,10 +976,10 @@
               </a>
             </li>
           </ul>
-          </div>
-          <!-- //페이징버튼 -->
+        </div>
+        <!-- //페이징버튼 -->
 
-          <div class="pagination">
+        <div class="pagination">
           <div class="wrap clearfix">
             <div class="ic-prve btn">
               <a href="#a"><img src="img/ic_ex_off.svg" alt=""></a>
@@ -1298,7 +1002,7 @@
               </a>
             </div>
           </div>
-          </div>
+        </div>
           <!-- //페이지네이션 -->
         </section>
         <!-- //게시판영역 -->

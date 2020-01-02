@@ -1,0 +1,139 @@
+@charset "UTF-8";
+.sub-header nav ul li a {
+  color: #9b9b9b;
+}
+
+.userinfo {
+  border: 1px solid #e8e8ed;
+  background-color: #ffffff;
+}
+
+.sub-header {
+  background-color: #ffffff;
+}
+
+.sub-header nav ul li {
+  float: left;
+  margin-right: 32px;
+}
+
+.sub-header nav ul li a {
+  display: inline-block;
+  padding: 10px 0px;
+}
+
+.userinfo {
+  padding: 40px;
+}
+
+.userinfo h1 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.userinfo .edit .edit-inner {
+  margin-top: 16px;
+  border: 1px solid #e8e8ed !important;
+}
+
+.userinfo .edit .edit-inner .edit-table {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.userinfo .edit .edit-inner .edit-table .edit-tr {
+  border-bottom: 1px solid #e8e8ed;
+}
+
+.userinfo .edit .edit-inner .edit-table .edit-tr .edit-th {
+  display: table-cell;
+  background-color: #f6f9ff;
+  width: 200px;
+  padding: 16px;
+  border-right: 1px solid #e8e8ed;
+}
+
+.userinfo .edit .edit-inner .edit-table .edit-tr .edit-td {
+  display: table-cell;
+  padding: 8px;
+  padding-left: 16px;
+  vertical-align: middle;
+}
+
+.userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input {
+  padding: 8px 16px;
+}
+
+.userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input::-webkit-input-placeholder {
+  color: #111111;
+  font-weight: 500;
+}
+
+.userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input:-ms-input-placeholder {
+  color: #111111;
+  font-weight: 500;
+}
+
+.userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input::-ms-input-placeholder {
+  color: #111111;
+  font-weight: 500;
+}
+
+.userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input::placeholder {
+  color: #111111;
+  font-weight: 500;
+}
+
+.userinfo .edit .edit-inner .edit-table .edit-tr .edit-td .addtext {
+  margin-top: 8px;
+  color: red;
+  font-size: 14px;
+}
+
+.edit-td__email {
+  color: #9b9b9b;
+}
+
+.edit-td__profileimg img {
+  width: 32px;
+}
+
+/*--버튼--*/
+.userinfo .btn {
+  margin-top: 56px;
+  text-align: center;
+}
+
+.userinfo .btn ul {
+  display: inline-block;
+}
+
+.userinfo .btn ul li {
+  float: left;
+  text-align: center;
+}
+
+.userinfo .btn ul li a {
+  display: inline-block;
+  padding: 16px 76px;
+  font-weight: 500;
+}
+
+.userinfo .btn ul li.cancel {
+  margin-right: 16px;
+  background-color: #e8e8ed;
+}
+
+.userinfo .btn ul li.cancel a {
+  color: #ffffff;
+}
+
+.userinfo .btn ul li.okay {
+  background-color: #6332f6;
+}
+
+.userinfo .btn ul li.okay a {
+  color: #ffffff;
+}
+/*# sourceMappingURL=userinfo.css.map */

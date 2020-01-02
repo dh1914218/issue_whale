@@ -58,6 +58,10 @@ main {
   color: red !important;
 }
 
+.underline__active__purple {
+  border-bottom: 3px solid #6332f6;
+}
+
 .div__actvie__thinsky {
   background-color: #f6f9ff !important;
 }
