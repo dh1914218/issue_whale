@@ -1,5 +1,14 @@
 @charset "UTF-8";
-.sub-header nav ul li a {
+.sub-header nav ul li a, .userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input::-webkit-input-placeholder, .userinfo-pw h1 span {
+  color: #9b9b9b;
+}
+.sub-header nav ul li a, .userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input:-ms-input-placeholder, .userinfo-pw h1 span {
+  color: #9b9b9b;
+}
+.sub-header nav ul li a, .userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input::-ms-input-placeholder, .userinfo-pw h1 span {
+  color: #9b9b9b;
+}
+.sub-header nav ul li a, .userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input::placeholder, .userinfo-pw h1 span {
   color: #9b9b9b;
 }
 
@@ -65,26 +74,6 @@
   padding: 8px 16px;
 }
 
-.userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input::-webkit-input-placeholder {
-  color: #111111;
-  font-weight: 500;
-}
-
-.userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input:-ms-input-placeholder {
-  color: #111111;
-  font-weight: 500;
-}
-
-.userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input::-ms-input-placeholder {
-  color: #111111;
-  font-weight: 500;
-}
-
-.userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input::placeholder {
-  color: #111111;
-  font-weight: 500;
-}
-
 .userinfo .edit .edit-inner .edit-table .edit-tr .edit-td .addtext {
   margin-top: 8px;
   color: red;
@@ -135,5 +124,16 @@
 
 .userinfo .btn ul li.okay a {
   color: #ffffff;
+}
+
+/*-----------비밀번호변경-----------*/
+.userinfo-pw h1 span {
+  font-size: 14px;
+}
+
+/*------------이용약관------------*/
+.userinfo-terms .edit-inner {
+  font-size: 16px;
+  padding: 16px;
 }
 /*# sourceMappingURL=userinfo.css.map */

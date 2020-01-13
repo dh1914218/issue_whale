@@ -66,8 +66,7 @@
           input {
             padding: 8px 16px;
             &::placeholder {
-              color: #111111;
-              font-weight: 500;
+              @extend %ftColorgray;
             }
           }
           .addtext {
@@ -120,5 +119,23 @@
         color: $white;
       }
     }
+  }
+}
+
+/*-----------비밀번호변경-----------*/
+.userinfo-pw {
+  h1 {
+    span {
+      font-size: 14px;
+      @extend %ftColorgray;
+    }
+  }
+}
+
+/*------------이용약관------------*/
+.userinfo-terms {
+  .edit-inner {
+    font-size: 16px;
+    padding: 16px;
   }
 }
