@@ -19,7 +19,7 @@
         <h1>
           왜 <em>찬성</em> 하시나요?
           <a href="#a">
-            <img src="img/ic_ex_off.svg" alt="cencel" />
+            <img src="img/ic_cancel.svg" alt="cencel" />
           </a>
         </h1>
         <textarea
@@ -41,13 +41,13 @@
     <header class="header">
       <div class="row">
         <div class="container clearfix">
-          <h1 class="header__log"><a href="#">로고</a></h1>
+          <h1 class="header__log"><a href="vote.html"><img src="img/logo.png" alt=""></a></h1>
 
           <!-- //헤더로고 -->
           <nav class="header__nav">
             <ul class="clearfix">
-              <li><a href="#a">로그인</a></li>
-              <li><a href="#a">내정보</a></li>
+              <li><a href="signup_login.html">로그인</a></li>
+              <li><a href="userinfo-edit.html">내정보</a></li>
             </ul>
           </nav>
           <!-- //헤더네비 -->
@@ -70,14 +70,15 @@
     <header class="m-sub-header" style="display: none;">
       <div class="container">
         <ul class="clearfix">
-          <li><a href="#a" class="font__active__purple">오늘의 찬반투표</a</li>
-          <li><a href="#a">지난찬반투표</a></li>
+          <li><a href="vote.html" class="font__active__purple">오늘의 찬반투표</a</li>
+          <li><a href="vote-past.html">지난찬반투표</a></li>
         </ul>
       </div>
     </header>
     <!-- //서브헤더 -->
 
     <section class="banner">
+      <img src="img/banner_board_vote.png" alt="">
       <div class="banner__col1"></div>
       <div class="banner__col2"></div>
     </section>
@@ -89,11 +90,11 @@
         <section class="side-bar">
           <nav class="side-bar__nav">
             <ul>
-              <li><a href="#a" class="font__active__purple">찬반투표</a></li>
-              <li><a href="#a">지난찬반투표</a></li>
-              <li><a href="#a">자유토론방</a></li>
-              <li><a href="#a">유머 / 짤</a></li>
-              <li><a href="#a">건의하기</a></li>
+              <li><a href="vote.html" class="font__active__purple">찬반투표</a></li>
+              <li><a href="vote-past.html">지난찬반투표</a></li>
+              <li><a href="board-freedebate.html">자유토론방</a></li>
+              <li><a href="board-humor.html">유머 / 짤</a></li>
+              <li><a href="user-feedback.html">건의하기</a></li>
             </ul>
           </nav>
           <!-- //사이드바 네비 -->
@@ -109,19 +110,19 @@
                   <ul class="clearfix">
                     <li>
                       <a href="#a">
-                        <img src="/img/ic_ex_on.svg" alt="" />
-                        <span class="font__active">전체</span>
+                        <img src="/img/ic_tab-all_on.svg" alt="" />
+                        <span class="font__active__purple_400">전체</span>
                       </a>
                     </li>
                     <li>
                       <a href="#a">
-                        <img src="/img/ic_ex_off.svg" alt="" />
+                        <img src="/img/ic_tab-yes_off.svg" alt="" />
                         <span>찬성</span>
                       </a>
                     </li>
                     <li>
                       <a href="#a">
-                        <img src="img/ic_ex_off.svg" alt="" />
+                        <img src="img/ic_tab-no_off.svg" alt="" />
                         <span>반대</span>
                       </a>
                     </li>
@@ -173,13 +174,13 @@
                 <li class="yes">
                   <span class="m-yes__text" style="display: none;">찬성70% (1320건)</span>
                   <a href="#a">
-                    <img src="img/ic_ex_on.svg" alt="" /><span>찬성</span>
+                    <img src="img/ic_yes.svg" alt="" /><span>찬성</span>
                   </a>
                 </li>
                 <li class="no">
                   <span class="m-no__text" style="display: none;">반대30% (1320건)</span>
                   <a href="#a">
-                    <img src="img/ic_ex_off.svg" alt="" /><span>반대</span>
+                    <img src="img/ic_no.svg" alt="" /><span>반대</span>
                   </a>
                 </li>
               </ul>
@@ -189,7 +190,7 @@
             <div class="btn-share">
               <div>
                 <a href="#a">
-                  <img src="img/ic_ex_off.svg" alt="" />
+                  <img src="img/ic_share.svg" alt="" />
                   <span>공유하기</span>
                 </a>
               </div>
@@ -203,7 +204,7 @@
               <div class="article-feed__item clearfix div__actvie__thinsky">
                 <div class="cont-left">
                   <div class="user-profile">
-                    <img src="img/ic_ex_off.svg" alt="" />
+                    <img src="img/ic_profile.svg" alt="" />
                     <span class="yes">찬성</span>
                   </div>
                   <!-- //유저프로필 -->
@@ -212,8 +213,8 @@
                 <div class="cont-right">
                   <div class="user-nickname">
                     <span
-                      >나는해적왕이 될꺼야
-                      <img src="img/ic_ex_on.svg" alt="" />
+                      >나는해적왕이 될꼬얌
+                      <img src="img/ic_medal-first.svg" alt="" />
                     </span>
                   </div>
                   <!-- //유저닉네임 -->
@@ -227,14 +228,14 @@
                     <ul class="clearfix">
                       <li class="btn__item--1">
                         <a href="#a">
-                          <img src="img/ic_ex_off.svg" alt="" />
+                          <img src="img/ic_vote_off.svg" alt="" />
                           <span>소중한 한표</span>
                           <em>1234</em>
                         </a>
                       </li>
                       <li class="btn__item--2">
                         <a href="#a">
-                          <img src="img/ic_ex_off.svg" alt="" />
+                          <img src="img/ic_chat.svg" alt="" />
                           <span>다양한 의견</span>
                           <em>1130</em>
                         </a>
@@ -250,7 +251,7 @@
                 <div class="feed-comment__item">
                   <div class="cont-left">
                     <div class="user-profile">
-                      <img src="img/ic_ex_off.svg" alt="" />
+                      <img src="img/ic_profile.svg" alt="" />
                     </div>
                   </div>
 
@@ -278,7 +279,7 @@
                 <div class="feed-comment__relpy clearfix">
                   <div class="cont-left">
                     <div class="user-profile">
-                      <img src="img/ic_ex_off.svg" alt="" />
+                      <img src="img/ic_profile.svg" alt="" />
                     </div>
                   </div>
 
@@ -325,7 +326,7 @@
               <div class="article-feed__item clearfix">
                 <div class="cont-left">
                   <div class="user-profile">
-                    <img src="img/ic_ex_off.svg" alt="" />
+                    <img src="img/ic_profile.svg" alt="" />
                     <span class="yes">찬성</span>
                   </div>
                   <!-- //유저프로필 -->
@@ -335,7 +336,6 @@
                   <div class="user-nickname">
                     <span
                       >나는해적왕이 될꺼야
-                      <img src="img/ic_ex_on.svg" alt="" />
                     </span>
                   </div>
                   <!-- //유저닉네임 -->
@@ -349,14 +349,14 @@
                     <ul class="clearfix">
                       <li class="btn__item--1">
                         <a href="#a">
-                          <img src="img/ic_ex_off.svg" alt="" />
+                          <img src="img/ic_vote_off.svg" alt="" />
                           <span>소중한 한표</span>
                           <em>1234</em>
                         </a>
                       </li>
                       <li class="btn__item--2">
                         <a href="#a">
-                          <img src="img/ic_ex_off.svg" alt="" />
+                          <img src="img/ic_chat.svg" alt="" />
                           <span>다양한 의견</span>
                           <em>1130</em>
                         </a>
@@ -372,7 +372,7 @@
                 <div class="feed-comment__item">
                   <div class="cont-left">
                     <div class="user-profile">
-                      <img src="img/ic_ex_off.svg" alt="" />
+                      <img src="img/ic_profile.svg" alt="" />
                     </div>
                   </div>
 
@@ -400,7 +400,7 @@
                 <div class="feed-comment__relpy clearfix">
                   <div class="cont-left">
                     <div class="user-profile">
-                      <img src="img/ic_ex_off.svg" alt="" />
+                      <img src="img/ic_profile.svg" alt="" />
                     </div>
                   </div>
 

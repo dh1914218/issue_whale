@@ -45,6 +45,10 @@ main {
   top: 16px;
 }
 
+.font__active__purple_400 {
+  color: #6332f6 !important;
+}
+
 .font__active__purple {
   color: #6332f6 !important;
   font-weight: 500;
@@ -55,7 +59,7 @@ main {
 }
 
 .font__active__red {
-  color: red !important;
+  color: #fe6181 !important;
 }
 
 .underline__active__purple {
@@ -98,6 +102,11 @@ main {
   display: inline-block;
 }
 
+.header .header__log a img {
+  width: 130px;
+  height: auto;
+}
+
 .header .header__nav {
   float: right;
 }
@@ -117,12 +126,26 @@ main {
 }
 
 /*-----배너-----*/
+.banner {
+  position: relative;
+}
+
 .banner .banner__col1 {
   height: 230px;
 }
 
 .banner .banner__col2 {
   height: 70px;
+}
+
+.banner img {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: auto;
+  height: 200px;
 }
 
 /*----- 사이드바 -----*/

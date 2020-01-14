@@ -29,6 +29,10 @@ main {
   top: 16px;
 }
 
+.font__active__purple_400 {
+  color: $purple !important;
+}
+
 .font__active__purple {
   color: $purple !important;
   font-weight: 500;
@@ -37,7 +41,7 @@ main {
   color: $sky !important;
 }
 .font__active__red {
-  color: red !important;
+  color: $red !important;
 }
 
 .underline__active__purple {
@@ -72,6 +76,10 @@ main {
       font-size: 30px;
       color: $purple;
       display: inline-block;
+      img {
+        width: 130px;
+        height: auto;
+      }
     }
   }
 
@@ -95,6 +103,7 @@ main {
 
 /*-----배너-----*/
 .banner {
+  position: relative;
   .banner__col1 {
     height: 230px;
     @extend %bgWhite;
@@ -102,6 +111,14 @@ main {
   .banner__col2 {
     height: 70px;
     @extend %bgPurple;
+  }
+  img {
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 200px;
   }
 }
 

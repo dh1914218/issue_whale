@@ -112,7 +112,7 @@
             display: block;
             width: 30%;
             height: 30px;
-            background-color: #e55a5a;
+            background-color: #fe6181;
             animation: no 1s 0.7s;
           }
         }
@@ -149,7 +149,7 @@
             height: 20px;
             vertical-align: middle;
             margin-right: 8px;
-            margin-top: -3px;
+            margin-top: 0px;
           }
           span {
             @extend %ftColorWhite;
@@ -187,6 +187,13 @@
         }
       }
     }
+    li.no {
+      a {
+        img {
+          margin-top: 0px;
+        }
+      }
+    }
   }
 }
 
@@ -202,7 +209,7 @@
       //   margin-top: -2px;
     }
     span {
-      font-size: 12px;
+      font-size: 14px;
       @extend %ftColorgray;
       vertical-align: middle;
     }
@@ -274,8 +281,8 @@
           width: 20px;
           height: 20px;
           position: absolute;
-          top: 0;
-          right: -25px;
+          top: 2px;
+          right: -23px;
         }
       }
     }
@@ -567,3 +574,16 @@
     }
   }
 }
+
+// 마우스오버
+// .vote__main > .btn {
+//   ul {
+//     li {
+//       &:hover {
+//         img {
+//           background: url(img/ic_ex_on.svg);
+//         }
+//       }
+//     }
+//   }
+// }
