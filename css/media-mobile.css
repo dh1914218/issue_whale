@@ -15,7 +15,7 @@
   .side-bar {
     display: none;
   }
-  /*-----헤더-----*/
+  /*--------------헤더--------------*/
   .header {
     width: 100% !important;
     position: relative;
@@ -40,12 +40,13 @@
   }
   .header .m-header__btn a {
     display: inline-block;
-    padding: 17px 10px;
+    padding: 20px 16px 10px 16px;
   }
   .header .m-header__btn a img {
     width: 32px;
     height: 32px;
   }
+  /*----------모바일 서브헤더-------------*/
   .m-sub-header {
     display: block !important;
     background-color: #ffffff;
@@ -67,21 +68,26 @@
     padding: 16px 16px;
     position: relative;
   }
-  .m-sub-header ul li a::after {
-    content: "";
-    width: 100%;
-    height: 3px;
-    background-color: #6332f6;
-    position: absolute;
-    top: 54px;
-    left: 0;
+  /*---------레이어팝업------------*/
+  .vote-layerpopup {
+    width: 90%;
+    padding: 16px !important;
+    padding: 20px;
   }
   .vote-layerpopup textarea {
-    width: 83.67%;
+    width: 100% !important;
+  }
+  .vote-layerpopup h1 a {
+    top: -20px !important;
+    right: -10px !important;
+  }
+  .vote-layerpopup h1 a img {
+    width: 16px !important;
   }
   .main {
     margin-top: 12px !important;
   }
+  /*-----------투표-------------*/
   .vote {
     width: 100% !important;
     float: none;

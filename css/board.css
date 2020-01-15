@@ -179,8 +179,8 @@
 }
 
 .board-detailview .view-btn ul li a img {
-  width: 20px;
-  margin-right: 4px;
+  width: 18px;
+  margin-right: 6px;
   vertical-align: middle;
 }
 
@@ -474,9 +474,8 @@
 }
 
 .paging-btn ul li a img {
-  width: 20px;
+  width: 15px;
   vertical-align: middle;
-  margin-right: 8px;
 }
 
 .paging-btn ul li a span {
@@ -503,7 +502,8 @@
 }
 
 .pagination .wrap .btn a img {
-  width: 20px;
+  margin-top: 5px;
+  width: 16px;
 }
 
 .pagination .wrap .num {
