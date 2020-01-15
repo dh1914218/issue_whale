@@ -1,5 +1,10 @@
 @import "partial/styles";
 @media (max-width: 480px) {
+  html,
+  body {
+    height: 100%;
+  }
+
   .container {
     width: 100% !important;
   }
@@ -214,10 +219,167 @@
     }
   }
 
-  .vote-past-article__item {
-    a {
-      h1 {
-        font-size: 20px;
+  /*----지난투표----*/
+  .vote-past-article__list {
+    article {
+      a {
+        h1 {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+
+  /*---------------게시판----------------*/
+
+  .board {
+    float: none;
+    width: 100% !important;
+  }
+
+  /*-----게시판탭------*/
+  .board__tab.tab {
+    // .tab-left {
+    //   padding: 6px 16px !important;
+    //   ul {
+    //     li {
+    //       a {
+    //         padding: 6px 16px !important;
+    //         font-size: 14px;
+    //       }
+    //     }
+    //   }
+    // }
+    .tab-right {
+      // padding: 6px 16px !important;
+
+      ul {
+        li {
+          a {
+            padding-right: 0px !important;
+            padding-left: 0px !important;
+            // padding: 6px 16px !important;
+            // font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  /*-----게시판 디테일뷰-----*/
+  .m_main {
+    margin-top: 0 !important;
+  }
+
+  /*--디테일뷰헤더--*/
+  .view-article__header {
+    .tit {
+      font-size: 25px;
+      display: block !important;
+      span.m__span__none {
+        // float: none !important;
+        display: none;
+      }
+    }
+    .view-article__sub-header {
+      position: relative;
+      display: block !important;
+      margin-top: 16px !important;
+      .profile {
+        .m__span__time {
+          position: absolute;
+          display: block !important;
+          top: 3px;
+          right: 16px;
+          font-size: 14px;
+        }
+      }
+      .meta-data {
+        margin-top: 4px;
+        span {
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+
+  /*--디테일뷰 버튼--*/
+  .board-detailview .view-btn {
+    ul {
+      li {
+        a {
+          img {
+            margin-top: 2px;
+          }
+        }
+      }
+    }
+  }
+
+  /*-------------푸터----------------*/
+  .footer {
+    .wrap {
+      padding: 16px !important;
+      display: block !important;
+      .footer__left {
+        text-align: center;
+        ul {
+          display: inline-block;
+        }
+      }
+      .footer__right {
+        margin-top: 30px !important;
+        text-align: center;
+        ul {
+          display: inline-block;
+          li {
+            // text-align: center;
+            a {
+              margin-left: 0 !important;
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*----------------건의하기------------------*/
+  .user-feedback__textarea {
+    width: 100% !important;
+    textarea {
+      width: 100% !important;
+    }
+  }
+
+  /*--------------회원가입 / 로그인-------------*/
+  /*--전체--*/
+  .sgin-up {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
+    .sgin-up__inner {
+      box-shadow: none;
+      width: 100% !important;
+      height: 100% !important;
+      padding: 32px 20px !important;
+    }
+  }
+
+  /*--버튼--*/
+  .btn2 {
+    ul {
+      li {
+        width: 150px !important;
+        height: 56px !important;
+        // margin-right: 1% !important;
+        a {
+          padding: 16px 40px !important;
+        }
+      }
+
+      li.next {
+        background-color: $purple !important;
       }
     }
   }

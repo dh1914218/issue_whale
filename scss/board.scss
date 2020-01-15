@@ -94,11 +94,11 @@
     .img {
       display: table-cell;
       vertical-align: middle;
-
       img {
         width: 93px;
         height: 60px;
         display: block;
+        margin-left: 3px;
       }
     }
   }
@@ -148,6 +148,7 @@
       }
     }
   }
+
   .view-article__cont {
     padding: 24px;
     img {

@@ -1,5 +1,9 @@
 @charset "UTF-8";
 @media (max-width: 480px) {
+  html,
+  body {
+    height: 100%;
+  }
   .container {
     width: 100% !important;
   }
@@ -190,6 +194,108 @@
   .vote__main .vote__tab .vote__tab-left ul li a {
     padding: 6px 16px !important;
     font-size: 14px;
+  }
+  /*----지난투표----*/
+  .vote-past-article__list article a h1 {
+    font-size: 16px !important;
+  }
+  /*---------------게시판----------------*/
+  .board {
+    float: none;
+    width: 100% !important;
+  }
+  /*-----게시판탭------*/
+  .board__tab.tab .tab-right ul li a {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  /*-----게시판 디테일뷰-----*/
+  .m_main {
+    margin-top: 0 !important;
+  }
+  /*--디테일뷰헤더--*/
+  .view-article__header .tit {
+    font-size: 25px;
+    display: block !important;
+  }
+  .view-article__header .tit span.m__span__none {
+    display: none;
+  }
+  .view-article__header .view-article__sub-header {
+    position: relative;
+    display: block !important;
+    margin-top: 16px !important;
+  }
+  .view-article__header .view-article__sub-header .profile .m__span__time {
+    position: absolute;
+    display: block !important;
+    top: 3px;
+    right: 16px;
+    font-size: 14px;
+  }
+  .view-article__header .view-article__sub-header .meta-data {
+    margin-top: 4px;
+  }
+  .view-article__header .view-article__sub-header .meta-data span {
+    margin-right: 4px;
+  }
+  /*--디테일뷰 버튼--*/
+  .board-detailview .view-btn ul li a img {
+    margin-top: 2px;
+  }
+  /*-------------푸터----------------*/
+  .footer .wrap {
+    padding: 16px !important;
+    display: block !important;
+  }
+  .footer .wrap .footer__left {
+    text-align: center;
+  }
+  .footer .wrap .footer__left ul {
+    display: inline-block;
+  }
+  .footer .wrap .footer__right {
+    margin-top: 30px !important;
+    text-align: center;
+  }
+  .footer .wrap .footer__right ul {
+    display: inline-block;
+  }
+  .footer .wrap .footer__right ul li a {
+    margin-left: 0 !important;
+    margin-right: 20px;
+  }
+  /*----------------건의하기------------------*/
+  .user-feedback__textarea {
+    width: 100% !important;
+  }
+  .user-feedback__textarea textarea {
+    width: 100% !important;
+  }
+  /*--------------회원가입 / 로그인-------------*/
+  /*--전체--*/
+  .sgin-up {
+    width: 100% !important;
+    height: 100% !important;
+    padding: 0 !important;
+  }
+  .sgin-up .sgin-up__inner {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    width: 100% !important;
+    height: 100% !important;
+    padding: 32px 20px !important;
+  }
+  /*--버튼--*/
+  .btn2 ul li {
+    width: 150px !important;
+    height: 56px !important;
+  }
+  .btn2 ul li a {
+    padding: 16px 40px !important;
+  }
+  .btn2 ul li.next {
+    background-color: #6332f6 !important;
   }
 }
 /*# sourceMappingURL=media-mobile.css.map */
