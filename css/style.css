@@ -39,6 +39,10 @@ main {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.m-nav-draw {
+  display: none;
+}
+
 /*----- active -----*/
 .sidebar__fixed {
   position: fixed;
