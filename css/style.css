@@ -182,6 +182,9 @@ main {
 .footer {
   background-color: #1b1d1f;
   margin-top: 32px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer .wrap {

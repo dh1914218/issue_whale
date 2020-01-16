@@ -3,6 +3,7 @@
   html,
   body {
     height: 100%;
+    position: relative;
   }
 
   .container {
@@ -22,6 +23,9 @@
 
   .side-bar {
     display: none;
+  }
+
+  .footer {
   }
 
   /*-------------네비게이션드로어-----------------*/
