@@ -113,9 +113,19 @@ $(".vote-layerpopup a").click(function() {
   $(".bgblack-layerpopup").hide();
 });
 
-// ------------userinfo---------------
-// --메뉴클릭된것 밑줄상태
+// ----------------네비게이션드로어------------
 
-// if ($(".sub-header__nav ul li a").hasClas("font__active__purple") == true) {
-//   console.log(1);
-// }
+$(".m-header__btn").click(function() {
+  console.log(1);
+  $(".bgblack-layerpopup").show();
+  $(".m-nav-draw").animate({
+    marginLeft: "100%"
+  });
+});
+
+$(".bgblack-layerpopup").click(function() {
+  $(".bgblack-layerpopup").hide();
+  $(".m-nav-draw").animate({
+    marginLeft: "0"
+  });
+});

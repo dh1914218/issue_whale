@@ -19,6 +19,52 @@
   .side-bar {
     display: none;
   }
+  /*-------------네비게이션드로어-----------------*/
+  .m-nav-draw {
+    position: fixed;
+    width: 80%;
+    height: 100%;
+    background-color: #ffffff;
+    z-index: 100;
+    top: 0;
+    left: -100%;
+  }
+  .m-nav-draw .m-nav-draw__inner .btn {
+    padding: 40px 16px;
+  }
+  .m-nav-draw .m-nav-draw__inner .btn a {
+    width: 100%;
+    padding: 16px 16px;
+    display: inline-block;
+    background-color: #6332f6;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li {
+    border-top: 1px solid #e8e8ed;
+  }
+  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li a {
+    width: 100%;
+    display: inline-block;
+    padding: 16px 16px;
+  }
+  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li a img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 16px;
+    margin-top: -2px;
+  }
+  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li a span {
+    font-size: 18px;
+    font-weight: 400;
+    color: #9b9b9b;
+    vertical-align: middle;
+  }
+  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li:nth-last-child(1) {
+    border-bottom: 1px solid #e8e8ed;
+  }
   /*--------------헤더--------------*/
   .header {
     width: 100% !important;
@@ -284,7 +330,8 @@
             box-shadow: none;
     width: 100% !important;
     height: 100% !important;
-    padding: 32px 20px !important;
+    padding: 40px 20px !important;
+    position: relative;
   }
   /*--버튼--*/
   .btn2 ul li {
@@ -296,6 +343,50 @@
   }
   .btn2 ul li.next {
     background-color: #6332f6 !important;
+  }
+  /*--캔슬버튼--*/
+  .m__cancel {
+    display: block !important;
+    width: 20px;
+    position: absolute;
+    right: 20px;
+    top: 24px;
+  }
+  /*-------------내정보----------------*/
+  .userinfo {
+    padding: 16px !important;
+  }
+  .userinfo .btn ul li a {
+    padding: 12px 60px !important;
+  }
+  .sub-header .sub-header__nav ul {
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  .sub-header .sub-header__nav ul li {
+    display: inline-block;
+    float: none;
+    margin-right: 0;
+  }
+  .sub-header .sub-header__nav ul li a {
+    padding: 16px 16px;
+  }
+  .sub-header__nav::-webkit-scrollbar {
+    display: none !important;
+  }
+  .userinfo .edit .edit-inner .edit-table .edit-tr .edit-th {
+    width: 120px !important;
+    padding: 8px !important;
+  }
+  .userinfo .edit .edit-inner .edit-table .edit-tr .edit-td {
+    padding: 8px !important;
+  }
+  .userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input {
+    padding: 4px !important;
+    width: 100% !important;
+  }
+  .userinfo .edit .edit-inner .edit-table .edit-tr .edit-td input > div {
+    margin-left: 10px !important;
   }
 }
 /*# sourceMappingURL=media-mobile.css.map */
