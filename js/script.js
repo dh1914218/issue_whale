@@ -34,7 +34,12 @@ $(".vote__main .btn ul li").click(function() {
   if (voteGraphBtn == 0) {
     $(".bgblack-layerpopup").show();
     $(".vote-layerpopup").show();
+    $(".vote-layerpopup em").addClass("font__active__sky");
     console.log(1);
+  } else {
+    $(".bgblack-layerpopup").show();
+    $(".vote-layerpopup").show();
+    $(".vote-layerpopup em").addClass("font__active__red");
   }
 });
 
@@ -125,6 +130,7 @@ $(".m-header__btn").click(function() {
 
 $(".bgblack-layerpopup").click(function() {
   $(".bgblack-layerpopup").hide();
+  $(".vote-layerpopup").hide();
   $(".m-nav-draw").animate({
     marginLeft: "0"
   });

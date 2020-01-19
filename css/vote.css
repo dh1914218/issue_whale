@@ -327,7 +327,6 @@
 }
 
 .vote__feed .article-feed__item .cont-left .user-profile span {
-  color: #13bde9;
   font-size: 14px;
 }
 
@@ -338,7 +337,6 @@
 .vote__feed .article-feed__item .cont-right .user-nickname span {
   font-size: 14px;
   font-weight: 500;
-  color: #13bde9;
   position: relative;
 }
 
