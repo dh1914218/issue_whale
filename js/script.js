@@ -35,11 +35,13 @@ $(".vote__main .btn ul li").click(function() {
     $(".bgblack-layerpopup").show();
     $(".vote-layerpopup").show();
     $(".vote-layerpopup em").addClass("font__active__sky");
+    $(".vote-layerpopup em").removeClass("font__active__red");
     console.log(1);
   } else {
     $(".bgblack-layerpopup").show();
     $(".vote-layerpopup").show();
     $(".vote-layerpopup em").addClass("font__active__red");
+    $(".vote-layerpopup em").removeClass("font__active__sky");
   }
 });
 
