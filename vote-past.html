@@ -14,6 +14,8 @@
   </head>
   <body>
     
+
+    
     <section class="bgblack-layerpopup"></section>
     
     <section class="m-nav-draw">
@@ -123,6 +125,25 @@
         <!-- //사이드바 -->
 
         <section class="vote vote-past">
+
+          <section class="board">
+            <div class="board-detailview">
+          
+              <div id="vue_area">
+                <input id="write__input" type="text" maxlength="250" v-model="title" style="width:100%;"/>
+                <div class="contents code-html">
+                  <div id="editSection"></div>
+                </div>
+                <div>
+                  <button id="save_post_btn" v-on:click="savePost">작성완료</button>
+                </div>
+              </div>
+          
+            </div>
+          </section>
+
+          <input type="text" class="write__input">
+          
           <div class="vote__tab tab clearfix">
             <div class="row">
                 <div class="vote__tab-left tab-left">

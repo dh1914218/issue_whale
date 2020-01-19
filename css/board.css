@@ -110,6 +110,15 @@
   margin-left: 3px;
 }
 
+.board-article__list .board-article__item .blank-area {
+  display: table-cell;
+  vertical-align: middle;
+  width: 93px;
+  height: 60px;
+  display: block;
+  margin-left: 3px;
+}
+
 /*-----게시판 디테일뷰------*/
 .board-detailview .view-article .view-article__header {
   padding: 16px;
