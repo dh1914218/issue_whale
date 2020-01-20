@@ -84,6 +84,13 @@ main {
   display: none !important;
 }
 
+/*-------경고메세지---------*/
+.alert-text {
+  font-size: 14px;
+  color: red;
+  margin-top: 8px;
+}
+
 /*-----헤더-----*/
 .blank-header {
   height: 30px;
@@ -231,7 +238,7 @@ main {
   width: 40px;
 }
 
-.footer.user-feedback {
+.footer.bottom {
   position: absolute;
   bottom: 0;
 }

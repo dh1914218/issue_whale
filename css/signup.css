@@ -357,11 +357,4 @@
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-
-/*-------경고메세지---------*/
-.sgin-up__text {
-  font-size: 14px;
-  color: red;
-  margin-top: 8px;
-}
 /*# sourceMappingURL=signup.css.map */
