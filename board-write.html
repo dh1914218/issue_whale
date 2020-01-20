@@ -7,14 +7,14 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="css/media-mobile.css" />
+    <link rel="stylesheet" href="css/board.css">
     <link rel="stylesheet" href="css/vote.css" />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/user-feedback.css">
 
   </head>
   <body>
-    
+
     <section class="bgblack-layerpopup"></section>
     
     <section class="m-nav-draw">
@@ -36,26 +36,6 @@
       </div>
     </section>
     <!-- //모바일 네비게이션 드로어 -->
-    <section class="vote-layerpopup">
-        <h1>
-          왜 <em>찬성</em> 하시나요?
-          <a href="#a">
-            <img src="img/ic_ex_off.svg" alt="cencel" />
-          </a>
-        </h1>
-        <textarea
-        type="text"
-        placeholder="우리같이 건전한 토론문화를 만들어봐요 :)"
-        autofocus="autofocus"
-        ></textarea>
-        
-        <div class="btn">
-          <ul>
-            <li><a href="#a">등록하기</a></li>
-          </ul>
-    </section>
-
-
 
     <header class="blank-header"></header>
     <!-- //블랭크 헤더 -->
@@ -66,6 +46,7 @@
           <h1 class="header__log"><a href="vote.html"><img src="img/logo.png" alt=""></a></h1>
 
           <!-- //헤더로고 -->
+
           <nav class="header__nav">
             <ul class="clearfix">
               <li><a href="signup_login.html">로그인</a></li>
@@ -89,15 +70,10 @@
     </header>
     <!-- //헤더 -->
 
-    <section class="banner user-feedback__banner">
-        <div class="container">
-            <h1>
-             불편한점이 있으신가요? 건의해주세요<br>
-             <em>이슈고래</em>는 피드백을 수용합니다<br>
-             발전하는 서비스를 만들겠습니다.
-            </h1>
-            
-        </div>
+    <section class="banner">
+      <img src="img/banner_board_freetalk.png" alt="">
+      <div class="banner__col1"></div>
+      <div class="banner__col2"></div>
     </section>
     <!-- //배너 -->
 
@@ -107,11 +83,11 @@
         <section class="side-bar">
           <nav class="side-bar__nav">
             <ul>
-              <li><a href="vote.html" >찬반투표</a></li>
-              <li><a href="vote-past.html" >지난찬반투표</a></li>
-              <li><a href="board-freedebate.html">자유토론방</a></li>
+              <li><a href="vote.html">찬반투표</a></li>
+              <li><a href="vote-past.html">지난찬반투표</a></li>
+              <li><a href="board-freedebate.html" class="font__active__purple">자유토론방</a></li>
               <li><a href="board-humor.html">유머 / 짤</a></li>
-              <li><a href="user-feedback.html" class="font__active__purple">건의하기</a></li>
+              <li><a href="user-feedback.html">건의하기</a></li>
             </ul>
           </nav>
           <!-- //사이드바 네비 -->
@@ -120,74 +96,81 @@
         </section>
         <!-- //사이드바 -->
 
-        <section class="user-feedback__textarea">
-          <div class="row">
-            <textarea placeholder="상세한 피드백은 언제나 환영입니다!!! :)"></textarea>
-            <div class="btn">
-                <a href="#a">
-                    등록하기
-                </a>
+        <section class="board board-write">
+           <div class="row">
+            <div class="board-write__inner">
+                <input type="text" class="board-wrtie__input" placeholder="제목을 입력해주세요">
+                <div class="blank-area">텍스트쓰는 공간입니다 지워도 무방
+                    <br>
+                    div로잡았으며 임의로 높이값을 주었습니다
+                </div> 
+                <div class="btn">
+                    <ul class="clearfix">
+                        <li class="cencel"><a href="#a">취소</a></li>
+                        <li class="okay"><a href="#a">완료</a></li>
+                    </ul>
+                </div>
             </div>
-          </div>
+           </div>
         </section>
-        <!-- //유저피드백 textarea -->
+        <!-- //게시판영역 -->
       </div>
     </main>
     <!-- //메인-->
+    
+    <footer class="footer">
+      <div class="container">
+        <div class="wrap">
+         <div class="footer__left">
 
-    <footer class="footer user-feedback">
-        <div class="container">
-          <div class="wrap">
-           <div class="footer__left">
-  
-             <ul class="menu">
-               <li><a href="userinfo-terms.html">이용약관</a></li>
-               <li><a href="userinfo-policy.html">개인정보처리방침</a></li>
-             </ul>
-              <!-- //메뉴 -->
-  
-             <div class="blank20"></div>
-              <div class="meta-data">
-                <div>서울특별시 은평구 구산동 주소 블블라블라블라</div>
-                <div>사업자 등록번호 블라블라블라블라블라</div>
-                <div>서울특별시 은평구 블라블라블라블라블라</div>
-              </div>
-              <!-- //메타데이터 -->
+           <ul class="menu">
+             <li><a href="userinfo-terms.html">이용약관</a></li>
+             <li><a href="userinfo-policy.html">개인정보처리방침</a></li>
+           </ul>
+            <!-- //메뉴 -->
+
+           <div class="blank20"></div>
+            <div class="meta-data">
+              <div>서울특별시 은평구 구산동 주소 블블라블라블라</div>
+              <div>사업자 등록번호 블라블라블라블라블라</div>
+              <div>서울특별시 은평구 블라블라블라블라블라</div>
             </div>
-            <!-- //푸터 왼쪽 -->
-  
-          <div class="footer__right">
-            <ul class="clearfix">
-              <li>
-                <a href="#a">
-                 <img src="img/ic_facebook.svg" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="#a">
-                 <img src="img/ic_youtube.svg" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="#a">
-                 <img src="img/ic_instagram.svg" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="#a">
-                 <img src="img/ic_blog.svg" alt="">
-                </a>
-              </li>
-            </ul>
+            <!-- //메타데이터 -->
           </div>
-          <!-- //푸터 오른쪽 -->
-      </div>
+          <!-- //푸터 왼쪽 -->
+
+        <div class="footer__right">
+          <ul class="clearfix">
+            <li>
+              <a href="#a">
+               <img src="img/ic_facebook.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="#a">
+               <img src="img/ic_youtube.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="#a">
+               <img src="img/ic_instagram.svg" alt="">
+              </a>
+            </li>
+            <li>
+              <a href="#a">
+               <img src="img/ic_blog.svg" alt="">
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- //푸터 오른쪽 -->
+    </div>
     </footer>
-    <!-- //푸터 -->
+  <!-- //푸터 -->
+
 
   </body>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/jquery.placeholder.js"></script>
   <script src="/js/script.js"></script>
 </html>
-

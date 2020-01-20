@@ -7,11 +7,15 @@
   min-height: 100%;
   padding: 170px 0;
   .sgin-up__inner {
+    overflow: auto;
     width: 450px;
     height: 840px;
     background-color: #ffffff;
     margin: 0 auto;
     padding: 40px;
+  }
+  .sgin-up__inner::-webkit-scrollbar {
+    display: none;
   }
 }
 
@@ -312,4 +316,11 @@
       }
     }
   }
+}
+
+/*-------경고메세지---------*/
+.sgin-up__text {
+  font-size: 14px;
+  color: red;
+  margin-top: 8px;
 }

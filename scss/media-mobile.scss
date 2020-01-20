@@ -375,6 +375,13 @@
     }
   }
 
+  /*-----게시판 -----*/
+  .board-write {
+    input {
+      margin-bottom: 8px !important;
+    }
+  }
+
   /*-------------푸터----------------*/
   .footer {
     .wrap {
@@ -476,6 +483,10 @@
   // -------서브헤더-----
   .sub-header {
     .sub-header__nav {
+      ul::-webkit-scrollbar {
+        display: none;
+      }
+
       ul {
         overflow-x: auto;
         white-space: nowrap;

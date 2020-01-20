@@ -515,3 +515,46 @@
     }
   }
 }
+
+// 게시판 글쓰기
+.board-write {
+  input {
+    width: 100%;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+    border: 1px solid #e8e8ed;
+  }
+  .blank-area {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #e8e8ed;
+    padding: 16px;
+    font-size: 14px;
+    height: 500px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    text-align: center;
+    ul {
+      display: inline-block;
+      li {
+        float: left;
+        background-color: #ffffff;
+        border: 1px solid #e8e8ed;
+        margin-right: 8px;
+        a {
+          display: inline-block;
+          padding: 16px 50px;
+          color: #9b9b9b;
+        }
+      }
+      li:nth-last-child(1) {
+        background-color: $purple;
+        a {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

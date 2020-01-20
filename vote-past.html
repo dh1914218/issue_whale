@@ -125,25 +125,6 @@
         <!-- //사이드바 -->
 
         <section class="vote vote-past">
-
-          <section class="board">
-            <div class="board-detailview">
-          
-              <div id="vue_area">
-                <input id="write__input" type="text" maxlength="250" v-model="title" style="width:100%;"/>
-                <div class="contents code-html">
-                  <div id="editSection"></div>
-                </div>
-                <div>
-                  <button id="save_post_btn" v-on:click="savePost">작성완료</button>
-                </div>
-              </div>
-          
-            </div>
-          </section>
-
-          <input type="text" class="write__input">
-          
           <div class="vote__tab tab clearfix">
             <div class="row">
                 <div class="vote__tab-left tab-left">
@@ -179,9 +160,23 @@
                 </a>
             </article>
             <!-- //아티클 아이템 -->
-            </div>
-              
-              
+              <article class="vote-past-article__item">
+                <a href="#a">
+                  <h1>"전과자 연예인 방송활동 해도 될까요?"</h1>
+                </a>
+            </article>
+            <!-- //아티클 아이템 -->
+              <article class="vote-past-article__item">
+                <a href="#a">
+                  <h1>"전과자 연예인 방송활동 해도 될까요?"</h1>
+                </a>
+            </article>
+            <!-- //아티클 아이템 -->
+            </div>            
+          </div>
+          
+          <div class="vote-past-article__add">
+            <a href="#a">더보기</a>
           </div>
 
           
@@ -190,10 +185,7 @@
         
       </div>
     </main>
-    <!-- //메인-->
-
-    <div style="height: 3000px;"></div>
-  
+    <!-- //메인-->  
 
     <footer class="footer">
         <div class="container">

@@ -230,4 +230,9 @@ main {
 .footer .wrap .footer__right ul li a img {
   width: 40px;
 }
+
+.footer.user-feedback {
+  position: absolute;
+  bottom: 0;
+}
 /*# sourceMappingURL=style.css.map */

@@ -291,6 +291,10 @@
   .board-detailview .view-btn ul li a img {
     margin-top: 2px;
   }
+  /*-----게시판 -----*/
+  .board-write input {
+    margin-bottom: 8px !important;
+  }
   /*-------------푸터----------------*/
   .footer .wrap {
     padding: 16px !important;
@@ -360,6 +364,9 @@
   }
   .userinfo .btn ul li a {
     padding: 12px 60px !important;
+  }
+  .sub-header .sub-header__nav ul::-webkit-scrollbar {
+    display: none;
   }
   .sub-header .sub-header__nav ul {
     overflow-x: auto;

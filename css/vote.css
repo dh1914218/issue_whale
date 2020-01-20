@@ -600,6 +600,14 @@
   margin-top: 16px;
 }
 
+.vote-past-article__list article:nth-child(1) {
+  margin-top: 0;
+}
+
+.vote-past-article__list article {
+  margin-top: 4px;
+}
+
 .vote-past-article__list article:hover {
   background-color: #6332f6;
   -webkit-transition: all 0.5s ease-in-out;
@@ -627,5 +635,18 @@
   position: absolute;
   top: 20px;
   right: 16px;
+}
+
+.vote-past .vote-past-article__add {
+  margin-top: 8px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.vote-past .vote-past-article__add a {
+  color: #9b9b9b;
+  display: inline-block;
+  padding: 16px;
+  width: 100%;
 }
 /*# sourceMappingURL=vote.css.map */
