@@ -1,9 +1,9 @@
 @charset "UTF-8";
-.board__tab.tab .tab-left ul li a, .board__tab.tab .tab-right ul li a, .board-article__list .board-article__item .text ul li.meta-data, .board-detailview .view-article .view-article__header .tit span, .board-detailview .view-article .view-article__header .view-article__sub-header .profile span, .board-detailview .view-article .view-article__header .view-article__sub-header .meta-data span, .board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-right .btn ul li a, .comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right .btn ul li a, .board-detailview .comment-list .commnet-list__normal .reply .wrap .btn ul li a, .paging-btn ul li a span {
+.board__tab.tab .tab-left ul li a, .board__tab.tab .tab-right ul li a, .board-article__list .board-article__item .text ul li.meta-data, .board-detailview .view-article .view-article__header .tit span, .board-detailview .view-article .view-article__header .view-article__sub-header .profile span, .board-detailview .view-article .view-article__header .view-article__sub-header .meta-data span, .board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-right .btn ul li a, .comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right .btn ul li a, .board-detailview .comment-list .commnet-list__normal .reply .wrap .btn ul li a, button.paging-btn > div span {
   color: #9b9b9b;
 }
 
-.board__tab.tab .tab-left, .board__tab.tab .tab-right, .board-article__list, .board-detailview .view-article, .board-detailview .view-btn, .board-detailview .view-conmment-write, .paging-btn ul li, .pagination {
+.board__tab.tab .tab-left, .board__tab.tab .tab-right, .board-article__list, .board-detailview .view-article, .board-detailview .view-btn, .board-detailview .view-conmment-write, .pagination {
   border: 1px solid #e8e8ed;
   background-color: #ffffff;
 }
@@ -463,32 +463,29 @@
 }
 
 /*-----페이지네이션-----*/
-.paging-btn {
+button.paging-btn {
   text-align: center;
-  margin-top: 8px;
+  margin-top: 16px !important;
+  display: block;
+  margin: 0 auto;
 }
 
-.paging-btn ul {
+button.paging-btn > div {
+  cursor: pointer;
   display: inline-block;
-}
-
-.paging-btn ul li {
-  float: left;
-  margin-bottom: -8px;
+  background-color: #ffffff;
+  width: 100px;
+  line-height: 48px;
   margin-right: 16px;
 }
 
-.paging-btn ul li a {
-  display: inline-block;
-  padding: 12px;
-}
-
-.paging-btn ul li a img {
+button.paging-btn > div img {
   width: 15px;
   vertical-align: middle;
+  margin-top: -1px;
 }
 
-.paging-btn ul li a span {
+button.paging-btn > div span {
   vertical-align: middle;
 }
 

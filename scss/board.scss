@@ -453,32 +453,51 @@
 }
 
 /*-----페이지네이션-----*/
-.paging-btn {
+button.paging-btn {
   text-align: center;
-  margin-top: 8px;
-
-  ul {
+  margin-top: 16px !important;
+  display: block;
+  margin: 0 auto;
+  > div {
+    cursor: pointer;
     display: inline-block;
-    li {
-      float: left;
-      @extend %bxWhiteGray;
-      margin-bottom: -8px;
-      margin-right: 16px;
-      a {
-        display: inline-block;
-        padding: 12px;
-        img {
-          width: 15px;
-          vertical-align: middle;
-          // margin-right: 8px;
-        }
-        span {
-          @extend %ftColorgray;
-          vertical-align: middle;
-        }
-      }
+    background-color: #ffffff;
+    width: 100px;
+    line-height: 48px;
+    margin-right: 16px;
+    img {
+      width: 15px;
+      vertical-align: middle;
+      margin-top: -1px;
+    }
+    span {
+      @extend %ftColorgray;
+      vertical-align: middle;
     }
   }
+
+  // ul {
+  //   display: inline-block;
+  //   li {
+  //     float: left;
+  //     @extend %bxWhiteGray;
+  //     margin-bottom: -8px;
+  //     margin-right: 16px;
+  //     a {
+  //       display: inline-block;
+  //       padding: 12px;
+  //       img {
+  //         width: 15px;
+  //         vertical-align: middle;
+  //         // margin-right: 8px;
+  //       }
+  //       span {
+  //         @extend %ftColorgray;
+  //         vertical-align: middle;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 .pagination {

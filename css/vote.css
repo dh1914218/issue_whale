@@ -27,17 +27,8 @@
   color: #ffffff;
 }
 
-.vote-layerpopup .btn ul li a {
-  color: #6332f6;
-}
-
 .vote__tab.tab .tab-left, .vote__main, .vote__feed .article-feed__item, .vote__feed .feed-comment, .vote__feed .comment-write form, .vote-past-article__list article {
   border: 1px solid #e8e8ed;
-  background-color: #ffffff;
-}
-
-.vote-layerpopup .btn ul li a {
-  border: 1px solid #6332f6;
   background-color: #ffffff;
 }
 
@@ -582,17 +573,20 @@
   font-size: 14px;
 }
 
-.vote-layerpopup .btn {
-  margin-top: 32px;
+.vote-layerpopup button {
+  margin-top: 32px !important;
+  display: block;
+  margin: 0 auto;
 }
 
-.vote-layerpopup .btn ul li {
+.vote-layerpopup button div {
+  background-color: #ffffff;
+  border: 1px solid #6332f6;
+  color: #6332f6;
+  width: 120px;
+  line-height: 56px;
+  cursor: pointer;
   text-align: center;
-}
-
-.vote-layerpopup .btn ul li a {
-  padding: 10px 32px;
-  display: inline-block;
 }
 
 /*------지난 찬반 투표-----*/
@@ -638,15 +632,17 @@
 }
 
 .vote-past .vote-past-article__add {
-  margin-top: 8px;
+  margin-top: 6px;
   text-align: center;
   background-color: #ffffff;
+  width: 100%;
 }
 
-.vote-past .vote-past-article__add a {
+.vote-past .vote-past-article__add div {
   color: #9b9b9b;
   display: inline-block;
   padding: 16px;
   width: 100%;
+  cursor: pointer;
 }
 /*# sourceMappingURL=vote.css.map */

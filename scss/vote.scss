@@ -523,18 +523,34 @@
     // }
   }
 
-  .btn {
-    margin-top: 32px;
-    ul {
-      li {
-        text-align: center;
-        a {
-          @extend %ftColorPurple;
-          @extend %bxWhitePurple;
-          padding: 10px 32px;
-          display: inline-block;
-        }
-      }
+  // .btn {
+  //   margin-top: 32px;
+  //   ul {
+  //     li {
+  //       text-align: center;
+  //       a {
+  //         @extend %ftColorPurple;
+  //         @extend %bxWhitePurple;
+  //         padding: 10px 32px;
+  //         display: inline-block;
+  //       }
+  //     }
+  //   }
+  // }
+
+  button {
+    margin-top: 32px !important;
+
+    display: block;
+    margin: 0 auto;
+    div {
+      background-color: #ffffff;
+      border: 1px solid $purple;
+      color: $purple;
+      width: 120px;
+      line-height: 56px;
+      cursor: pointer;
+      text-align: center;
     }
   }
 }
@@ -578,14 +594,17 @@
 }
 
 .vote-past .vote-past-article__add {
-  margin-top: 8px;
+  margin-top: 6px;
   text-align: center;
   background-color: #ffffff;
-  a {
+  width: 100%;
+
+  div {
     color: #9b9b9b;
     display: inline-block;
     padding: 16px;
     width: 100%;
+    cursor: pointer;
   }
 }
 
