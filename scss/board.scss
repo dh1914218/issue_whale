@@ -169,18 +169,19 @@
 }
 
 .board-detailview .view-btn {
-  @extend %bxWhiteGray;
-
+  // @extend %bxWhiteGray;
+  background-color: #ffffff;
   margin-top: 8px;
 
-  @extend %bxWhiteGray;
   padding: 16px 24px;
   width: 100%;
   ul {
     li {
       float: left;
       margin-right: 40px;
-      a {
+      button {
+        // cursor: pointer;
+        background-color: #ffffff;
         img {
           width: 18px;
           margin-right: 6px;
@@ -192,6 +193,23 @@
       }
     }
   }
+
+  // ul {
+  //   li {
+  //     float: left;
+  //     margin-right: 40px;
+  //     a {
+  //       img {
+  //         width: 18px;
+  //         margin-right: 6px;
+  //         vertical-align: middle;
+  //       }
+  //       span {
+  //         vertical-align: middle;
+  //       }
+  //     }
+  //   }
+  // }
 }
 
 /*--댓글작성--*/
@@ -210,11 +228,10 @@
   .btn {
     float: right;
     font-size: 16px;
-    a {
-      display: inline-block;
+    button {
       padding: 8px 16px;
       color: $purple;
-      font-weight: 500;
+      background-color: #ffffff;
     }
   }
 }
@@ -264,7 +281,7 @@
           li {
             float: left;
             margin-right: 12px;
-            a {
+            button {
               @extend %ftColorgray;
               font-size: 13px;
             }
@@ -316,7 +333,7 @@
           li {
             float: left;
             margin-right: 12px;
-            a {
+            button {
               @extend %ftColorgray;
               font-size: 14px;
             }
@@ -373,7 +390,7 @@
           li {
             float: left;
             // margin-right: 12px;
-            a {
+            button {
               @extend %ftColorgray;
               font-size: 13px;
               // margin-left: -10px;
@@ -405,7 +422,7 @@
   padding: 12px 16px 12px 72px;
   border-bottom: 1px solid #e8e8ed;
 
-  form {
+  div {
     display: flex;
     background-color: #ffffff;
     border: 1px solid #e8e8ed;
@@ -418,10 +435,11 @@
     }
     ul {
       li {
-        a {
-          padding: 16px;
+        button {
+          // padding: 16px;
           color: $purple;
           line-height: 56px;
+          width: 100px;
         }
       }
     }
@@ -441,7 +459,7 @@
 
 /*-----댓글더보기-----*/
 .add-reply {
-  div {
+  button {
     margin-top: 8px;
     width: 100%;
     background-color: #ffffff;
@@ -453,26 +471,27 @@
 }
 
 /*-----페이지네이션-----*/
-button.paging-btn {
+.paging-btn {
   text-align: center;
   margin-top: 16px !important;
   display: block;
   margin: 0 auto;
-  > div {
-    cursor: pointer;
+  ul {
     display: inline-block;
-    background-color: #ffffff;
-    width: 100px;
-    line-height: 48px;
-    margin-right: 16px;
-    img {
-      width: 15px;
-      vertical-align: middle;
-      margin-top: -1px;
-    }
-    span {
-      @extend %ftColorgray;
-      vertical-align: middle;
+    li {
+      float: left;
+      margin-right: 16px;
+      button {
+        width: 80px;
+        height: 48px;
+        img {
+          width: 15px;
+          vertical-align: middle;
+        }
+        span {
+          vertical-align: middle;
+        }
+      }
     }
   }
 
@@ -501,7 +520,7 @@ button.paging-btn {
 }
 
 .pagination {
-  margin-top: 16px;
+  margin-top: 13px;
   @extend %bxWhiteGray;
   text-align: center;
   .wrap {

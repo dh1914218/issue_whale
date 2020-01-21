@@ -112,6 +112,8 @@ img {
 
 button {
   border: 0;
+  cursor: pointer;
+  background-color: #ffffff;
 }
 
 /* input박스 클릭시 테두리 없대기 */

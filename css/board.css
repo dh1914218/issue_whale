@@ -1,9 +1,9 @@
 @charset "UTF-8";
-.board__tab.tab .tab-left ul li a, .board__tab.tab .tab-right ul li a, .board-article__list .board-article__item .text ul li.meta-data, .board-detailview .view-article .view-article__header .tit span, .board-detailview .view-article .view-article__header .view-article__sub-header .profile span, .board-detailview .view-article .view-article__header .view-article__sub-header .meta-data span, .board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-right .btn ul li a, .comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right .btn ul li a, .board-detailview .comment-list .commnet-list__normal .reply .wrap .btn ul li a, button.paging-btn > div span {
+.board__tab.tab .tab-left ul li a, .board__tab.tab .tab-right ul li a, .board-article__list .board-article__item .text ul li.meta-data, .board-detailview .view-article .view-article__header .tit span, .board-detailview .view-article .view-article__header .view-article__sub-header .profile span, .board-detailview .view-article .view-article__header .view-article__sub-header .meta-data span, .board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-right .btn ul li button, .comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right .btn ul li button, .board-detailview .comment-list .commnet-list__normal .reply .wrap .btn ul li button {
   color: #9b9b9b;
 }
 
-.board__tab.tab .tab-left, .board__tab.tab .tab-right, .board-article__list, .board-detailview .view-article, .board-detailview .view-btn, .board-detailview .view-conmment-write, .pagination {
+.board__tab.tab .tab-left, .board__tab.tab .tab-right, .board-article__list, .board-detailview .view-article, .board-detailview .view-conmment-write, .pagination {
   border: 1px solid #e8e8ed;
   background-color: #ffffff;
 }
@@ -178,6 +178,7 @@
 }
 
 .board-detailview .view-btn {
+  background-color: #ffffff;
   margin-top: 8px;
   padding: 16px 24px;
   width: 100%;
@@ -188,13 +189,17 @@
   margin-right: 40px;
 }
 
-.board-detailview .view-btn ul li a img {
+.board-detailview .view-btn ul li button {
+  background-color: #ffffff;
+}
+
+.board-detailview .view-btn ul li button img {
   width: 18px;
   margin-right: 6px;
   vertical-align: middle;
 }
 
-.board-detailview .view-btn ul li a span {
+.board-detailview .view-btn ul li button span {
   vertical-align: middle;
 }
 
@@ -217,11 +222,10 @@
   font-size: 16px;
 }
 
-.board-detailview .view-conmment-write .btn a {
-  display: inline-block;
+.board-detailview .view-conmment-write .btn button {
   padding: 8px 16px;
   color: #6332f6;
-  font-weight: 500;
+  background-color: #ffffff;
 }
 
 /*--베스트댓글--*/
@@ -276,7 +280,7 @@
   margin-right: 12px;
 }
 
-.board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-right .btn ul li a {
+.board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-right .btn ul li button {
   font-size: 13px;
 }
 
@@ -330,7 +334,7 @@
   margin-right: 12px;
 }
 
-.comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right .btn ul li a {
+.comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right .btn ul li button {
   font-size: 14px;
 }
 
@@ -392,7 +396,7 @@
   float: left;
 }
 
-.board-detailview .comment-list .commnet-list__normal .reply .wrap .btn ul li a {
+.board-detailview .comment-list .commnet-list__normal .reply .wrap .btn ul li button {
   font-size: 13px;
   margin-right: 8px;
 }
@@ -416,7 +420,7 @@
   border-bottom: 1px solid #e8e8ed;
 }
 
-.commnet-reply-write form {
+.commnet-reply-write div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -424,7 +428,7 @@
   border: 1px solid #e8e8ed;
 }
 
-.commnet-reply-write form input {
+.commnet-reply-write div input {
   padding: 16px;
   width: 100%;
   -webkit-box-flex: 1;
@@ -434,10 +438,10 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
-.commnet-reply-write form ul li a {
-  padding: 16px;
+.commnet-reply-write div ul li button {
   color: #6332f6;
   line-height: 56px;
+  width: 100px;
 }
 
 .commnet-reply-write::before {
@@ -452,7 +456,7 @@
 }
 
 /*-----댓글더보기-----*/
-.add-reply div {
+.add-reply button {
   margin-top: 8px;
   width: 100%;
   background-color: #ffffff;
@@ -463,34 +467,38 @@
 }
 
 /*-----페이지네이션-----*/
-button.paging-btn {
+.paging-btn {
   text-align: center;
   margin-top: 16px !important;
   display: block;
   margin: 0 auto;
 }
 
-button.paging-btn > div {
-  cursor: pointer;
+.paging-btn ul {
   display: inline-block;
-  background-color: #ffffff;
-  width: 100px;
-  line-height: 48px;
+}
+
+.paging-btn ul li {
+  float: left;
   margin-right: 16px;
 }
 
-button.paging-btn > div img {
-  width: 15px;
-  vertical-align: middle;
-  margin-top: -1px;
+.paging-btn ul li button {
+  width: 80px;
+  height: 48px;
 }
 
-button.paging-btn > div span {
+.paging-btn ul li button img {
+  width: 15px;
+  vertical-align: middle;
+}
+
+.paging-btn ul li button span {
   vertical-align: middle;
 }
 
 .pagination {
-  margin-top: 16px;
+  margin-top: 13px;
   text-align: center;
 }
 
