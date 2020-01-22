@@ -83,14 +83,11 @@
 
   .btn {
     margin-top: 24px;
-    width: 100%;
     text-align: center;
-    width: 100%;
-    cursor: pointer;
-    background-color: $purple;
     border-radius: 3px;
-    a {
-      text-align: left;
+    button {
+      width: 100%;
+      background-color: $purple;
       color: #ffffff;
       display: inline-block;
       padding: 16px 50px;

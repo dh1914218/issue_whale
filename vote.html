@@ -60,7 +60,6 @@
             등록하기
            </div>
          </button>
-      
     </section>
 
 
@@ -78,6 +77,7 @@
           <nav class="header__nav">
             <ul class="clearfix">
               <li><a href="signup_login.html">로그인</a></li>
+              <li><a href="#a">로그아웃</a></li>
               <li><a href="userinfo-edit.html">내정보</a></li>
             </ul>
           </nav>
@@ -205,27 +205,33 @@
               <ul class="clearfix">
                 <li class="yes">
                   <span class="m-yes__text" style="display: none;">찬성70% (1320건)</span>
-                  <a href="#a">
+                  <button>
+                    <img src="img/ic_yes.svg" alt="">
+                    <span>찬성</span>
+                  </button>
+                  <!-- <a href="#a">
                     <img src="img/ic_yes.svg" alt="" /><span>찬성</span>
-                  </a>
+                  </a> -->
                 </li>
                 <li class="no">
                   <span class="m-no__text" style="display: none;">반대30% (1320건)</span>
-                  <a href="#a">
+                  <button>
+                    <img src="img/ic_yes.svg" alt="">
+                    <span>반대</span>
+                  </button>
+                  <!-- <a href="#a">
                     <img src="img/ic_no.svg" alt="" /><span>반대</span>
-                  </a>
+                  </a> -->
                 </li>
               </ul>
             </div>
             <!-- //버튼 -->
 
             <div class="btn-share">
-              <div>
-                <a href="#a">
+              <button>
                   <img src="img/ic_share_grey.svg" alt="" />
                   <span>공유하기</span>
-                </a>
-              </div>
+              </button>
             </div>
             <!-- //공유버튼 -->
           </div>
@@ -259,18 +265,18 @@
                   <div class="btn">
                     <ul class="clearfix">
                       <li class="btn__item--1">
-                        <a href="#a">
+                        <button>
                           <img src="img/ic_vote_off.svg" alt="" />
                           <span>소중한 한표</span>
                           <em>1234</em>
-                        </a>
+                        </button>                          
                       </li>
                       <li class="btn__item--2">
-                        <a href="#a">
+                        <button>
                           <img src="img/ic_chat.svg" alt="" />
                           <span>다양한 의견</span>
                           <em>1130</em>
-                        </a>
+                        </button>
                       </li>
                     </ul>
                   </div>
@@ -297,14 +303,18 @@
                       >
                     </div>
                     <div class="btn">
-                      <span>답글달기</span>
+                      <button>
+                        답글달기
+                      </button>
                     </div>
                   </div>
                 </div>
                 <!-- //피드 댓글 -->
 
                 <div class="feed-comment__addreply">
-                  <span>답글보기(13개)</span>
+                  <button>
+                    답글보기(13개)
+                  </button>
                 </div>
                 <!-- //피드 댓글 더보기 -->
 
@@ -337,19 +347,15 @@
               <!-- //피드댓글영역 -->
 
               <div class="comment-write">
-                <form>
+                <div class="comment-write__inner">
                   <input type="text" / placeholder="당신의 의견은 무엇입니까?"
                   autofocus="autofocus">
                   <div class="btn">
-                    <ul>
-                      <li>
-                        <a href="#a">
-                          답글달기
-                        </a>
-                      </li>
-                    </ul>
+                    <button>
+                      답글달기
+                    </button>
                   </div>
-                </form>
+                </div>
               </div>
             </article>
             <!-- //피드 아이템 리스트 -->
@@ -380,18 +386,18 @@
                   <div class="btn">
                     <ul class="clearfix">
                       <li class="btn__item--1">
-                        <a href="#a">
+                        <button>
                           <img src="img/ic_vote_off.svg" alt="" />
                           <span>소중한 한표</span>
                           <em>1234</em>
-                        </a>
+                        </button> 
                       </li>
                       <li class="btn__item--2">
-                        <a href="#a">
+                        <button>
                           <img src="img/ic_chat.svg" alt="" />
                           <span>다양한 의견</span>
                           <em>1130</em>
-                        </a>
+                        </button>
                       </li>
                     </ul>
                   </div>
@@ -418,14 +424,16 @@
                       >
                     </div>
                     <div class="btn">
-                      <span>답글달기</span>
+                      <button>
+                        답글달기
+                      </button>
                     </div>
                   </div>
                 </div>
                 <!-- //피드 댓글 -->
 
                 <div class="feed-comment__addreply">
-                  <span>답글보기(13개)</span>
+                  <button>답글보기(13개)</button>
                 </div>
                 <!-- //피드 댓글 더보기 -->
 
@@ -458,19 +466,22 @@
               <!-- //피드댓글영역 -->
 
               <div class="comment-write">
-                <form>
+                <div class="comment-write__inner">
                   <input type="text" / placeholder="당신의 의견은 무엇입니까?"
                   autofocus="autofocus">
                   <div class="btn">
-                    <ul>
+                    <button>
+                      답글달기
+                    </button>
+                    <!-- <ul>
                       <li>
                         <a href="#a">
                           답글달기
                         </a>
                       </li>
-                    </ul>
+                    </ul> -->
                   </div>
-                </form>
+                </div>
               </div>
             </article>
             <!-- //피드 아이템 리스트 -->

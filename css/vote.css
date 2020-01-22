@@ -3,36 +3,36 @@
   background-color: #111111;
 }
 
-.vote__main .graph ul li.yes > div, .vote__main .graph ul li.no > div, .vote__main .btn ul li.yes, .vote__main .btn ul li.no {
+.vote__main .graph ul li.yes > div, .vote__main .graph ul li.no > div, .vote__main .btn ul li.yes, .vote__main .btn ul li.yes button, .vote__main .btn ul li.no button {
   background-color: #e8e8e8;
 }
 
-.vote__tab.tab .tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input::-webkit-input-placeholder, .vote-layerpopup textarea::-webkit-input-placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__item .cont-right .btn ul li button span, .vote__feed .article-feed__item .cont-right .btn ul li button em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn button, .vote__feed .feed-comment .feed-comment__addreply button, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write .comment-write__inner input::-webkit-input-placeholder, .vote-layerpopup textarea::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.vote__tab.tab .tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input:-ms-input-placeholder, .vote-layerpopup textarea:-ms-input-placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__item .cont-right .btn ul li button span, .vote__feed .article-feed__item .cont-right .btn ul li button em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn button, .vote__feed .feed-comment .feed-comment__addreply button, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write .comment-write__inner input:-ms-input-placeholder, .vote-layerpopup textarea:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.vote__tab.tab .tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input::-ms-input-placeholder, .vote-layerpopup textarea::-ms-input-placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__item .cont-right .btn ul li button span, .vote__feed .article-feed__item .cont-right .btn ul li button em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn button, .vote__feed .feed-comment .feed-comment__addreply button, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write .comment-write__inner input::-ms-input-placeholder, .vote-layerpopup textarea::-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.vote__tab.tab .tab-left ul li a, .vote__main .btn-share div span, .vote__feed .article-feed__item .cont-right .btn ul li a span, .vote__feed .article-feed__item .cont-right .btn ul li a em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn span, .vote__feed .feed-comment .feed-comment__addreply span, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write form input::placeholder, .vote-layerpopup textarea::placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__item .cont-right .btn ul li button span, .vote__feed .article-feed__item .cont-right .btn ul li button em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn button, .vote__feed .feed-comment .feed-comment__addreply button, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write .comment-write__inner input::placeholder, .vote-layerpopup textarea::placeholder {
   color: #9b9b9b;
 }
 
-.vote__main .graph ul li.box, .vote__main .btn ul li.yes a span, .vote__main .btn ul li.no a span {
+.vote__main .graph ul li.box, .vote__main .btn ul li.yes button span, .vote__main .btn ul li.no button span {
   color: #ffffff;
 }
 
-.vote__tab.tab .tab-left, .vote__main, .vote__feed .article-feed__item, .vote__feed .feed-comment, .vote__feed .comment-write form, .vote-past-article__list article {
+.vote__tab.tab .tab-left, .vote__main, .vote__feed .article-feed__item, .vote__feed .feed-comment, .vote__feed .comment-write .comment-write__inner, .vote-past-article__list article {
   border: 1px solid #e8e8ed;
   background-color: #ffffff;
 }
 
-.vote__main .btn ul li.yes a, .vote__main .btn ul li.no a {
+.vote__main .btn ul li.yes button, .vote__main .btn ul li.no button {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -182,12 +182,12 @@
   margin-right: 16px;
 }
 
-.vote__main .btn ul li.yes a {
+.vote__main .btn ul li.yes button {
   padding: 10px 32px;
   display: inline-block;
 }
 
-.vote__main .btn ul li.yes a img {
+.vote__main .btn ul li.yes button img {
   width: 20px;
   height: 20px;
   vertical-align: middle;
@@ -195,21 +195,21 @@
   margin-top: 0px;
 }
 
-.vote__main .btn ul li.yes a span {
+.vote__main .btn ul li.yes button span {
   vertical-align: middle;
 }
 
-.vote__main .btn ul li.yes a:hover {
+.vote__main .btn ul li.yes button:hover {
   background-color: #13bde9;
 }
 
-.vote__main .btn ul li.no a {
+.vote__main .btn ul li.no button {
   padding: 10px 32px;
   display: inline-block;
   color: #6332f6;
 }
 
-.vote__main .btn ul li.no a img {
+.vote__main .btn ul li.no button img {
   width: 20px;
   height: 20px;
   vertical-align: middle;
@@ -217,11 +217,11 @@
   margin-top: -3px;
 }
 
-.vote__main .btn ul li.no a span {
+.vote__main .btn ul li.no button span {
   vertical-align: middle;
 }
 
-.vote__main .btn ul li.no a:hover {
+.vote__main .btn ul li.no button:hover {
   background-color: #fe6181;
 }
 
@@ -234,17 +234,17 @@
   overflow: hidden;
 }
 
-.vote__main .btn-share div {
+.vote__main .btn-share button {
   float: right;
 }
 
-.vote__main .btn-share div img {
+.vote__main .btn-share button img {
   width: 16px;
   height: 16px;
   vertical-align: middle;
 }
 
-.vote__main .btn-share div span {
+.vote__main .btn-share button span {
   font-size: 14px;
   vertical-align: middle;
 }
@@ -353,18 +353,18 @@
   margin-right: 8px;
 }
 
-.vote__feed .article-feed__item .cont-right .btn ul li a img {
+.vote__feed .article-feed__item .cont-right .btn ul li button img {
   width: 16px;
   height: 16px;
   vertical-align: middle;
 }
 
-.vote__feed .article-feed__item .cont-right .btn ul li a span {
+.vote__feed .article-feed__item .cont-right .btn ul li button span {
   font-size: 13px;
   vertical-align: middle;
 }
 
-.vote__feed .article-feed__item .cont-right .btn ul li a em {
+.vote__feed .article-feed__item .cont-right .btn ul li button em {
   font-size: 13px;
   vertical-align: middle;
 }
@@ -410,7 +410,7 @@
   margin-top: 4px;
 }
 
-.vote__feed .feed-comment .feed-comment__item .cont-right .btn span {
+.vote__feed .feed-comment .feed-comment__item .cont-right .btn button {
   font-size: 13px;
   cursor: pointer;
 }
@@ -419,14 +419,14 @@
   padding: 6px;
 }
 
-.vote__feed .feed-comment .feed-comment__addreply span {
+.vote__feed .feed-comment .feed-comment__addreply button {
   cursor: pointer;
   padding-left: 72px;
   font-size: 13px;
   position: relative;
 }
 
-.vote__feed .feed-comment .feed-comment__addreply span::before {
+.vote__feed .feed-comment .feed-comment__addreply button::before {
   position: absolute;
   top: 0px;
   left: 54px;
@@ -484,19 +484,16 @@
 }
 
 /*-----피드댓글달기-----*/
-.vote__feed .comment-write {
+.vote__feed .comment-write .comment-write__inner {
   display: none;
   margin-top: -1px;
-}
-
-.vote__feed .comment-write form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
 }
 
-.vote__feed .comment-write form input {
+.vote__feed .comment-write .comment-write__inner input {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -504,9 +501,9 @@
   border: 0;
 }
 
-.vote__feed .comment-write form .btn ul li a {
-  display: inline-block;
-  padding: 16px;
+.vote__feed .comment-write .comment-write__inner .btn button {
+  width: 100px;
+  height: 56px;
   color: #6332f6;
 }
 
@@ -638,7 +635,7 @@
   width: 100%;
 }
 
-.vote-past .vote-past-article__add div {
+.vote-past .vote-past-article__add button {
   color: #9b9b9b;
   display: inline-block;
   padding: 16px;

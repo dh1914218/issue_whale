@@ -38,9 +38,9 @@
   margin-top: 24px;
 }
 
-.user-feedback__textarea .btn a {
+.user-feedback__textarea .btn button {
   display: inline-block;
-  padding: 10px 32px;
+  padding: 16px 50px;
   color: #6332f6;
   border: 1px solid #6332f6;
   background-color: #ffffff;

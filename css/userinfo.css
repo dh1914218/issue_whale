@@ -104,7 +104,7 @@
   text-align: center;
 }
 
-.userinfo .btn ul li a {
+.userinfo .btn ul li button {
   display: inline-block;
   padding: 16px 76px;
   font-weight: 500;
@@ -112,18 +112,15 @@
 
 .userinfo .btn ul li.cancel {
   margin-right: 16px;
+}
+
+.userinfo .btn ul li.cancel button {
+  color: #ffffff;
   background-color: #e8e8ed;
 }
 
-.userinfo .btn ul li.cancel a {
-  color: #ffffff;
-}
-
-.userinfo .btn ul li.okay {
+.userinfo .btn ul li.okay button {
   background-color: #6332f6;
-}
-
-.userinfo .btn ul li.okay a {
   color: #ffffff;
 }
 

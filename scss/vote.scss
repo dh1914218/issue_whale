@@ -139,7 +139,8 @@
       &.yes {
         @extend %bgGray1;
 
-        a {
+        button {
+          @extend %bgGray1;
           padding: 10px 32px;
           display: inline-block;
           @extend %transition;
@@ -162,9 +163,9 @@
         }
       }
       &.no {
-        @extend %bgGray1;
+        button {
+          @extend %bgGray1;
 
-        a {
           padding: 10px 32px;
           display: inline-block;
           color: $purple;
@@ -200,7 +201,7 @@
 .vote__main .btn-share {
   margin-top: 24px;
   overflow: hidden;
-  div {
+  button {
     float: right;
     img {
       width: 16px;
@@ -288,13 +289,14 @@
       font-size: 14px;
       margin-top: 4px;
     }
+
     .btn {
       margin-top: 8px;
       ul {
         li {
           float: left;
           margin-right: 8px;
-          a {
+          button {
             img {
               width: 16px;
               height: 16px;
@@ -355,7 +357,7 @@
       .btn {
         margin-top: 4px;
 
-        span {
+        button {
           font-size: 13px;
           @extend %ftColorgray;
           cursor: pointer;
@@ -367,7 +369,7 @@
   /*--피드댓글 더보기--*/
   .feed-comment__addreply {
     padding: 6px;
-    span {
+    button {
       cursor: pointer;
       padding-left: 72px;
       font-size: 13px;
@@ -440,9 +442,9 @@
 
 /*-----피드댓글달기-----*/
 .vote__feed .comment-write {
-  display: none;
-  margin-top: -1px;
-  form {
+  .comment-write__inner {
+    display: none;
+    margin-top: -1px;
     @extend %bxWhiteGray;
     display: flex;
 
@@ -457,15 +459,20 @@
       }
     }
     .btn {
-      ul {
-        li {
-          a {
-            display: inline-block;
-            padding: 16px;
-            color: $purple;
-          }
-        }
+      button {
+        width: 100px;
+        height: 56px;
+        color: $purple;
       }
+      // ul {
+      //   li {
+      //     a {
+      //       display: inline-block;
+      //       padding: 16px;
+      //       color: $purple;
+      //     }
+      //   }
+      // }
     }
   }
 }
@@ -599,7 +606,7 @@
   background-color: #ffffff;
   width: 100%;
 
-  div {
+  button {
     color: #9b9b9b;
     display: inline-block;
     padding: 16px;
