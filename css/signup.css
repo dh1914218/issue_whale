@@ -223,7 +223,7 @@
   margin-right: 8px;
 }
 
-.sgin-up__inner.policy .btn2 ul li.prev a {
+.sgin-up__inner.policy .btn2 ul li.prev button {
   color: #9b9b9b;
   display: inline-block;
   padding: 16px 68px;
@@ -233,16 +233,11 @@
   background-color: #e8e8ed;
 }
 
-.sgin-up__inner.policy .btn2 ul li.next a {
+.sgin-up__inner.policy .btn2 ul li.next button {
   color: #ffffff;
   display: inline-block;
   padding: 16px 68px;
-}
-
-.sgin-up__inner.policy .btn2 ul li.next:hover {
   background-color: #6332f6;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 /*--------아이디 / 비밀번호 / 닉네임등록 (유저정보)------------*/
@@ -273,7 +268,7 @@
   margin-right: 8px;
 }
 
-.sgin-up__inner.userinfo .btn2 ul li.prev a {
+.sgin-up__inner.userinfo .btn2 ul li.prev button {
   color: #9b9b9b;
   display: inline-block;
   padding: 16px 68px;
@@ -283,16 +278,11 @@
   background-color: #e8e8ed;
 }
 
-.sgin-up__inner.userinfo .btn2 ul li.next a {
+.sgin-up__inner.userinfo .btn2 ul li.next button {
   color: #ffffff;
   display: inline-block;
   padding: 16px 68px;
-}
-
-.sgin-up__inner.userinfo .btn2 ul li.next:hover {
   background-color: #6332f6;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 
 /*----------------------프로필사진등록------------------------*/
@@ -311,7 +301,7 @@
   margin-top: 20px;
 }
 
-.sgin-up__inner.profile .user-profileimg img {
+.sgin-up__inner.profile .user-profileimg button img {
   width: 80px;
 }
 
@@ -333,7 +323,7 @@
   margin-right: 8px;
 }
 
-.sgin-up__inner.profile .btn2 ul li.prev a {
+.sgin-up__inner.profile .btn2 ul li.prev button {
   color: #9b9b9b;
   display: inline-block;
   padding: 16px 68px;
@@ -343,15 +333,10 @@
   background-color: #e8e8ed;
 }
 
-.sgin-up__inner.profile .btn2 ul li.next a {
+.sgin-up__inner.profile .btn2 ul li.next button {
   color: #ffffff;
   display: inline-block;
   padding: 16px 68px;
-}
-
-.sgin-up__inner.profile .btn2 ul li.next:hover {
   background-color: #6332f6;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
 }
 /*# sourceMappingURL=signup.css.map */

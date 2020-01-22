@@ -193,7 +193,7 @@
       li.prev {
         border: 1px solid #9b9b9b;
         margin-right: 8px;
-        a {
+        button {
           color: #9b9b9b;
           display: inline-block;
           padding: 16px 68px;
@@ -202,14 +202,11 @@
 
       li.next {
         background-color: #e8e8ed;
-        a {
+        button {
           color: #ffffff;
           display: inline-block;
           padding: 16px 68px;
-        }
-        &:hover {
           background-color: $purple;
-          transition: all 0.3s ease-in-out;
         }
       }
     }
@@ -239,7 +236,7 @@
       li.prev {
         border: 1px solid #9b9b9b;
         margin-right: 8px;
-        a {
+        button {
           color: #9b9b9b;
           display: inline-block;
           padding: 16px 68px;
@@ -248,15 +245,15 @@
 
       li.next {
         background-color: #e8e8ed;
-        a {
+        button {
           color: #ffffff;
           display: inline-block;
           padding: 16px 68px;
-        }
-        &:hover {
           background-color: $purple;
-          transition: all 0.3s ease-in-out;
         }
+        // &:hover {
+        //   transition: all 0.3s ease-in-out;
+        // }
       }
     }
   }
@@ -275,8 +272,10 @@
     cursor: pointer;
     text-align: center;
     margin-top: 20px;
-    img {
-      width: 80px;
+    button {
+      img {
+        width: 80px;
+      }
     }
   }
 
@@ -292,7 +291,7 @@
       li.prev {
         border: 1px solid #9b9b9b;
         margin-right: 8px;
-        a {
+        button {
           color: #9b9b9b;
           display: inline-block;
           padding: 16px 68px;
@@ -301,15 +300,16 @@
 
       li.next {
         background-color: #e8e8ed;
-        a {
+        button {
           color: #ffffff;
           display: inline-block;
           padding: 16px 68px;
-        }
-        &:hover {
           background-color: $purple;
-          transition: all 0.3s ease-in-out;
         }
+        // &:hover {
+        //   background-color: $purple;
+        //   transition: all 0.3s ease-in-out;
+        // }
       }
     }
   }

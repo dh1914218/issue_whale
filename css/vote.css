@@ -67,6 +67,14 @@
   vertical-align: middle;
 }
 
+.vote__tab.tab .tab-left ul li.active span {
+  color: red !important;
+}
+
+.vote__tab.tab .tab-left ul li.active img {
+  content: url("on.svg");
+}
+
 .vote__main {
   margin-top: 16px;
   padding: 40px 20px;

@@ -20,6 +20,21 @@
   .side-bar {
     display: none;
   }
+  .share-layerpopup {
+    width: 100% !important;
+  }
+  .share-layerpopup .share-layerpopup__inner {
+    padding: 20px !important;
+  }
+  .share-layerpopup .share-layerpopup__inner h1 {
+    font-size: 20px !important;
+  }
+  .share-layerpopup .share-layerpopup__inner h1 button {
+    padding: 8px !important;
+  }
+  .share-layerpopup .share-layerpopup__inner h1 button img {
+    width: 16px !important;
+  }
   /*-------------네비게이션드로어-----------------*/
   .m-nav-draw {
     display: block !important;
@@ -34,7 +49,7 @@
   .m-nav-draw .m-nav-draw__inner .btn {
     padding: 40px 16px;
   }
-  .m-nav-draw .m-nav-draw__inner .btn a {
+  .m-nav-draw .m-nav-draw__inner .btn button {
     width: 100%;
     padding: 16px 16px;
     display: inline-block;
@@ -89,12 +104,12 @@
   }
   .header .m-header__btn {
     display: inline-block !important;
+    padding: 20px 0;
   }
-  .header .m-header__btn a {
+  .header .m-header__btn button {
     display: inline-block;
-    padding: 20px 16px 10px 16px;
   }
-  .header .m-header__btn a img {
+  .header .m-header__btn button img {
     width: 32px;
     height: 32px;
   }

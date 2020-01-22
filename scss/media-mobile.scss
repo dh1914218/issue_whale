@@ -27,6 +27,21 @@
 
   .footer {
   }
+  .share-layerpopup {
+    width: 100% !important;
+    .share-layerpopup__inner {
+      padding: 20px !important;
+      h1 {
+        font-size: 20px !important;
+        button {
+          padding: 8px !important;
+          img {
+            width: 16px !important;
+          }
+        }
+      }
+    }
+  }
 
   /*-------------네비게이션드로어-----------------*/
   .m-nav-draw {
@@ -42,7 +57,7 @@
       // padding: 40px 16px;
       .btn {
         padding: 40px 16px;
-        a {
+        button {
           width: 100%;
           padding: 16px 16px;
           display: inline-block;
@@ -105,9 +120,11 @@
 
     .m-header__btn {
       display: inline-block !important;
-      a {
+      // padding: 20px 16px 10px 16px;
+      padding: 20px 0;
+
+      button {
         display: inline-block;
-        padding: 20px 16px 10px 16px;
         img {
           width: 32px;
           height: 32px;

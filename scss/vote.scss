@@ -30,6 +30,26 @@
           }
         }
       }
+
+      li.active {
+        span {
+          color: red !important;
+        }
+        img {
+          content: url("on.svg");
+        }
+      }
+
+      // li.btn__item--3:active {
+      //   a {
+      //     color: red !important;
+      //     img {
+      //       width: 100px;
+      //       height: 100px;
+      //       background: url("img/ic_tab-all_on.svg") no-repeat;
+      //     }
+      //   }
+      // }
     }
   }
 }
