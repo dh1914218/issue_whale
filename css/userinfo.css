@@ -95,6 +95,12 @@
   text-align: center;
 }
 
+.userinfo .btn button.okay {
+  background-color: #6332f6;
+  color: #ffffff;
+  padding: 16px 76px;
+}
+
 .userinfo .btn ul {
   display: inline-block;
 }
@@ -107,7 +113,7 @@
 .userinfo .btn ul li button {
   display: inline-block;
   padding: 16px 76px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .userinfo .btn ul li.cancel {

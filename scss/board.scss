@@ -335,7 +335,7 @@
             margin-right: 12px;
             button {
               @extend %ftColorgray;
-              font-size: 14px;
+              font-size: 13px;
             }
           }
         }
@@ -347,12 +347,13 @@
 /*--대댓글--*/
 .board-detailview .comment-list .commnet-list__normal {
   .reply {
+    position: relative;
+
     .wrap {
       border-bottom: 1px solid #e8e8ed;
       display: flex;
       padding: 12px;
       background-color: #f8f9fa;
-      position: relative;
       .cont-left {
         padding-left: 64px;
         flex: 1;
@@ -384,17 +385,19 @@
           font-weight: 400;
         }
       }
-      .btn {
+      .reply-btn {
         margin-top: 8px;
         ul {
           li {
             float: left;
-            // margin-right: 12px;
+            margin-right: 12px;
             button {
               @extend %ftColorgray;
               font-size: 13px;
-              // margin-left: -10px;
-              margin-right: 8px;
+              strong {
+                display: inline-block;
+                font-weight: 400;
+              }
             }
           }
         }

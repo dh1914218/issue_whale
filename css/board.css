@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.board__tab.tab .tab-left ul li a, .board__tab.tab .tab-right ul li a, .board-article__list .board-article__item .text ul li.meta-data, .board-detailview .view-article .view-article__header .tit span, .board-detailview .view-article .view-article__header .view-article__sub-header .profile span, .board-detailview .view-article .view-article__header .view-article__sub-header .meta-data span, .board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-right .btn ul li button, .comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right .btn ul li button, .board-detailview .comment-list .commnet-list__normal .reply .wrap .btn ul li button {
+.board__tab.tab .tab-left ul li a, .board__tab.tab .tab-right ul li a, .board-article__list .board-article__item .text ul li.meta-data, .board-detailview .view-article .view-article__header .tit span, .board-detailview .view-article .view-article__header .view-article__sub-header .profile span, .board-detailview .view-article .view-article__header .view-article__sub-header .meta-data span, .board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-right .btn ul li button, .comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right .btn ul li button, .board-detailview .comment-list .commnet-list__normal .reply .wrap .reply-btn ul li button {
   color: #9b9b9b;
 }
 
@@ -335,10 +335,14 @@
 }
 
 .comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right .btn ul li button {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 /*--대댓글--*/
+.board-detailview .comment-list .commnet-list__normal .reply {
+  position: relative;
+}
+
 .board-detailview .comment-list .commnet-list__normal .reply .wrap {
   border-bottom: 1px solid #e8e8ed;
   display: -webkit-box;
@@ -346,7 +350,6 @@
   display: flex;
   padding: 12px;
   background-color: #f8f9fa;
-  position: relative;
 }
 
 .board-detailview .comment-list .commnet-list__normal .reply .wrap .cont-left {
@@ -388,17 +391,22 @@
   font-weight: 400;
 }
 
-.board-detailview .comment-list .commnet-list__normal .reply .wrap .btn {
+.board-detailview .comment-list .commnet-list__normal .reply .wrap .reply-btn {
   margin-top: 8px;
 }
 
-.board-detailview .comment-list .commnet-list__normal .reply .wrap .btn ul li {
+.board-detailview .comment-list .commnet-list__normal .reply .wrap .reply-btn ul li {
   float: left;
+  margin-right: 12px;
 }
 
-.board-detailview .comment-list .commnet-list__normal .reply .wrap .btn ul li button {
+.board-detailview .comment-list .commnet-list__normal .reply .wrap .reply-btn ul li button {
   font-size: 13px;
-  margin-right: 8px;
+}
+
+.board-detailview .comment-list .commnet-list__normal .reply .wrap .reply-btn ul li button strong {
+  display: inline-block;
+  font-weight: 400;
 }
 
 .board-detailview .comment-list .commnet-list__normal .reply::before {

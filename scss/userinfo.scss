@@ -95,6 +95,13 @@
 .userinfo .btn {
   margin-top: 56px;
   text-align: center;
+
+  button.okay {
+    background-color: $purple;
+    color: $white;
+    padding: 16px 76px;
+  }
+
   ul {
     display: inline-block;
     li {
@@ -103,7 +110,7 @@
       button {
         display: inline-block;
         padding: 16px 76px;
-        font-weight: 500;
+        font-weight: 400;
       }
     }
 
