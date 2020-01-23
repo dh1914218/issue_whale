@@ -454,11 +454,11 @@
   .btn2 {
     ul {
       li {
-        width: 150px !important;
-        height: 56px !important;
+        // width: 150px !important;
+        // height: 56px !important;
         // margin-right: 1% !important;
-        a {
-          padding: 16px 40px !important;
+        button {
+          padding: 16px 65px !important;
         }
       }
 
@@ -471,10 +471,14 @@
   /*--캔슬버튼--*/
   .m__cancel {
     display: block !important;
-    width: 20px;
     position: absolute;
     right: 20px;
     top: 24px;
+    button {
+      img {
+        width: 20px;
+      }
+    }
   }
 
   /*-------------내정보----------------*/
@@ -487,9 +491,12 @@
   // -----버튼-----
   .userinfo {
     .btn {
+      // button {
+      //   padding: 12px 60px !important;
+      // }
       ul {
         li {
-          a {
+          button {
             padding: 12px 60px !important;
           }
         }
@@ -553,5 +560,38 @@
         }
       }
     }
+  }
+
+  // -----비밀번호변경
+  .userinfo-pw {
+    // overflow: scroll;
+    // height: 1000px !important;
+    .edit-inner {
+      input {
+        border: 1px solid #e8e8ed;
+      }
+    }
+  }
+
+  // -----이용약관
+  .userinfo-terms {
+    padding-bottom: 100px !important;
+    .edit-inner {
+      height: 250px;
+      overflow: scroll;
+    }
+  }
+
+  // ------개인정보 취급방침
+  .userinfo-policy {
+    .edit-inner {
+      height: 250px;
+      overflow: scroll;
+    }
+  }
+
+  // -----내정보 푸터
+  .userinfo__footer {
+    position: static !important;
   }
 }
