@@ -7,19 +7,19 @@
   background-color: #e8e8e8;
 }
 
-.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__item .cont-right .btn ul li button span, .vote__feed .article-feed__item .cont-right .btn ul li button em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn button, .vote__feed .feed-comment .feed-comment__addreply button, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write .comment-write__inner input::-webkit-input-placeholder, .vote-layerpopup textarea::-webkit-input-placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__main .cont-right .btn ul li button span, .vote__feed .article-feed__main .cont-right .btn ul li button em, .vote__feed .article-feed__commnet-inner .article-feed__commnet-item .cont-right .btn ul li button, .vote__feed .article-feed__commnet-write input::-webkit-input-placeholder, .vote-layerpopup textarea::-webkit-input-placeholder {
   color: #9b9b9b;
 }
 
-.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__item .cont-right .btn ul li button span, .vote__feed .article-feed__item .cont-right .btn ul li button em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn button, .vote__feed .feed-comment .feed-comment__addreply button, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write .comment-write__inner input:-ms-input-placeholder, .vote-layerpopup textarea:-ms-input-placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__main .cont-right .btn ul li button span, .vote__feed .article-feed__main .cont-right .btn ul li button em, .vote__feed .article-feed__commnet-inner .article-feed__commnet-item .cont-right .btn ul li button, .vote__feed .article-feed__commnet-write input:-ms-input-placeholder, .vote-layerpopup textarea:-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__item .cont-right .btn ul li button span, .vote__feed .article-feed__item .cont-right .btn ul li button em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn button, .vote__feed .feed-comment .feed-comment__addreply button, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write .comment-write__inner input::-ms-input-placeholder, .vote-layerpopup textarea::-ms-input-placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__main .cont-right .btn ul li button span, .vote__feed .article-feed__main .cont-right .btn ul li button em, .vote__feed .article-feed__commnet-inner .article-feed__commnet-item .cont-right .btn ul li button, .vote__feed .article-feed__commnet-write input::-ms-input-placeholder, .vote-layerpopup textarea::-ms-input-placeholder {
   color: #9b9b9b;
 }
 
-.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__item .cont-right .btn ul li button span, .vote__feed .article-feed__item .cont-right .btn ul li button em, .vote__feed .feed-comment .feed-comment__item .cont-right .btn button, .vote__feed .feed-comment .feed-comment__addreply button, .vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3, .vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span, .vote__feed .comment-write .comment-write__inner input::placeholder, .vote-layerpopup textarea::placeholder {
+.vote__tab.tab .tab-left ul li a, .vote__main .btn-share button span, .vote__feed .article-feed__main .cont-right .btn ul li button span, .vote__feed .article-feed__main .cont-right .btn ul li button em, .vote__feed .article-feed__commnet-inner .article-feed__commnet-item .cont-right .btn ul li button, .vote__feed .article-feed__commnet-write input::placeholder, .vote-layerpopup textarea::placeholder {
   color: #9b9b9b;
 }
 
@@ -27,7 +27,7 @@
   color: #ffffff;
 }
 
-.vote__tab.tab .tab-left, .vote__main, .vote__feed .article-feed__item, .vote__feed .feed-comment, .vote__feed .comment-write .comment-write__inner, .vote-past-article__list article {
+.vote__tab.tab .tab-left, .vote__main, .vote__feed .article-feed__item, .vote-past-article__list article {
   border: 1px solid #e8e8ed;
   background-color: #ffffff;
 }
@@ -290,218 +290,141 @@
   margin-bottom: 8px;
 }
 
-.vote__feed .article-feed__list {
-  margin-bottom: 8px;
+/*------테스트영역-----*/
+.vote__feed .article-feed__item {
+  background-color: #ffffff;
 }
 
-.vote__feed .article-feed__item {
+/*-----테스트영역 메인------*/
+.vote__feed .article-feed__main {
   padding: 12px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-bottom: 1px solid #e8e8ed;
 }
 
-.vote__feed .article-feed__item .cont-left {
-  width: 40px;
-  margin-right: 8px;
-  text-align: center;
-  height: 100%;
-}
-
-.vote__feed .article-feed__item .cont-left .user-profile {
-  position: relative;
-}
-
-.vote__feed .article-feed__item .cont-left .user-profile img {
+.vote__feed .article-feed__main .cont-left img {
   width: 40px;
   height: 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-.vote__feed .article-feed__item .cont-left .user-profile span {
+.vote__feed .article-feed__main .cont-left div {
+  text-align: center;
   font-size: 14px;
 }
 
-.vote__feed .article-feed__item .cont-right {
-  float: right;
+.vote__feed .article-feed__main .cont-right {
+  margin-left: 8px;
 }
 
-.vote__feed .article-feed__item .cont-right .user-nickname span {
+.vote__feed .article-feed__main .cont-right .user-nickname span {
+  vertical-align: middle;
   font-size: 14px;
   font-weight: 500;
-  position: relative;
 }
 
-.vote__feed .article-feed__item .cont-right .user-nickname span img {
+.vote__feed .article-feed__main .cont-right .user-nickname img {
+  vertical-align: middle;
   width: 20px;
   height: 20px;
-  position: absolute;
-  top: 2px;
-  right: -23px;
 }
 
-.vote__feed .article-feed__item .cont-right > p {
-  font-size: 14px;
+.vote__feed .article-feed__main .cont-right .user-cont {
   margin-top: 4px;
+  font-size: 14px;
 }
 
-.vote__feed .article-feed__item .cont-right .btn {
+.vote__feed .article-feed__main .cont-right .btn {
   margin-top: 8px;
 }
 
-.vote__feed .article-feed__item .cont-right .btn ul li {
+.vote__feed .article-feed__main .cont-right .btn ul li {
   float: left;
-  margin-right: 8px;
+  margin-right: 16px;
 }
 
-.vote__feed .article-feed__item .cont-right .btn ul li button img {
+.vote__feed .article-feed__main .cont-right .btn ul li button img {
   width: 16px;
   height: 16px;
   vertical-align: middle;
+  margin-right: 4px;
 }
 
-.vote__feed .article-feed__item .cont-right .btn ul li button span {
+.vote__feed .article-feed__main .cont-right .btn ul li button span {
   font-size: 13px;
   vertical-align: middle;
 }
 
-.vote__feed .article-feed__item .cont-right .btn ul li button em {
+.vote__feed .article-feed__main .cont-right .btn ul li button em {
   font-size: 13px;
   vertical-align: middle;
 }
 
-/*-----피드댓글영역-----*/
-.vote__feed .feed-comment {
-  display: none;
-  border-top: 0;
-  padding: 6px;
-  /*--피드댓글--*/
-  /*--피드댓글 더보기--*/
-  /*피드 대댓글*/
-}
-
-.vote__feed .feed-comment .feed-comment__item {
+/*-----테스트영역  댓글-------*/
+.vote__feed .article-feed__commnet-inner .article-feed__commnet-item {
+  padding: 12px 12px 12px 64px;
+  border-bottom: 1px solid #e8e8ed;
+  background-color: #f8f9fa;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 6px;
 }
 
-.vote__feed .feed-comment .feed-comment__item .cont-left .user-profile {
+.vote__feed .article-feed__commnet-inner .article-feed__commnet-item .cont-left {
   margin-right: 8px;
 }
 
-.vote__feed .feed-comment .feed-comment__item .cont-left .user-profile img {
-  width: 40px;
-  height: 40px;
-}
-
-.vote__feed .feed-comment .feed-comment__item .cont-right .user-nickname h2 {
-  margin-right: 4px;
-  font-size: 13px;
-  font-weight: 500;
-  display: inline-block;
-}
-
-.vote__feed .feed-comment .feed-comment__item .cont-right .user-nickname span {
-  font-size: 13px;
-}
-
-.vote__feed .feed-comment .feed-comment__item .cont-right .btn {
-  margin-top: 4px;
-}
-
-.vote__feed .feed-comment .feed-comment__item .cont-right .btn button {
-  font-size: 13px;
-  cursor: pointer;
-}
-
-.vote__feed .feed-comment .feed-comment__addreply {
-  padding: 6px;
-}
-
-.vote__feed .feed-comment .feed-comment__addreply button {
-  cursor: pointer;
-  padding-left: 72px;
-  font-size: 13px;
-  position: relative;
-}
-
-.vote__feed .feed-comment .feed-comment__addreply button::before {
-  position: absolute;
-  top: 0px;
-  left: 54px;
-  content: "";
-  width: 12px;
-  height: 12px;
-  border-left: 1px solid #c5cbd0;
-  border-bottom: 1px solid #c5cbd0;
-}
-
-.vote__feed .feed-comment .feed-comment__relpy {
-  padding: 6px;
-  display: none;
-}
-
-.vote__feed .feed-comment .feed-comment__relpy .cont-left {
-  padding-left: 56px;
-  float: left;
-}
-
-.vote__feed .feed-comment .feed-comment__relpy .cont-left .user-profile {
-  margin-right: 8px;
-}
-
-.vote__feed .feed-comment .feed-comment__relpy .cont-left .user-profile img {
+.vote__feed .article-feed__commnet-inner .article-feed__commnet-item .cont-left .user-profile img {
   width: 32px;
   height: 32px;
-}
-
-.vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h2 {
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50px;
+  vertical-align: middle;
   margin-right: 4px;
-  font-size: 13px;
-  font-weight: 500;
-  display: inline-block;
 }
 
-.vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname h3 {
-  margin-right: 4px;
-  font-size: 13px;
-  font-weight: 500;
-  display: inline-block;
-}
-
-.vote__feed .feed-comment .feed-comment__relpy .cont-right .user-nickname span {
-  font-size: 13px;
-}
-
-.vote__feed .feed-comment .feed-comment__relpy .cont-right .btn {
+.vote__feed .article-feed__commnet-inner .article-feed__commnet-item .cont-right {
   margin-top: 4px;
 }
 
-.vote__feed .feed-comment .feed-comment__relpy .cont-right .btn span {
+.vote__feed .article-feed__commnet-inner .article-feed__commnet-item .cont-right .user-nickname {
   font-size: 13px;
-  cursor: pointer;
+  font-weight: 500;
 }
 
-/*-----피드댓글달기-----*/
-.vote__feed .comment-write .comment-write__inner {
-  display: none;
-  margin-top: -1px;
+.vote__feed .article-feed__commnet-inner .article-feed__commnet-item .cont-right p {
+  font-size: 13px;
+}
+
+.vote__feed .article-feed__commnet-inner .article-feed__commnet-item .cont-right .btn {
+  margin-top: 8px;
+}
+
+.vote__feed .article-feed__commnet-inner .article-feed__commnet-item .cont-right .btn ul li button {
+  font-size: 13px;
+  background-color: #f8f9fa;
+}
+
+/*-----테스영역 댓글쓰기-----*/
+.vote__feed .article-feed__commnet-write {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
 }
 
-.vote__feed .comment-write .comment-write__inner input {
+.vote__feed .article-feed__commnet-write input {
+  padding: 16px 0px 12px 16px;
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  padding: 16px 0px 12px 16px;
   border: 0;
 }
 
-.vote__feed .comment-write .comment-write__inner .btn button {
+.vote__feed .article-feed__commnet-write button {
   width: 100px;
   height: 56px;
   color: #6332f6;

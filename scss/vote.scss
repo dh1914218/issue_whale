@@ -262,52 +262,45 @@
   margin-bottom: 8px;
 }
 
-.vote__feed .article-feed__list {
-  margin-bottom: 8px;
+/*------테스트영역-----*/
+.vote__feed .article-feed__item {
+  background-color: $white;
+  @extend %bxWhiteGray;
 }
 
-.vote__feed .article-feed__item {
+/*-----테스트영역 메인------*/
+.vote__feed .article-feed__main {
   padding: 12px;
-  @extend %bxWhiteGray;
   display: flex;
+  border-bottom: 1px solid #e8e8ed;
   .cont-left {
-    width: 40px;
-    margin-right: 8px;
-    text-align: center;
-    height: 100%;
-
-    .user-profile {
-      position: relative;
-
-      img {
-        width: 40px;
-        height: 40px;
-      }
-      span {
-        font-size: 14px;
-      }
+    img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+    }
+    div {
+      text-align: center;
+      font-size: 14px;
     }
   }
-
   .cont-right {
-    float: right;
+    margin-left: 8px;
     .user-nickname {
       span {
+        vertical-align: middle;
         font-size: 14px;
         font-weight: 500;
-        position: relative;
-        img {
-          width: 20px;
-          height: 20px;
-          position: absolute;
-          top: 2px;
-          right: -23px;
-        }
+      }
+      img {
+        vertical-align: middle;
+        width: 20px;
+        height: 20px;
       }
     }
-    > p {
-      font-size: 14px;
+    .user-cont {
       margin-top: 4px;
+      font-size: 14px;
     }
 
     .btn {
@@ -315,12 +308,13 @@
       ul {
         li {
           float: left;
-          margin-right: 8px;
+          margin-right: 16px;
           button {
             img {
               width: 16px;
               height: 16px;
               vertical-align: middle;
+              margin-right: 4px;
             }
             span {
               font-size: 13px;
@@ -339,161 +333,79 @@
   }
 }
 
-/*-----피드댓글영역-----*/
-.vote__feed .feed-comment {
-  display: none;
-  @extend %bxWhiteGray;
-  border-top: 0;
-  padding: 6px;
-
-  /*--피드댓글--*/
-  .feed-comment__item {
+/*-----테스트영역  댓글-------*/
+.vote__feed .article-feed__commnet-inner {
+  .article-feed__commnet-item {
+    padding: 12px 12px 12px 64px;
+    border-bottom: 1px solid #e8e8ed;
+    background-color: #f8f9fa;
     display: flex;
-    padding: 6px;
-
     .cont-left {
+      margin-right: 8px;
       .user-profile {
-        margin-right: 8px;
-
-        img {
-          width: 40px;
-          height: 40px;
-        }
-      }
-    }
-    .cont-right {
-      .user-nickname {
-        h2 {
-          margin-right: 4px;
-          font-size: 13px;
-          font-weight: 500;
-          display: inline-block;
-        }
-
-        span {
-          font-size: 13px;
-        }
-      }
-      .btn {
-        margin-top: 4px;
-
-        button {
-          font-size: 13px;
-          @extend %ftColorgray;
-          cursor: pointer;
-        }
-      }
-    }
-  }
-
-  /*--피드댓글 더보기--*/
-  .feed-comment__addreply {
-    padding: 6px;
-    button {
-      cursor: pointer;
-      padding-left: 72px;
-      font-size: 13px;
-      @extend %ftColorgray;
-      position: relative;
-      &::before {
-        position: absolute;
-        top: 0px;
-        left: 54px;
-        content: "";
-        width: 12px;
-        height: 12px;
-        border-left: 1px solid #c5cbd0;
-        border-bottom: 1px solid #c5cbd0;
-      }
-    }
-  }
-
-  /*피드 대댓글*/
-  .feed-comment__relpy {
-    padding: 6px;
-    display: none;
-
-    .cont-left {
-      padding-left: 56px;
-      float: left;
-
-      .user-profile {
-        margin-right: 8px;
-
         img {
           width: 32px;
           height: 32px;
+          object-fit: cover;
+          border-radius: 50px;
+          vertical-align: middle;
+          margin-right: 4px;
         }
+        // span {
+        //   vertical-align: middle;
+        //   font-size: 13px;
+        //   font-weight: 500;
+        //   margin-right: 4px;
+        // }
+        // p {
+        //   display: inline;
+        //   vertical-align: middle;
+        //   font-size: 13px;
+        // }
       }
     }
     .cont-right {
+      margin-top: 4px;
       .user-nickname {
-        h2 {
-          margin-right: 4px;
-          font-size: 13px;
-          font-weight: 500;
-          display: inline-block;
-        }
-
-        h3 {
-          margin-right: 4px;
-          font-size: 13px;
-          font-weight: 500;
-          display: inline-block;
-          @extend %ftColorgray;
-        }
-
-        span {
-          font-size: 13px;
-        }
+        font-size: 13px;
+        font-weight: 500;
+      }
+      p {
+        font-size: 13px;
       }
       .btn {
-        margin-top: 4px;
-
-        span {
-          font-size: 13px;
-          @extend %ftColorgray;
-          cursor: pointer;
+        margin-top: 8px;
+        ul {
+          li {
+            button {
+              font-size: 13px;
+              background-color: #f8f9fa;
+              @extend %ftColorgray;
+            }
+          }
         }
       }
     }
   }
 }
 
-/*-----피드댓글달기-----*/
-.vote__feed .comment-write {
-  .comment-write__inner {
-    display: none;
-    margin-top: -1px;
-    @extend %bxWhiteGray;
-    display: flex;
+/*-----테스영역 댓글쓰기-----*/
+.vote__feed .article-feed__commnet-write {
+  display: flex;
+  input {
+    padding: 16px 0px 12px 16px;
 
-    width: 100%;
-    input {
-      flex: 1;
-      padding: 16px 0px 12px 16px;
+    flex: 1;
+    border: 0;
 
-      border: 0;
-      &::placeholder {
-        @extend %ftColorgray;
-      }
+    &::placeholder {
+      @extend %ftColorgray;
     }
-    .btn {
-      button {
-        width: 100px;
-        height: 56px;
-        color: $purple;
-      }
-      // ul {
-      //   li {
-      //     a {
-      //       display: inline-block;
-      //       padding: 16px;
-      //       color: $purple;
-      //     }
-      //   }
-      // }
-    }
+  }
+  button {
+    width: 100px;
+    height: 56px;
+    color: $purple;
   }
 }
 
@@ -634,16 +546,3 @@
     cursor: pointer;
   }
 }
-
-// 마우스오버
-// .vote__main > .btn {
-//   ul {
-//     li {
-//       &:hover {
-//         img {
-//           background: url(img/ic_ex_on.svg);
-//         }
-//       }
-//     }
-//   }
-// }
