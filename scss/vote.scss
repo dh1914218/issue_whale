@@ -266,6 +266,7 @@
 .vote__feed .article-feed__item {
   background-color: $white;
   @extend %bxWhiteGray;
+  margin-bottom: 8px;
 }
 
 /*-----테스트영역 메인------*/
@@ -278,6 +279,7 @@
       width: 40px;
       height: 40px;
       object-fit: cover;
+      border-radius: 50px;
     }
     div {
       text-align: center;
