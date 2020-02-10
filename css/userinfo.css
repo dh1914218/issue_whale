@@ -87,6 +87,10 @@
 .edit-td__profileimg img {
   margin-top: 3px;
   width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*--버튼--*/

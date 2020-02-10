@@ -231,11 +231,9 @@
   }
   .vote__main .m-graph .wrap .yes span {
     display: block;
-    width: 70%;
+    width: 0%;
     height: 24px;
     background-color: #13bde9;
-    -webkit-animation: yes 1s 0.7s;
-            animation: yes 1s 0.7s;
   }
   .vote__main .m-graph .wrap .no {
     margin-top: 8px;
@@ -245,11 +243,9 @@
   }
   .vote__main .m-graph .wrap .no span {
     display: block;
-    width: 30%;
+    width: 0%;
     height: 24px;
     background-color: #fe6181;
-    -webkit-animation: no 1s 0.7s;
-            animation: no 1s 0.7s;
   }
   .vote__main .vote__tab .vote__tab-left {
     padding: 6px 16px !important;

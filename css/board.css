@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.board__tab.tab .tab-left ul li a, .board__tab.tab .tab-right ul li a, .board-article__list .board-article__item .text ul li.meta-data, .board-detailview .view-article .view-article__header .tit span, .board-detailview .view-article .view-article__header .view-article__sub-header .profile span, .board-detailview .view-article .view-article__header .view-article__sub-header .meta-data span, .board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-right .btn ul li button, .comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right .btn ul li button, .board-detailview .comment-list .commnet-list__normal .reply .wrap .reply-btn ul li button {
+.board__tab.tab .tab-left ul li a, .board__tab.tab .tab-right ul li a, .board-article__list .board-article__item .text ul li.meta-data, .board-detailview .view-article .view-article__header .tit span, .board-detailview .view-article .view-article__header .view-article__sub-header .profile span, .board-detailview .view-article .view-article__header .view-article__sub-header .meta-data span, .comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right .btn ul li button {
   color: #9b9b9b;
 }
 
@@ -149,11 +149,13 @@
 }
 
 .board-detailview .view-article .view-article__header .view-article__sub-header .profile img {
-  border: 1px solid #e8e8ed;
-  border-radius: 15px;
   width: 32px;
+  height: 32px;
   margin-right: 8px;
   vertical-align: middle;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .board-detailview .view-article .view-article__header .view-article__sub-header .profile span {
@@ -253,8 +255,10 @@
 
 .board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-left .profile img {
   width: 32px;
-  border: 1px solid #e8e8ed;
-  border-radius: 15px;
+  height: 32px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-right {
@@ -281,6 +285,7 @@
 }
 
 .board-detailview .comment-list .commnet-list__best .commnet-list-item__best .cont-right .btn ul li button {
+  background-color: #f6f9ff;
   font-size: 13px;
 }
 
@@ -307,8 +312,10 @@
 
 .comment-list .commnet-list__normal .commnet-list-item__normal .commnet .wrap .cont-left .profile img {
   width: 32px;
-  border: 1px solid #e8e8ed;
-  border-radius: 15px;
+  height: 32px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .comment-list .commnet-list__normal .commnet-list-item__normal .commnet .cont-right {
@@ -361,9 +368,11 @@
 }
 
 .board-detailview .comment-list .commnet-list__normal .reply .wrap .cont-left img {
+  height: 32px;
   width: 32px;
-  border: 1px solid #e8e8ed;
-  border-radius: 15px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .board-detailview .comment-list .commnet-list__normal .reply .wrap .cont-right {
@@ -401,6 +410,7 @@
 }
 
 .board-detailview .comment-list .commnet-list__normal .reply .wrap .reply-btn ul li button {
+  background-color: #f8f9fa;
   font-size: 13px;
 }
 

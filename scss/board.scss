@@ -136,11 +136,12 @@
       .profile {
         flex: 1;
         img {
-          border: 1px solid #e8e8ed;
-          border-radius: 15px;
           width: 32px;
+          height: 32px;
           margin-right: 8px;
           vertical-align: middle;
+          border-radius: 50px;
+          object-fit: cover;
         }
         span {
           vertical-align: middle;
@@ -258,8 +259,9 @@
       .profile {
         img {
           width: 32px;
-          border: 1px solid #e8e8ed;
-          border-radius: 15px;
+          height: 32px;
+          border-radius: 50px;
+          object-fit: cover;
         }
       }
     }
@@ -282,7 +284,7 @@
             float: left;
             margin-right: 12px;
             button {
-              @extend %ftColorgray;
+              background-color: $thinsky;
               font-size: 13px;
             }
           }
@@ -309,8 +311,9 @@
         .profile {
           img {
             width: 32px;
-            border: 1px solid #e8e8ed;
-            border-radius: 15px;
+            height: 32px;
+            border-radius: 50px;
+            object-fit: cover;
           }
         }
       }
@@ -359,9 +362,10 @@
         flex: 1;
         margin-right: 8px;
         img {
+          height: 32px;
           width: 32px;
-          border: 1px solid #e8e8ed;
-          border-radius: 15px;
+          border-radius: 50px;
+          object-fit: cover;
         }
       }
       .cont-right {
@@ -392,7 +396,7 @@
             float: left;
             margin-right: 12px;
             button {
-              @extend %ftColorgray;
+              background-color: #f8f9fa;
               font-size: 13px;
               strong {
                 display: inline-block;

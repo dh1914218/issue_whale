@@ -303,6 +303,10 @@
 
 .sgin-up__inner.profile .user-profileimg button img {
   width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .sgin-up__inner.profile .btn2 {

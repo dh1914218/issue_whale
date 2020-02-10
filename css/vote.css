@@ -106,11 +106,9 @@
 
 .vote__main .graph ul li.yes > div > span {
   display: block;
-  width: 70%;
+  width: 0%;
   height: 30px;
   background-color: #13bde9;
-  -webkit-animation: yes 1s 0.7s;
-          animation: yes 1s 0.7s;
   float: right;
 }
 
@@ -154,11 +152,9 @@
 
 .vote__main .graph ul li.no > div > span {
   display: block;
-  width: 30%;
+  width: 0%;
   height: 30px;
   background-color: #fe6181;
-  -webkit-animation: no 1s 0.7s;
-          animation: no 1s 0.7s;
 }
 
 .vote__main .graph ul li.no > h2 {
