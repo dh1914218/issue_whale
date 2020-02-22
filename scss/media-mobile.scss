@@ -453,6 +453,27 @@
     }
   }
 
+  /*---페이지네이지션--*/
+  .pagination {
+    .wrap {
+      .btn {
+        a {
+          padding: 16px 9px !important;
+
+          img {
+          }
+        }
+      }
+      .num {
+        span {
+          a {
+            padding: 16px 9px !important;
+          }
+        }
+      }
+    }
+  }
+
   /*----------------건의하기------------------*/
   .user-feedback__textarea {
     width: 100% !important;
