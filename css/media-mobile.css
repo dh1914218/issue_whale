@@ -371,6 +371,10 @@
   }
   .user-feedback__textarea textarea {
     width: 100% !important;
+    height: 330px !important;
+  }
+  .user-feedback__textarea .btn {
+    margin-bottom: 15px !important;
   }
   /*--------------회원가입 / 로그인-------------*/
   /*--전체--*/
