@@ -20,6 +20,24 @@
   .side-bar {
     display: none;
   }
+  /*----------광고영역------------*/
+  .aside-160x600__right {
+    display: none;
+  }
+  .aside-728x90 {
+    display: none !important;
+  }
+  .aside-300x250__left {
+    display: none;
+  }
+  .m_aside-320x100 {
+    margin-top: 8px;
+    display: block !important;
+  }
+  .m_aside-320x100 img {
+    display: block;
+  }
+  /*----------푸터------------*/
   .share-layerpopup {
     width: 100% !important;
   }
@@ -158,9 +176,10 @@
   .vote {
     width: 100% !important;
     float: none;
+    margin-top: -8px !important;
   }
   .vote__main {
-    margin-top: 12px !important;
+    margin-top: 8px !important;
     padding: 20px 16px !important;
     width: 100% !important;
     /*-----투표 그래프-----*/
@@ -262,6 +281,7 @@
   .board {
     float: none;
     width: 100% !important;
+    margin-top: -8px;
   }
   /*-----게시판탭------*/
   .board__tab.tab .tab-right ul li a {
@@ -307,6 +327,9 @@
     margin-bottom: 8px !important;
   }
   /*-------------푸터----------------*/
+  .footer {
+    margin-top: 8px !important;
+  }
   .footer .wrap {
     padding: 16px !important;
     display: block !important;

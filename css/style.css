@@ -16,6 +16,11 @@
   background-color: #ffffff;
 }
 
+/*-----광고영역-----*/
+.m_aside-320x100 {
+  display: none;
+}
+
 /*-----레이아웃-----*/
 body {
   background-color: #f2f2f2;
@@ -24,6 +29,19 @@ body {
 .container {
   width: 1060px;
   margin: 0 auto;
+  position: relative;
+  /*---광고배너__컨테이너---*/
+}
+
+.container .aside-160x600__right {
+  position: absolute;
+  top: 0;
+  right: -176px;
+}
+
+.container .aside-160x600__right img {
+  width: 160px;
+  height: 600px;
 }
 
 main {
@@ -206,6 +224,7 @@ main {
 .side-bar {
   width: 300px;
   float: left;
+  /*---광고배너__컨테이너---*/
 }
 
 .side-bar .side-bar__nav {
@@ -222,8 +241,23 @@ main {
   font-weight: 500;
 }
 
-.side-bar .side-bar__aside {
+.side-bar .aside-300x250__left {
   margin-top: 16px;
+  text-align: center;
+}
+
+.side-bar .aside-300x250__left img {
+  width: 300px;
+  height: 250px;
+}
+
+/*-----광고배너----*/
+.aside-728x90 {
+  margin-top: 8px;
+}
+
+.aside-728x90 img {
+  display: block;
 }
 
 /*-----푸터-----*/
@@ -282,5 +316,15 @@ main {
 .footer.bottom {
   position: absolute;
   bottom: 0;
+}
+
+/*--이거 추가해주셈 (데이터 완전히 렌더링되기전에 깜빡거리면서 코드 보이는거 안보이게해줌)
+--*/
+[v-cloak]::before {
+  content: "로딩중...";
+}
+
+[v-cloak] > * {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */

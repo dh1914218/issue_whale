@@ -55,7 +55,7 @@
 }
 
 .vote__main {
-  margin-top: 16px;
+  margin-top: 8px;
   @extend %bxWhiteGray;
   padding: 40px 20px;
   h1 {
@@ -498,7 +498,7 @@
 
 /*------지난 찬반 투표-----*/
 .vote-past-article__list {
-  margin-top: 16px;
+  margin-top: 8px;
   article:nth-child(1) {
     margin-top: 0;
   }

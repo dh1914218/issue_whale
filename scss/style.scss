@@ -1,5 +1,10 @@
 @import "partial/styles";
 
+/*-----광고영역-----*/
+.m_aside-320x100 {
+  display: none;
+}
+
 /*-----레이아웃-----*/
 body {
   background-color: $bgColor;
@@ -8,6 +13,17 @@ body {
 .container {
   width: 1060px;
   margin: 0 auto;
+  position: relative;
+  /*---광고배너__컨테이너---*/
+  .aside-160x600__right {
+    position: absolute;
+    top: 0;
+    right: -176px;
+    img {
+      width: 160px;
+      height: 600px;
+    }
+  }
 }
 
 main {
@@ -197,8 +213,23 @@ main {
     }
   }
 
-  .side-bar__aside {
+  /*---광고배너__컨테이너---*/
+  .aside-300x250__left {
     margin-top: 16px;
+    text-align: center;
+
+    img {
+      width: 300px;
+      height: 250px;
+    }
+  }
+}
+
+/*-----광고배너----*/
+.aside-728x90 {
+  margin-top: 8px;
+  img {
+    display: block;
   }
 }
 
@@ -255,4 +286,13 @@ main {
 .footer.bottom {
   position: absolute;
   bottom: 0;
+}
+
+/*--이거 추가해주셈 (데이터 완전히 렌더링되기전에 깜빡거리면서 코드 보이는거 안보이게해줌)
+--*/
+[v-cloak]::before {
+  content: "로딩중...";
+}
+[v-cloak] > * {
+  display: none;
 }

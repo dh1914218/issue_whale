@@ -68,7 +68,7 @@
 }
 
 .vote__main {
-  margin-top: 16px;
+  margin-top: 8px;
   padding: 40px 20px;
 }
 
@@ -509,7 +509,7 @@
 
 /*------지난 찬반 투표-----*/
 .vote-past-article__list {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .vote-past-article__list article:nth-child(1) {
