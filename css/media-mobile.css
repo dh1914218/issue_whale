@@ -97,6 +97,12 @@
     color: #9b9b9b;
     vertical-align: middle;
   }
+  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li a span.ic_fire img {
+    width: 16px;
+    vertical-align: middle;
+    margin-left: 4px;
+    margin-top: -5px;
+  }
   .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li:nth-last-child(1) {
     border-bottom: 1px solid #e8e8ed;
   }

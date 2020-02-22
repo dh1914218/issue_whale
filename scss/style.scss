@@ -201,12 +201,21 @@ main {
     ul {
       li {
         a {
+          vertical-align: middle;
           display: inline-block;
           padding: 8px 20px 8px 20px;
           @extend %ftColorgray;
           &:hover {
             color: $purple;
             font-weight: 500;
+          }
+          span {
+            img {
+              width: 15px;
+              margin-left: 4px;
+              vertical-align: middle;
+              margin-top: -4px;
+            }
           }
         }
       }
