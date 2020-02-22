@@ -11,7 +11,7 @@
   color: #9b9b9b;
 }
 
-.side-bar .side-bar__nav, .side-bar .side-bar__aside {
+.side-bar .side-bar__nav {
   border: 1px solid #e8e8ed;
   background-color: #ffffff;
 }
@@ -224,8 +224,6 @@ main {
 
 .side-bar .side-bar__aside {
   margin-top: 16px;
-  width: 100%;
-  height: 500px;
 }
 
 /*-----푸터-----*/
