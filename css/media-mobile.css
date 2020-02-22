@@ -230,7 +230,7 @@
     margin-top: 20px;
   }
   .vote__main .m-graph .box {
-    width: 16%;
+    width: 14%;
     height: 56px;
     background-color: #111111;
     color: #ffffff;
@@ -238,6 +238,7 @@
     line-height: 56px;
     float: left;
     display: block;
+    font-size: 13px;
   }
   .vote__main .m-graph .wrap {
     width: 83%;
