@@ -1,0 +1,41 @@
+.tip {
+  float: right;
+  width: 744px;
+}
+
+.tip .tip__inner {
+  background-color: #ffffff;
+  padding: 24px 20px;
+}
+
+.tip .tip__inner ul {
+  margin-top: 44px;
+}
+
+.tip .tip__inner ul li {
+  margin-bottom: 16px;
+  float: left !important;
+  width: 31%;
+  margin-right: 1.16%;
+  margin-left: 1.16%;
+}
+
+.tip .tip__inner ul li a .img img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.tip .tip__inner ul li a .desc {
+  margin-top: 8px;
+}
+
+.tip .tip__inner ul li a .desc div.author {
+  color: #9b9b9b;
+  font-weight: 400;
+}
+
+.tip .tip__inner ul li a:hover {
+  color: #6332f6;
+}
+/*# sourceMappingURL=tip.css.map */

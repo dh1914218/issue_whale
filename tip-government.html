@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/media-mobile.css" />
+    <link rel="stylesheet" href="css/vote.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/tip.css">
+    <link rel="stylesheet" href="css/board.css">
+  </head>
+  <body>
+    
+    <section class="bgblack-layerpopup"></section>
+    
+    <section class="m-nav-draw">
+      <div class="m-nav-draw__inner">
+        <div class="btn">
+          <button>로그인</button>
+        </div>
+        <div class="notice">
+          이슈고래는 해외ip 를 차단하고 있습니다.
+       </div>
+
+        <nav class="m-nav-draw__nav" style="display: block;">
+          <div class="m-nav-draw__nav-issue">
+            이슈
+            <ul>
+              <li><a href="vote.html" class="font__active__purple">최근이슈</a></li>
+              <li><a href="vote-past.html">이슈목록
+              </a></li>
+            </ul>
+          </div>
+          <div class="m-nav-draw__nav-tip">
+            고래꿀팁
+            <ul>
+              <li><a href="#a">돈돈돈돈돈돈
+                <span>
+                  <img src="img/ic_fire.svg" alt="불아이콘">
+                </span>
+              </a></li>
+            </ul>
+          </div>
+          <div class="m-nav-draw__nav-tip">
+            커뮤니티
+            <ul>
+              <li><a href="#a">전체</a></li>
+              <li><a href="#a">블라블라블라</a></li>
+              <li><a href="board-humor.html">유머 / 짤
+                <span>
+                  <img src="img/ic_fire.svg" alt="불아이콘">
+                </span>
+              </a></li>
+              <li><a href="board-freedebate.html">자유토론</a></li>
+            </ul>
+          </div>
+          <div class="m-nav-draw__nav-tip">
+            기타
+            <ul>
+              <li><a href="#a">피드백을 마구마구 주세요!!</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+    <!-- //모바일 네비게이션 드로어 -->
+    
+    <section class="vote-layerpopup">
+          <h1>
+            왜 <em>찬성 / 반대 </em> 하시나요?
+            <a href="#a">
+              <img src="img/ic_cancel.svg" alt="cencel" />
+            </a>
+          </h1>
+          <textarea
+          type="text"
+          placeholder="우리같이 건전한 토론문화를 만들어봐요 :)"
+          autofocus="autofocus"
+          ></textarea>
+
+         <button class="btn">
+           <div>
+            등록하기
+           </div>
+         </button>
+    </section>
+    <!-- //투표 레이어팝업 -->
+
+    <!-- <section class="share-layerpopup">
+      <div class="row">
+        <div class="share-layerpopup__inner">
+          <h1>
+            공유하기
+            <button>
+              <img src="img/ic_cancel.svg" alt="">
+            </button>
+          </h1>
+          <div class="btn__inner">
+            <button>
+              <img src="img/ic_share_kakao.png" alt="">
+              <div>카카오톡</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <!-- //공유레이어팝업 -->
+
+
+
+    <header class="blank-header"></header>
+    <!-- //블랭크 헤더 -->
+
+    <header class="header">
+      <div class="row">
+        <div class="container clearfix">
+          <h1 class="header__log"><a href="vote.html"><img src="img/logo.png" alt=""></a></h1>
+
+          <!-- //헤더로고 -->
+          
+          <nav class="header__nav">
+            <ul class="clearfix">
+              <li><a href="signup_login.html">로그인</a></li>
+              <li><a href="#a">로그아웃</a></li>
+              <li><a href="userinfo-edit.html">내정보</a></li>
+            </ul>
+          </nav>
+          <!-- //헤더네비 -->
+
+          <nav class="m-header__btn" style="display: none;">
+            <button>
+              <img src="img/ic_nav-btn.svg" alt="">
+            </button>
+          </nav>
+          <!-- //모바일 헤더네비 -->
+
+          <nav class="m-header__nav"></nav>
+          <!-- //모바일 헤더네비 -->
+        </div>
+      </div>
+    </header>
+    <!-- //헤더 -->
+
+    <header class="m-sub-header" style="display: none;">
+      <div class="container">
+        <ul class="clearfix">
+          <li><a href="vote.html" class="font__active__purple underline__active__purple">오늘의 찬반투표</a</li>
+          <li><a href="vote-past.html">지난찬반투표</a></li>
+        </ul>
+      </div>
+    </header>
+    <!-- //서브헤더 -->
+
+    <section class="banner">
+      <img src="img/banner_board_vote.png" alt="">
+      <div class="banner__col1"></div>
+      <div class="banner__col2"></div>
+    </section>
+    <!-- //배너 -->
+    
+    
+    <main>
+      <div class="container clearfix">
+        <aside class="aside-160x600__right">
+          <img src="img/aside_160x600.jpg" alt="">
+        </aside>
+
+        <section class="side-bar">
+          <nav class="side-bar__nav">
+            <div class="notice">
+               이슈고래는 해외ip 를 차단하고 있습니다.
+            </div>
+            <div class="side-bar__nav-issue">
+              이슈
+              <ul class="clearfix">
+                <li><a href="vote.html" >최신이슈</a></li>
+                <li><a href="vote-past.html">최신목록</a></li>
+              </ul>
+            </div>
+            <div class="side-bar__nav-tip">
+              고래꿀팁
+              <ul class="clearfix">
+                <li><a href="#a" class="font__active__purple">돈돈돈돈돈돈돈
+                  <span><img src="img/ic_fire.svg" alt=""></span>
+                </a></li>
+              </ul>
+            </div>
+            <div class="side-bar__nav-community">
+              커뮤니티
+              <ul class="clearfix">
+                <li><a href="#a">전체</a></li>
+                <li><a href="#a">경제게시판??</a></li>
+                <li><a href="board-humor.html">유머 / 짤
+                  <span>
+                    <img src="img/ic_fire.svg" alt="">
+                  </span>
+                </a></li>
+                <li><a href="board-freedebate.html">자유토론</a></li>
+              </ul>
+            </div>
+            <div class="side-bar__nav-community">
+              기타
+              <ul class="clearfix">
+                <li><a href="user-feedback.html">피드백을 마구마구 주세요!!</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          <aside class="aside-300x250__left">
+            <img src="img/aside_300x250.jpg alt="">
+          </aside>
+        </section>
+        <!-- //사이드바 -->
+
+        <section class="tip">
+
+            
+
+            <div class="tip__inner">
+                <div class="notice notice__ip-ban">
+                    <a href="#a">
+                      이슈고래는 해외ip 를 차단하고 있습니다
+                      <img src="img/ic_arrow-right_white.svg" alt="">
+                    </a>
+                  </div>
+                <ul class="clearfix">
+                    <li>
+                        <a href="#a">
+                            <div class="img">
+                                <img src="img/tip_img.jpg"alt="">
+                            </div>
+                            <div class="desc">
+                                <div class="tit">
+                                        실업급여 최대로 뽕뽑아 봅시다!
+                                </div>
+                                <div class="author">
+                                    이슈고래
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- //아이템 -->
+
+                    <li>
+                        <a href="#a">
+                            <div class="img">
+                                <img src="img/tip_img.jpg"alt="">
+                            </div>
+                            <div class="desc">
+                                <div class="tit">
+                                        실업급여 최대로 뽕뽑아 봅시다!
+                                </div>
+                                <div class="author">
+                                    이슈고래
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- //아이템 -->
+
+                    <li>
+                        <a href="#a">
+                            <div class="img">
+                                <img src="img/tip_img.jpg"alt="">
+                            </div>
+                            <div class="desc">
+                                <div class="tit">
+                                        실업급여 최대로 뽕뽑아 봅시다!
+                                </div>
+                                <div class="author">
+                                    이슈고래
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- //아이템 -->
+
+                    <li>
+                        <a href="#a">
+                            <div class="img">
+                                <img src="img/tip_img.jpg"alt="">
+                            </div>
+                            <div class="desc">
+                                <div class="tit">
+                                        실업급여 최대로 뽕뽑아 봅시다!
+                                </div>
+                                <div class="author">
+                                    이슈고래
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- //아이템 -->
+
+                    <li>
+                        <a href="#a">
+                            <div class="img">
+                                <img src="img/tip_img.jpg"alt="">
+                            </div>
+                            <div class="desc">
+                                <div class="tit">
+                                        실업급여 최대로 뽕뽑아 봅시다!
+                                </div>
+                                <div class="author">
+                                    이슈고래
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- //아이템 -->
+
+                    <li>
+                        <a href="#a">
+                            <div class="img">
+                                <img src="img/tip_img.jpg"alt="">
+                            </div>
+                            <div class="desc">
+                                <div class="tit">
+                                        실업급여 최대로 뽕뽑아 봅시다!
+                                </div>
+                                <div class="author">
+                                    이슈고래
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- //아이템 -->
+
+
+                </ul>
+            </div>
+
+            <div class="paging-btn">
+                <ul class="clearfix">
+                  <li>
+                    <button>
+                      <img src="img/ic_arrow-left_grey.svg" alt="">
+                      <span>이전</span>
+                    </button>
+                  </li>
+                  <!-- //이전 -->
+                  <li>
+                    <button>
+                      <span>다음</span>
+                      <img src="img/ic_arrow-right_grey.svg" alt="">
+                    </button>
+                  </li>
+                  <!-- //다음 -->
+                </ul>
+              </div>
+              <!-- //페이징버튼 -->
+    
+            <div class="pagination">
+              <div class="wrap clearfix">
+                <div class="ic-prve btn">
+                  <a href="#a"><img src="img/ic_arrow-left_black.svg" alt=""></a>
+                </div>
+                <div class="num">
+                  <span><a href="#a" class="font__active__purple">1</a></span>
+                  <span><a href="#a">2</a></span>
+                  <span><a href="#a">3</a></span>
+                  <span><a href="#a">4</a></span>
+                  <span><a href="#a">5</a></span>
+                  <span><a href="#a">6</a></span>
+                  <span><a href="#a">7</a></span>
+                  <span><a href="#a">8</a></span>
+                  <span><a href="#a">9</a></span>
+                  <span><a href="#a">10</a></span>
+                </div>
+                <div class="ic-next btn">
+                  <a href="#a">
+                    <img src="img/ic_arrow-right_black.svg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+              <!-- //페이지네이션 -->
+
+        </section>
+        
+       
+
+      </div>
+    </main>
+    <!-- //메인-->
+
+    <div style="height: 2000px;"></div>
+
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/jquery.placeholder.js"></script>
+  <script src="/js/script.js"></script>
+</html>
+

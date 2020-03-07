@@ -1,0 +1,43 @@
+@import "partial/styles";
+
+.tip {
+  float: right;
+  width: 744px;
+}
+.tip {
+  .tip__inner {
+    background-color: #ffffff;
+    padding: 24px 20px;
+    ul {
+      margin-top: 44px;
+
+      li {
+        margin-bottom: 16px;
+        float: left !important;
+        width: 31%;
+        margin-right: 1.16%;
+        margin-left: 1.16%;
+        a {
+          .img {
+            img {
+              display: block;
+              object-fit: cover;
+            }
+          }
+          .desc {
+            margin-top: 8px;
+            div.tit {
+            }
+            div.author {
+              color: #9b9b9b;
+              font-weight: 400;
+            }
+          }
+          &:hover {
+            color: $purple;
+          }
+        }
+      }
+    }
+  }
+}
