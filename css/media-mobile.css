@@ -62,10 +62,10 @@
     background-color: #ffffff;
     z-index: 100;
     top: 0;
-    left: -100%;
+    left: 0%;
   }
   .m-nav-draw .m-nav-draw__inner .btn {
-    padding: 40px 16px;
+    padding: 16px 16px;
   }
   .m-nav-draw .m-nav-draw__inner .btn button {
     width: 100%;
@@ -77,34 +77,32 @@
     border-radius: 3px;
     font-weight: 500;
   }
-  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li {
+  .m-nav-draw .m-nav-draw__inner .notice {
+    text-align: center;
+    padding: 8px;
+    color: red;
+    font-size: 14px !important;
+  }
+  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav {
     border-top: 1px solid #e8e8ed;
   }
-  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li a {
-    width: 100%;
-    display: inline-block;
-    padding: 16px 16px;
-  }
-  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li a img {
-    width: 20px;
-    vertical-align: middle;
-    margin-right: 16px;
-    margin-top: -2px;
-  }
-  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li a span {
-    font-size: 18px;
-    font-weight: 400;
+  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav div {
+    padding: 8px 24px;
     color: #9b9b9b;
-    vertical-align: middle;
+    font-size: 14px;
+    border-bottom: 1px solid #e8e8ed;
   }
-  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li a span.ic_fire img {
+  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav div ul li a {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav div ul li a span img {
     width: 16px;
     vertical-align: middle;
     margin-left: 4px;
-    margin-top: -5px;
-  }
-  .m-nav-draw .m-nav-draw__inner .m-nav-draw__nav ul li:nth-last-child(1) {
-    border-bottom: 1px solid #e8e8ed;
+    margin-top: -3px;
   }
   /*--------------헤더--------------*/
   .header {
