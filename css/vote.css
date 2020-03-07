@@ -225,6 +225,39 @@
   margin-top: 0px;
 }
 
+.vote__main .notice {
+  margin-top: 20px !important;
+  margin: 0 auto;
+  width: 80%;
+  background-color: #3f3fff;
+  text-align: center;
+  border-radius: 30px;
+  position: relative;
+  -webkit-box-shadow: 3px 3px 8px 2px #9b9b9b;
+          box-shadow: 3px 3px 8px 2px #9b9b9b;
+}
+
+.vote__main .notice a {
+  font-size: 20px;
+  display: inline-block;
+  padding: 16px;
+  width: 100% !important;
+  color: #ffffff;
+}
+
+.vote__main .notice a img {
+  position: absolute;
+  right: 50px;
+  width: 20px;
+  top: 20px;
+}
+
+.vote__main .notice:hover {
+  opacity: 0.8;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .vote__main .btn-share {
   margin-top: 24px;
   overflow: hidden;
