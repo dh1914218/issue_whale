@@ -25,6 +25,17 @@
     display: none;
   }
 
+  .notice__ip-ban {
+    width: 100% !important;
+    a {
+      font-size: 15px !important;
+      img {
+        width: 16px !important;
+        right: 20px !important;
+      }
+    }
+  }
+
   /*----------광고영역------------*/
   .aside-160x600__right {
     display: none;
