@@ -185,6 +185,11 @@ main {
   transition: all 0.3s ease-in-out;
 }
 
+.notice__ip-ban__board {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
 /*-----헤더-----*/
 .blank-header {
   height: 30px;
