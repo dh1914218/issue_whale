@@ -282,6 +282,7 @@
 
     .btn {
       margin-top: 44px !important;
+      margin-bottom: 16px !important;
       .yes {
         position: relative;
         .m-yes__text {
@@ -529,6 +530,44 @@
             padding: 16px 9px !important;
           }
         }
+      }
+    }
+  }
+
+  /*------------꿀팁-------------*/
+  .tip {
+    float: none;
+    width: 100% !important;
+    margin-top: -8px;
+  }
+  .tip__inner {
+    // padding: 8px 16px 16px 16px !important;
+    padding: 16px 16px !important;
+    ul {
+      margin-top: 28px !important;
+      li {
+        float: left !important;
+        width: 46% !important;
+        margin-right: 5% !important;
+        a {
+          .img {
+            img {
+              display: block !important;
+            }
+          }
+          .desc {
+            font-size: 14px;
+
+            .tit {
+            }
+            .author {
+            }
+          }
+        }
+      }
+
+      li:nth-of-type(2n + 0) {
+        margin-right: 0 !important;
       }
     }
   }

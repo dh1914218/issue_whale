@@ -212,6 +212,7 @@
   }
   .vote__main .btn {
     margin-top: 44px !important;
+    margin-bottom: 16px !important;
   }
   .vote__main .btn .yes {
     position: relative;
@@ -377,6 +378,32 @@
   }
   .pagination .wrap .num span a {
     padding: 16px 9px !important;
+  }
+  /*------------꿀팁-------------*/
+  .tip {
+    float: none;
+    width: 100% !important;
+    margin-top: -8px;
+  }
+  .tip__inner {
+    padding: 16px 16px !important;
+  }
+  .tip__inner ul {
+    margin-top: 28px !important;
+  }
+  .tip__inner ul li {
+    float: left !important;
+    width: 46% !important;
+    margin-right: 5% !important;
+  }
+  .tip__inner ul li a .img img {
+    display: block !important;
+  }
+  .tip__inner ul li a .desc {
+    font-size: 14px;
+  }
+  .tip__inner ul li:nth-of-type(2n + 0) {
+    margin-right: 0 !important;
   }
   /*----------------건의하기------------------*/
   .user-feedback__textarea {

@@ -6,8 +6,10 @@
 }
 .tip {
   .tip__inner {
+    @extend %bxWhiteGray;
     background-color: #ffffff;
     padding: 24px 20px;
+    margin-top: 8px;
     ul {
       margin-top: 44px;
 
