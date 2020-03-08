@@ -238,6 +238,17 @@
   }
 }
 
+// .view-conmment-none {
+//   @extend %bxWhiteGray;
+//   margin-top: 8px;
+//   text-align: center;
+//   padding: 32px;
+
+//   .view-conmment-none__innner {
+//     color: #9b9b9b;
+//   }
+// }
+
 /*--베스트댓글--*/
 // (맨밑에 div border없애기)
 .commnet-list__best > div:nth-last-child(1) {
