@@ -299,6 +299,15 @@
     padding: 6px 16px !important;
     font-size: 14px !important;
   }
+  /*---댓글쓰기(오피니언)---*/
+  .vote__feed .article-feed__commnet-write input {
+    font-size: 14px !important;
+  }
+  .vote__feed .article-feed__commnet-write button {
+    font-size: 14px;
+    width: 70px !important;
+    padding-right: 16px;
+  }
   /*----지난투표----*/
   .vote-past-article__list article a h1 {
     font-size: 16px !important;

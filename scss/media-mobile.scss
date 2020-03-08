@@ -385,6 +385,19 @@
     }
   }
 
+  /*---댓글쓰기(오피니언)---*/
+  .vote__feed .article-feed__commnet-write {
+    // width: 100% !important;
+    input {
+      font-size: 14px !important;
+    }
+    button {
+      font-size: 14px;
+      width: 70px !important;
+      padding-right: 16px;
+    }
+  }
+
   /*----지난투표----*/
   .vote-past-article__list {
     article {
