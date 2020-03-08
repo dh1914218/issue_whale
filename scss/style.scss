@@ -1,5 +1,9 @@
 @import "partial/styles";
 
+a:visited {
+  color: red;
+}
+
 /*-----광고영역-----*/
 .m_aside-320x100 {
   display: none;
@@ -110,6 +114,10 @@ main {
 }
 .font__active__red {
   color: $red !important;
+}
+
+.font__active__gray {
+  color: #9b9b9b;
 }
 
 .underline__active__purple {

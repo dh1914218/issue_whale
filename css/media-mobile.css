@@ -369,6 +369,13 @@
   .view-article__header .view-article__sub-header .meta-data span {
     margin-right: 4px;
   }
+  /*----디테일뷰 컨텐츠 삭제, 수정----*/
+  .view-article__cont .cont-edit {
+    margin-bottom: 8px !important;
+  }
+  .view-article__cont .cont-edit button {
+    font-size: 13px !important;
+  }
   /*--디테일뷰 버튼--*/
   .board-detailview .view-btn ul li a img {
     margin-top: 2px;

@@ -17,6 +17,10 @@
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
+a:visited {
+  color: red;
+}
+
 /*-----광고영역-----*/
 .m_aside-320x100 {
   display: none;
@@ -130,6 +134,10 @@ main {
 
 .font__active__red {
   color: #fe6181 !important;
+}
+
+.font__active__gray {
+  color: #9b9b9b;
 }
 
 .underline__active__purple {

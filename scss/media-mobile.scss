@@ -456,6 +456,7 @@
   }
 
   /*--디테일뷰헤더--*/
+
   .view-article__header {
     .tit {
       font-size: 25px;
@@ -484,6 +485,17 @@
           margin-right: 4px;
         }
       }
+    }
+  }
+
+  /*----디테일뷰 컨텐츠 삭제, 수정----*/
+  .view-article__cont .cont-edit {
+    margin-bottom: 8px !important;
+    button {
+      font-size: 13px !important;
+    }
+
+    .del {
     }
   }
 

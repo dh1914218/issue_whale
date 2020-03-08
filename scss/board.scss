@@ -75,10 +75,19 @@
       ul {
         li.tit {
           font-size: 14px;
-          em {
-            margin-left: 4px;
-            color: $purple;
-            font-weight: 500;
+          a {
+            &:hover {
+              color: $purple;
+            }
+            em {
+              margin-left: 4px;
+              color: $purple;
+              font-weight: 500;
+            }
+          }
+
+          a:visited {
+            color: #797979;
           }
         }
         li.meta-data {
@@ -161,6 +170,30 @@
 
   .view-article__cont {
     padding: 24px;
+    .cont-edit {
+      text-align: right;
+      margin-bottom: 16px;
+      button {
+        display: inline-block;
+        font-size: 14px;
+        padding: 5px 10px;
+        color: #777777;
+        border-radius: 10px;
+        background-color: #e8e8ed;
+
+        &:hover {
+          opacity: 0.7;
+          transition: all 0.3s ease-in-out;
+        }
+      }
+
+      .del {
+        margin-right: 8px;
+      }
+      .modify {
+      }
+    }
+
     img {
       text-align: center;
     }
@@ -217,6 +250,7 @@
 /*--댓글작성--*/
 .board-detailview .view-conmment-write {
   margin-top: 10px;
+  margin-bottom: 8px;
   @extend %bxWhiteGray;
   overflow: hidden;
   textarea {
@@ -256,7 +290,6 @@
 }
 
 .board-detailview .comment-list .commnet-list__best {
-  margin-top: 8px;
   border: 1px solid #e8e8ed;
   background-color: $thinsky;
   margin-bottom: 8px;
