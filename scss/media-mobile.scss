@@ -385,6 +385,11 @@
     }
   }
 
+  /*---댓글inner 패딩----*/
+  .vote__feed .article-feed__commnet-item {
+    padding-left: 16px !important;
+  }
+
   /*---댓글쓰기(오피니언)---*/
   .vote__feed .article-feed__commnet-write {
     input {
@@ -502,18 +507,29 @@
     }
   }
 
+  /*--댓글 input--*/
   .commnet-reply-write {
-    padding-left: 0px !important;
+    padding-left: 16px !important;
     div {
       input {
         font-size: 14px !important;
       }
       button {
-        font-size: 14px;
+        font-size: 14px !important;
         width: 70px !important;
-        padding-right: 16px;
+        padding-right: 16px !important;
       }
     }
+  }
+
+  /*--대댓글 패딩값--*/
+  .board-detailview
+    .comment-list
+    .commnet-list__normal
+    .reply
+    .wrap
+    .cont-left {
+    padding-left: 0px !important;
   }
 
   /*-------------푸터----------------*/
