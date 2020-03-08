@@ -17,10 +17,6 @@
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
-a:visited {
-  color: red;
-}
-
 /*-----광고영역-----*/
 .m_aside-320x100 {
   display: none;
