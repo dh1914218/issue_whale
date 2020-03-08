@@ -380,6 +380,11 @@
   font-size: 13px;
 }
 
+/*---댓글삭제---*/
+.del-commnet__board button span {
+  color: red;
+}
+
 /*--대댓글--*/
 .board-detailview .comment-list .commnet-list__normal .reply {
   position: relative;
