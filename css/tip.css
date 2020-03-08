@@ -1,6 +1,7 @@
 .tip .tip__inner {
-  border: 1px solid #e8e8ed;
   background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
 .tip {

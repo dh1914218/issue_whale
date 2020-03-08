@@ -28,8 +28,9 @@
 }
 
 .vote__tab.tab .tab-left, .vote__main, .vote__feed .article-feed__item, .vote-past-article__list article {
-  border: 1px solid #e8e8ed;
   background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
 }
 
 .vote__main .btn ul li.yes button, .vote__main .btn ul li.no button {
