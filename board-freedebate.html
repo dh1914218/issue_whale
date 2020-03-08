@@ -22,21 +22,49 @@
         <div class="btn">
           <button>로그인</button>
         </div>
-        <div class="btn">
-          <button>로그아웃</button>
-        </div>
 
-        <nav class="m-nav-draw__nav">
-          <ul>
-            <li><a href="vote.html"><img src="img/ic_tab-all_off.svg" alt=""><span>오늘의찬반투표</span>              <span class="ic_fire"><img src="img/ic_fire.svg" alt=""></span>
-            </a></li>
-            <li><a href="vote-past.html"><img src="img/ic_vote_off.svg" alt=""><span>지난찬반투표</span></a></li>
-            <li><a href="board-freedebate.html"><img src="img/ic_chat_grey.svg" alt=""><span>자유토론장</span></a></li>
-            <li><a href="board-humor.html"><img src="img/ic_tab-new_off.svg" alt=""><span>유머 / 짤</span>              <span class="ic_fire"><img src="img/ic_fire.svg" alt=""></span>
-            </a></li>
-            <li><a href="userinfo-edit.html"><img src="img/ic_tab-hot_off.svg" alt=""><span>내정보</span></a></li>
-            <li><a href="user-feedback.html"><img src="img/ic_tab-yes_off.svg" alt=""><span>건의하기</span></a></li>
-          </ul>
+        <nav class="m-nav-draw__nav" style="display: block;">
+          <div class="m-nav-draw__nav-issue">
+            이슈
+            <ul>
+              <li><a href="vote.html" class="font__active__purple">최근이슈</a></li>
+              <li><a href="vote-past.html">이슈목록
+              </a></li>
+            </ul>
+          </div>
+          <!-- //이슈 -->
+          <div class="m-nav-draw__nav-tip">
+            꿀팁
+            <ul>
+              <li><a href="tip-golae.html">고래꿀팁
+                <span>
+                  <img src="img/ic_fire.svg" alt="불아이콘">
+                </span>
+              </a></li>
+            </ul>
+          </div>
+          <!-- //꿀팁 -->
+          <div class="m-nav-draw__nav-tip">
+            커뮤니티
+            <ul>
+              <li><a href="board-money.html">돈 / 경제</a></li>
+              <li><a href="board-humor.html">유머 / 짤
+                <span>
+                  <img src="img/ic_fire.svg" alt="불아이콘">
+                </span>
+              </a></li>
+              <li><a href="board-freedebate.html">자유 / 고민</a></li>
+            </ul>
+          </div>
+          <!-- //커뮤니티 -->
+          <div class="m-nav-draw__nav-tip">
+            기타
+            <ul>
+              <li><a href="">공지사항</a></li>
+              <li><a href="user-feedback.html">건의사항</a></li>
+            </ul>
+          </div>
+          <!-- //이슈 -->
         </nav>
       </div>
     </section>
@@ -109,19 +137,47 @@
 
         <section class="side-bar">
           <nav class="side-bar__nav">
-            <ul>
-              <li><a href="vote.html">찬반투표
-                <span><img src="img/ic_fire.svg" alt=""></span>
-              </a></li>
-              <li><a href="vote-past.html">지난찬반투표</a></li>
-              <li><a href="board-freedebate.html" class="font__active__purple">자유토론방</a></li>
-              <li><a href="board-humor.html">유머 / 짤
-                <span><img src="img/ic_fire.svg" alt=""></span>
-              </a></li>
-              <li><a href="user-feedback.html">건의하기</a></li>
-            </ul>
+           
+            <div class="side-bar__nav-issue">
+              이슈
+              <ul class="clearfix">
+                <li><a href="vote.html" class="font__active__purple">최신이슈</a></li>
+                <li><a href="vote-past.html">최신목록</a></li>
+              </ul>
+            </div>
+            <!-- //이슈 -->
+            <div class="side-bar__nav-tip">
+              꿀팁
+              <ul class="clearfix">
+                <li><a href="tip-golae.html">고래꿀팁
+                  <span><img src="img/ic_fire.svg" alt=""></span>
+                </a></li>
+              </ul>
+            </div>
+            <!-- //꿀팁 -->
+            <div class="side-bar__nav-community">
+              커뮤니티
+              <ul class="clearfix">
+                <li><a href="board-money.html">돈 / 경제</a></li>
+                <li><a href="board-humor.html">유머 / 짤
+                  <span>
+                    <img src="img/ic_fire.svg" alt="">
+                  </span>
+                </a></li>
+                <li><a href="board-freedebate.html">자유 / 고민</a></li>
+              </ul>
+            </div>
+            <!-- //커뮤니티 -->
+            <div class="side-bar__nav-community">
+              기타
+              <ul class="clearfix">
+                <li><a href="notice.html.html">공지사항</a></li>
+                <li><a href="user-feedback.html">건의사항</a></li>
+              </ul>
+            </div>
+            <!-- //기타 -->
           </nav>
-          <!-- //사이드바 네비 -->
+          
 
           <aside class="aside-300x250__left">
             <img src="img/aside_300x250.jpg alt="">
@@ -173,6 +229,17 @@
           <div class="m_aside-320x100">
             <img src="img/aside_320x100.jpg" alt="">
           </div>
+
+          <div class="row">
+            <div class="notice notice__ip-ban notice__ip-ban__board">
+              <a href="#a">
+                이슈고래는 해외ip 를 차단하고 있습니다
+                <img src="img/ic_arrow-right_white.svg" alt="">
+              </a>
+            </div>
+          </div>
+          <!-- //ip-ban -->
+
 
           <div class="board-article__list">
             <article class="board-article__item">
