@@ -516,6 +516,13 @@
         h1 {
           color: white;
         }
+        .icon {
+          div {
+            span {
+              color: white;
+            }
+          }
+        }
       }
     }
 
@@ -531,6 +538,8 @@
 
       .icon {
         margin-top: 8px;
+        padding-left: 10px;
+
         div {
           display: inline;
           margin-right: 8px;
@@ -543,7 +552,8 @@
           span {
             vertical-align: middle;
             color: #9b9b9b;
-            font-weight: 300;
+            font-weight: 400;
+            font-size: 15px;
           }
         }
       }
