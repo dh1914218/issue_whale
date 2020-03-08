@@ -508,7 +508,7 @@
   }
   article {
     @extend %bxWhiteGray;
-    margin-top: 4px;
+    margin-top: 8px;
     &:hover {
       background-color: $purple;
       transition: all 0.5s ease-in-out;
@@ -528,11 +528,24 @@
         font-size: 20px;
         font-weight: 300;
       }
-      img {
-        width: 24px;
-        position: absolute;
-        top: 20px;
-        right: 16px;
+
+      .icon {
+        margin-top: 8px;
+        div {
+          display: inline;
+          margin-right: 8px;
+          span {
+            img {
+              vertical-align: middle;
+              width: 16px;
+            }
+          }
+          span {
+            vertical-align: middle;
+            color: #9b9b9b;
+            font-weight: 300;
+          }
+        }
       }
     }
   }

@@ -519,7 +519,7 @@
 }
 
 .vote-past-article__list article {
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 .vote-past-article__list article:hover {
@@ -544,11 +544,24 @@
   font-weight: 300;
 }
 
-.vote-past-article__list article a img {
-  width: 24px;
-  position: absolute;
-  top: 20px;
-  right: 16px;
+.vote-past-article__list article a .icon {
+  margin-top: 8px;
+}
+
+.vote-past-article__list article a .icon div {
+  display: inline;
+  margin-right: 8px;
+}
+
+.vote-past-article__list article a .icon div span img {
+  vertical-align: middle;
+  width: 16px;
+}
+
+.vote-past-article__list article a .icon div span {
+  vertical-align: middle;
+  color: #9b9b9b;
+  font-weight: 300;
 }
 
 .vote-past .vote-past-article__add {
