@@ -387,7 +387,6 @@
 
   /*---댓글쓰기(오피니언)---*/
   .vote__feed .article-feed__commnet-write {
-    // width: 100% !important;
     input {
       font-size: 14px !important;
     }
@@ -500,6 +499,20 @@
   .board-write {
     input {
       margin-bottom: 8px !important;
+    }
+  }
+
+  .commnet-reply-write {
+    padding-left: 0px !important;
+    div {
+      input {
+        font-size: 14px !important;
+      }
+      button {
+        font-size: 14px;
+        width: 70px !important;
+        padding-right: 16px;
+      }
     }
   }
 

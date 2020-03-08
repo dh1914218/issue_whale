@@ -373,6 +373,17 @@
   .board-write input {
     margin-bottom: 8px !important;
   }
+  .commnet-reply-write {
+    padding-left: 0px !important;
+  }
+  .commnet-reply-write div input {
+    font-size: 14px !important;
+  }
+  .commnet-reply-write div button {
+    font-size: 14px;
+    width: 70px !important;
+    padding-right: 16px;
+  }
   /*-------------푸터----------------*/
   .footer {
     margin-top: 8px !important;

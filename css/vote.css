@@ -409,7 +409,7 @@
   background-color: #f8f9fa;
 }
 
-/*-----댓글쓰기 (오피니언)-----*/
+/*-----테스영역 댓글쓰기-----*/
 .vote__feed .article-feed__commnet-write {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -422,11 +422,12 @@
       -ms-flex: 1;
           flex: 1;
   border: 0;
+  width: 100%;
 }
 
 .vote__feed .article-feed__commnet-write button {
   width: 100px;
-  height: 56px;
+  line-height: 56px;
   color: #6332f6;
 }
 
