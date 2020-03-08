@@ -95,7 +95,7 @@
 }
 
 .board-article__list .board-article__item .text ul li.tit a:visited {
-  color: #797979;
+  color: #aaaaaa;
 }
 
 .board-article__list .board-article__item .text ul li.meta-data {
@@ -429,7 +429,7 @@
   font-size: 14px;
   margin-left: 4px;
   font-weight: 400;
-  color: #9b9b9b !important;
+  color: #9b9b9b;
 }
 
 .board-detailview .comment-list .commnet-list__normal .reply .wrap .cont-right p {

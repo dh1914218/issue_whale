@@ -403,7 +403,7 @@
 .reply
 .wrap
 .cont-left {
-    padding-left: 0px !important;
+    padding-left: 16px !important;
   }
   /*-------------푸터----------------*/
   .footer {
