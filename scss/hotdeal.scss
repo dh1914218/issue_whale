@@ -1,0 +1,139 @@
+@import "partial/styles";
+
+.index {
+  float: right;
+  width: 744px;
+}
+
+.hot-deal__serch {
+  @extend %bxWhiteGray;
+  .inner {
+    text-align: center;
+    padding: 35px;
+    input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 2px solid $purple;
+      width: 77%;
+      padding: 8px 4px;
+
+      &::placeholder {
+        color: #9b9b9b;
+        font-size: 15px;
+      }
+    }
+    button {
+      height: 40px;
+      width: 30px;
+      img {
+        width: 20px;
+        vertical-align: middle;
+        margin-top: 10px;
+      }
+    }
+  }
+}
+
+.hot-deal__itemlist {
+  .inner {
+    ul {
+      li {
+        // margin-top: 12px !important;
+        margin-bottom: 8px;
+        width: 24.2%;
+        margin: 0.4%;
+        padding: 10px;
+        float: left;
+        background-color: #ffffff;
+        border: 1px solid #e8e8ed;
+
+        .img {
+          padding: 20px;
+          a {
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .desc {
+          margin-top: 10px;
+          .tit {
+            font-size: 14px;
+
+            // display: inline-block;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+
+            height: 42px;
+
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: normal;
+
+            a {
+              color: #424242;
+            }
+            &:hover {
+              a {
+                color: $purple;
+              }
+            }
+          }
+          .price {
+            margin-top: 10px;
+            font-size: 20px;
+            font-weight: 500;
+            em {
+              margin-left: 4px;
+              font-size: 14px;
+              font-weight: 400;
+            }
+          }
+          .fee {
+            font-size: 13px;
+            color: #9b9b9b;
+            em {
+              margin-left: 4px;
+            }
+          }
+          .icon {
+            display: inline-block;
+            font-size: 10px;
+            .ic_deal_market {
+              display: inline-block;
+              padding: 3px 5px;
+              background-color: $purple;
+              color: #ffffff;
+            }
+            .ic_deal_community {
+              display: inline-block;
+              padding: 3px 5px;
+              margin-left: 4px;
+              background-color: #d2d6d9;
+              color: #ffffff;
+            }
+          }
+        }
+        .btn {
+          margin-top: 10px;
+          float: right;
+          .ic_share {
+            width: 20px;
+          }
+          .ic_like {
+            margin-left: 8px;
+            width: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.hot-deal__itemlist {
+  img:hover .tit a {
+    color: red;
+  }
+}

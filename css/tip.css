@@ -37,12 +37,25 @@
   margin-top: 8px;
 }
 
+.tip .tip__inner ul li a .desc div.tit {
+  color: #424242;
+  height: 48px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.tip .tip__inner ul li a .desc div.tit:hover {
+  color: #6332f6 !important;
+}
+
 .tip .tip__inner ul li a .desc div.author {
   color: #9b9b9b;
   font-weight: 400;
-}
-
-.tip .tip__inner ul li a:hover {
-  color: #6332f6;
+  font-size: 14px;
+  margin-top: 4px;
 }
 /*# sourceMappingURL=tip.css.map */

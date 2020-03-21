@@ -1,0 +1,156 @@
+.hot-deal__serch {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+}
+
+.index {
+  float: right;
+  width: 744px;
+}
+
+.hot-deal__serch .inner {
+  text-align: center;
+  padding: 35px;
+}
+
+.hot-deal__serch .inner input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid #6332f6;
+  width: 77%;
+  padding: 8px 4px;
+}
+
+.hot-deal__serch .inner input::-webkit-input-placeholder {
+  color: #9b9b9b;
+  font-size: 15px;
+}
+
+.hot-deal__serch .inner input:-ms-input-placeholder {
+  color: #9b9b9b;
+  font-size: 15px;
+}
+
+.hot-deal__serch .inner input::-ms-input-placeholder {
+  color: #9b9b9b;
+  font-size: 15px;
+}
+
+.hot-deal__serch .inner input::placeholder {
+  color: #9b9b9b;
+  font-size: 15px;
+}
+
+.hot-deal__serch .inner button {
+  height: 40px;
+  width: 30px;
+}
+
+.hot-deal__serch .inner button img {
+  width: 20px;
+  vertical-align: middle;
+  margin-top: 10px;
+}
+
+.hot-deal__itemlist .inner ul li {
+  margin-bottom: 8px;
+  width: 24.2%;
+  margin: 0.4%;
+  padding: 10px;
+  float: left;
+  background-color: #ffffff;
+  border: 1px solid #e8e8ed;
+}
+
+.hot-deal__itemlist .inner ul li .img {
+  padding: 20px;
+}
+
+.hot-deal__itemlist .inner ul li .img a img {
+  width: 100%;
+}
+
+.hot-deal__itemlist .inner ul li .desc {
+  margin-top: 10px;
+}
+
+.hot-deal__itemlist .inner ul li .desc .tit {
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  height: 42px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: normal;
+}
+
+.hot-deal__itemlist .inner ul li .desc .tit a {
+  color: #424242;
+}
+
+.hot-deal__itemlist .inner ul li .desc .tit:hover a {
+  color: #6332f6;
+}
+
+.hot-deal__itemlist .inner ul li .desc .price {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.hot-deal__itemlist .inner ul li .desc .price em {
+  margin-left: 4px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.hot-deal__itemlist .inner ul li .desc .fee {
+  font-size: 13px;
+  color: #9b9b9b;
+}
+
+.hot-deal__itemlist .inner ul li .desc .fee em {
+  margin-left: 4px;
+}
+
+.hot-deal__itemlist .inner ul li .desc .icon {
+  display: inline-block;
+  font-size: 10px;
+}
+
+.hot-deal__itemlist .inner ul li .desc .icon .ic_deal_market {
+  display: inline-block;
+  padding: 3px 5px;
+  background-color: #6332f6;
+  color: #ffffff;
+}
+
+.hot-deal__itemlist .inner ul li .desc .icon .ic_deal_community {
+  display: inline-block;
+  padding: 3px 5px;
+  margin-left: 4px;
+  background-color: #d2d6d9;
+  color: #ffffff;
+}
+
+.hot-deal__itemlist .inner ul li .btn {
+  margin-top: 10px;
+  float: right;
+}
+
+.hot-deal__itemlist .inner ul li .btn .ic_share {
+  width: 20px;
+}
+
+.hot-deal__itemlist .inner ul li .btn .ic_like {
+  margin-left: 8px;
+  width: 20px;
+}
+
+.hot-deal__itemlist img:hover .tit a {
+  color: red;
+}
+/*# sourceMappingURL=hotdeal.css.map */

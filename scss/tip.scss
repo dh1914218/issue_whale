@@ -29,14 +29,25 @@
           .desc {
             margin-top: 8px;
             div.tit {
+              color: #424242;
+              height: 48px;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: normal;
+              &:hover {
+                color: $purple !important;
+              }
             }
             div.author {
               color: #9b9b9b;
               font-weight: 400;
+              font-size: 14px;
+              margin-top: 4px;
             }
-          }
-          &:hover {
-            color: $purple;
           }
         }
       }

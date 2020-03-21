@@ -2,7 +2,13 @@
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+KR:100,300,400,500,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800");
 @import url("https://fonts.googleapis.com/css?family=Black+Han+Sans&display=swap&subset=korean");
-
+@font-face {
+  font-family: "YanoljaYacheR";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/YanoljaYacheR.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .test {
   font-family: s-core-dream-regular;
 }
@@ -61,7 +67,7 @@ table {
 
   font-size: 16px;
 
-  letter-spacing: -1.2px;
+  letter-spacing: -0.8px;
   line-height: 1.5;
 }
 

@@ -243,6 +243,61 @@ main {
   }
 }
 
+.banner-index {
+  .banner__col1 {
+    height: 170px;
+    @extend %bgWhite;
+  }
+
+  .banner__col2 {
+    background-image: url("/img/wave.svg");
+    height: 130px;
+    width: 100%;
+    // background-repeat: repeat-x;
+    display: inline-block;
+    background-color: #ffffff;
+    position: relative;
+    .banner__col2-inner {
+      .text {
+        display: inline-block;
+        position: absolute;
+        top: -140px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+
+        div {
+          span {
+            font-family: "YanoljaYacheR";
+            font-size: 23px;
+            color: #59c2e7;
+          }
+        }
+        div.banner-index__tit {
+          margin-top: -25px;
+          position: relative;
+
+          span {
+            color: #00acdc;
+            font-size: 90px;
+            font-weight: 500;
+          }
+
+          img {
+            position: absolute;
+            top: 80px;
+            left: -80px;
+            transform: translateX(-30%);
+            display: block;
+            width: 80px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
 /*----- 사이드바 -----*/
 .side-bar {
   width: 300px;
@@ -254,18 +309,22 @@ main {
       color: red;
     }
 
+    div.side-bar__nav-issue {
+      margin-top: 0;
+    }
+
     div {
       margin-top: 8px;
       padding: 8px 24px;
       color: #9b9b9b;
-      font-size: 15px;
+      font-size: 14px;
       border-bottom: 1px solid #e8e8ed;
       ul {
         li {
           a {
             vertical-align: middle;
             display: inline-block;
-            padding: 8px 16px;
+            padding: 4px 16px;
             font-size: 15px;
             &:hover {
               color: $purple;
@@ -385,6 +444,189 @@ main {
   position: absolute;
   bottom: 0;
 }
+
+/*--------------------인덱스-----------------*/
+.tit--index {
+}
+
+.tit--index {
+  .tit {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    em {
+      font-weight: 500;
+    }
+  }
+}
+
+.hot-deal__serch--index {
+  margin-bottom: 8px;
+  .tit--index {
+    position: relative;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    em {
+      font-weight: 500;
+    }
+  }
+}
+
+.hot-deal__add--index {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+  // border: 1px solid #e8e8ed;
+  color: #b9b9b9;
+  font-size: 14px;
+  height: 56px;
+  transition: all 0.3s ease-in-out;
+  @extend %bxWhiteGray;
+  &:hover {
+    background-color: $purple;
+    color: #ffffff;
+  }
+}
+
+.tip--index {
+  float: none !important;
+  margin-top: 16px;
+
+  .tit--index {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    em {
+      font-weight: 500;
+    }
+    span {
+      a {
+        margin-top: 10px;
+        position: absolute;
+        font-size: 15px;
+        color: #9b9b9b;
+        right: 24px;
+        // top: 20px;
+      }
+    }
+  }
+  ul {
+    margin-top: 30px;
+  }
+}
+
+.vote--index {
+  margin-top: 16px !important;
+  @extend %bxWhiteGray;
+  padding: 30px;
+  text-align: center;
+  .inner--index {
+    .tit--index {
+      text-align: center;
+      font-size: 25px;
+      font-weight: 300;
+      margin-bottom: 25px;
+      em {
+        font-weight: 500;
+      }
+      span {
+        a {
+          margin-top: 10px;
+          position: absolute;
+          font-size: 15px;
+          color: #9b9b9b;
+          right: 24px;
+          // top: 20px;
+        }
+      }
+    }
+
+    .btn--index {
+      text-align: center;
+      width: 40%;
+      background-color: $purple;
+      height: 56px;
+      color: #ffffff;
+      border-radius: 30px;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+  }
+}
+
+.live-community {
+  @extend %bxWhiteGray;
+
+  width: 364px;
+  margin-top: 16px;
+  background-color: #ffffff;
+  padding: 20px;
+  .tit {
+    position: relative;
+    margin-bottom: 12px;
+    img {
+      width: 20px;
+      vertical-align: middle;
+      margin-top: -1px;
+    }
+
+    span {
+      vertical-align: middle;
+      margin-left: 4px;
+      font-weight: 500;
+      color: $purple;
+    }
+
+    .addtext {
+      a {
+        color: #9b9b9b;
+        position: absolute;
+        font-size: 14px;
+        right: 10px;
+        margin-top: 3px;
+        font-weight: 400 !important;
+      }
+    }
+  }
+
+  .itemlist {
+    ul {
+      li {
+        a {
+          display: inline-block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 14px;
+          width: 100%;
+
+          b {
+            color: #9b9b9b !important;
+            margin-right: 4px;
+            font-weight: normal;
+          }
+          em {
+            color: $purple;
+          }
+        }
+
+        &:hover a {
+          color: $purple;
+        }
+
+        &:hover b {
+          color: $purple !important;
+        }
+      }
+    }
+  }
+}
+// 실시간 커뮤니티
 
 /*--이거 추가해주셈 (데이터 완전히 렌더링되기전에 깜빡거리면서 코드 보이는거 안보이게해줌)
 --*/

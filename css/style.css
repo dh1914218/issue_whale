@@ -1,5 +1,5 @@
 @charset "UTF-8";
-.banner .banner__col1 {
+.banner .banner__col1, .banner-index .banner__col1 {
   background-color: #ffffff;
 }
 
@@ -11,7 +11,7 @@
   color: #9b9b9b;
 }
 
-.side-bar .side-bar__nav {
+.side-bar .side-bar__nav, .hot-deal__add--index, .vote--index, .live-community {
   background-color: #ffffff;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
@@ -271,6 +271,57 @@ main {
   height: 200px;
 }
 
+.banner-index .banner__col1 {
+  height: 170px;
+}
+
+.banner-index .banner__col2 {
+  background-image: url("/img/wave.svg");
+  height: 130px;
+  width: 100%;
+  display: inline-block;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.banner-index .banner__col2 .banner__col2-inner .text {
+  display: inline-block;
+  position: absolute;
+  top: -140px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-align: center;
+}
+
+.banner-index .banner__col2 .banner__col2-inner .text div span {
+  font-family: "YanoljaYacheR";
+  font-size: 23px;
+  color: #59c2e7;
+}
+
+.banner-index .banner__col2 .banner__col2-inner .text div.banner-index__tit {
+  margin-top: -25px;
+  position: relative;
+}
+
+.banner-index .banner__col2 .banner__col2-inner .text div.banner-index__tit span {
+  color: #00acdc;
+  font-size: 90px;
+  font-weight: 500;
+}
+
+.banner-index .banner__col2 .banner__col2-inner .text div.banner-index__tit img {
+  position: absolute;
+  top: 80px;
+  left: -80px;
+  -webkit-transform: translateX(-30%);
+          transform: translateX(-30%);
+  display: block;
+  width: 80px;
+  text-align: center;
+}
+
 /*----- 사이드바 -----*/
 .side-bar {
   width: 300px;
@@ -282,18 +333,22 @@ main {
   color: red;
 }
 
+.side-bar .side-bar__nav div.side-bar__nav-issue {
+  margin-top: 0;
+}
+
 .side-bar .side-bar__nav div {
   margin-top: 8px;
   padding: 8px 24px;
   color: #9b9b9b;
-  font-size: 15px;
+  font-size: 14px;
   border-bottom: 1px solid #e8e8ed;
 }
 
 .side-bar .side-bar__nav div ul li a {
   vertical-align: middle;
   display: inline-block;
-  padding: 8px 16px;
+  padding: 4px 16px;
   font-size: 15px;
 }
 
@@ -387,6 +442,178 @@ main {
 .footer.bottom {
   position: absolute;
   bottom: 0;
+}
+
+/*--------------------인덱스-----------------*/
+.tit--index .tit {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.tit--index .tit em {
+  font-weight: 500;
+}
+
+.hot-deal__serch--index {
+  margin-bottom: 8px;
+}
+
+.hot-deal__serch--index .tit--index {
+  position: relative;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.hot-deal__serch--index .tit--index em {
+  font-weight: 500;
+}
+
+.hot-deal__add--index {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+  color: #b9b9b9;
+  font-size: 14px;
+  height: 56px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hot-deal__add--index:hover {
+  background-color: #6332f6;
+  color: #ffffff;
+}
+
+.tip--index {
+  float: none !important;
+  margin-top: 16px;
+}
+
+.tip--index .tit--index {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.tip--index .tit--index em {
+  font-weight: 500;
+}
+
+.tip--index .tit--index span a {
+  margin-top: 10px;
+  position: absolute;
+  font-size: 15px;
+  color: #9b9b9b;
+  right: 24px;
+}
+
+.tip--index ul {
+  margin-top: 30px;
+}
+
+.vote--index {
+  margin-top: 16px !important;
+  padding: 30px;
+  text-align: center;
+}
+
+.vote--index .inner--index .tit--index {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.vote--index .inner--index .tit--index em {
+  font-weight: 500;
+}
+
+.vote--index .inner--index .tit--index span a {
+  margin-top: 10px;
+  position: absolute;
+  font-size: 15px;
+  color: #9b9b9b;
+  right: 24px;
+}
+
+.vote--index .inner--index .btn--index {
+  text-align: center;
+  width: 40%;
+  background-color: #6332f6;
+  height: 56px;
+  color: #ffffff;
+  border-radius: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.vote--index .inner--index .btn--index:hover {
+  opacity: 0.5;
+}
+
+.live-community {
+  width: 364px;
+  margin-top: 16px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.live-community .tit {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.live-community .tit img {
+  width: 20px;
+  vertical-align: middle;
+  margin-top: -1px;
+}
+
+.live-community .tit span {
+  vertical-align: middle;
+  margin-left: 4px;
+  font-weight: 500;
+  color: #6332f6;
+}
+
+.live-community .tit .addtext a {
+  color: #9b9b9b;
+  position: absolute;
+  font-size: 14px;
+  right: 10px;
+  margin-top: 3px;
+  font-weight: 400 !important;
+}
+
+.live-community .itemlist ul li a {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  width: 100%;
+}
+
+.live-community .itemlist ul li a b {
+  color: #9b9b9b !important;
+  margin-right: 4px;
+  font-weight: normal;
+}
+
+.live-community .itemlist ul li a em {
+  color: #6332f6;
+}
+
+.live-community .itemlist ul li:hover a {
+  color: #6332f6;
+}
+
+.live-community .itemlist ul li:hover b {
+  color: #6332f6 !important;
 }
 
 /*--이거 추가해주셈 (데이터 완전히 렌더링되기전에 깜빡거리면서 코드 보이는거 안보이게해줌)
