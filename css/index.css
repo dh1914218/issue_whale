@@ -1,0 +1,223 @@
+@charset "UTF-8";
+.banner-index .banner__col1, .banner-index .banner__col2 {
+  background-color: #ffffff;
+}
+
+.hot-deal__add--index, .vote--index, .live-community--index {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 1px 3px 0 rgba(104, 87, 87, 0.15);
+          box-shadow: 0 1px 3px 0 rgba(104, 87, 87, 0.15);
+}
+
+/*--------------------인덱스-----------------*/
+.banner-index .banner__col1 {
+  height: 170px;
+}
+
+.banner-index .banner__col2 {
+  background-image: url("/img/wave.svg");
+  height: 130px;
+  position: relative;
+}
+
+.banner-index .banner__col2 img {
+  width: 80px;
+  position: absolute;
+  top: -50px;
+  left: 30%;
+}
+
+.banner-index .banner__col2 .text {
+  text-align: center;
+  position: absolute;
+  top: -120px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.banner-index .banner__col2 .text .tit-sub {
+  font-size: 27px;
+  font-family: YanoljaYacheR;
+  color: #424242;
+}
+
+.banner-index .banner__col2 .text .tit {
+  display: inline-block;
+  margin-top: -50px;
+  font-size: 150px;
+  font-family: YanoljaYacheR;
+}
+
+.tit--index .tit {
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.tit--index .tit em {
+  font-weight: 500;
+}
+
+.hot-deal__serch--index {
+  margin-bottom: 8px;
+}
+
+.hot-deal__serch--index .tit--index {
+  position: relative;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.hot-deal__serch--index .tit--index em {
+  font-weight: 500;
+}
+
+.hot-deal__add--index {
+  margin-bottom: 8px;
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+  color: #b9b9b9;
+  font-size: 14px;
+  height: 56px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hot-deal__add--index:hover {
+  background-color: #6332f6;
+  color: #ffffff;
+}
+
+.tip--index {
+  float: none !important;
+  margin-top: 16px;
+}
+
+.tip--index .tit--index {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.tip--index .tit--index em {
+  font-weight: 500;
+}
+
+.tip--index .tit--index span a {
+  margin-top: 10px;
+  position: absolute;
+  font-size: 15px;
+  color: #9b9b9b;
+  right: 24px;
+}
+
+.tip--index ul {
+  margin-top: 30px;
+}
+
+.vote--index {
+  margin-top: 24px !important;
+  padding: 30px;
+  text-align: center;
+}
+
+.vote--index .inner--index .tit--index {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+
+.vote--index .inner--index .tit--index em {
+  font-weight: 500;
+}
+
+.vote--index .inner--index .tit--index span a {
+  margin-top: 10px;
+  position: absolute;
+  font-size: 15px;
+  color: #9b9b9b;
+  right: 24px;
+}
+
+.vote--index .inner--index .btn--index {
+  text-align: center;
+  width: 40%;
+  background-color: #6332f6;
+  height: 56px;
+  color: #ffffff;
+  border-radius: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.vote--index .inner--index .btn--index:hover {
+  opacity: 0.5;
+}
+
+.live-community--index {
+  display: inline-block;
+  width: 364px;
+  margin-top: 16px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.live-community--index .tit {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.live-community--index .tit img {
+  width: 20px;
+  vertical-align: middle;
+  margin-top: -1px;
+}
+
+.live-community--index .tit span {
+  vertical-align: middle;
+  margin-left: 4px;
+  font-weight: 500;
+  color: #6332f6;
+}
+
+.live-community--index .tit .addtext a {
+  color: #9b9b9b;
+  position: absolute;
+  font-size: 14px;
+  right: 10px;
+  margin-top: 3px;
+  font-weight: 400 !important;
+}
+
+.live-community--index .itemlist ul li a {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  width: 100%;
+}
+
+.live-community--index .itemlist ul li a b {
+  color: #9b9b9b !important;
+  margin-right: 4px;
+  font-weight: normal;
+}
+
+.live-community--index .itemlist ul li a em {
+  color: #6332f6;
+}
+
+.live-community--index .itemlist ul li:hover a {
+  color: #6332f6;
+}
+
+.live-community--index .itemlist ul li:hover b {
+  color: #6332f6 !important;
+}
+/*# sourceMappingURL=index.css.map */

@@ -15,6 +15,20 @@ $(".vote__tab-left .btn__item--3").click(function() {
   console.log(1);
 });
 
+// -------------hotdeal----------------
+// ----장바구니 이미지 on/off----
+$(".hot-deal__itemlist ul li .btn .ic_like").click(function() {
+  $(this)
+    .find("img")
+    .attr("src", function(index, attr) {
+      if (attr.match("thin-grey")) {
+        return attr.replace("thin-grey", "purple");
+      } else {
+        return attr.replace("purple", "thin-grey");
+      }
+    });
+});
+
 //------------------vote----------------
 // --탭클릭시
 let voteTabList = 0;

@@ -29,8 +29,8 @@
 
 .vote__tab.tab .tab-left, .vote__main, .vote__feed .article-feed__item, .vote-past-article__list article {
   background-color: #ffffff;
-  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(104, 87, 87, 0.15);
+          box-shadow: 0 1px 3px 0 rgba(104, 87, 87, 0.15);
 }
 
 .vote__main .btn ul li.yes button, .vote__main .btn ul li.no button {

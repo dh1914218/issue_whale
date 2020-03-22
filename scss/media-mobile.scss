@@ -62,6 +62,10 @@
     }
   }
 
+  .aside-300x250__right {
+    display: none !important;
+  }
+
   /*----------푸터------------*/
   .footer {
   }
@@ -141,41 +145,6 @@
           }
         }
       }
-      // .m-nav-draw__nav {
-      //   ul {
-      //     li {
-      //       border-top: 1px solid #e8e8ed;
-      //       a {
-      //         width: 100%;
-      //         display: inline-block;
-      //         padding: 16px 16px;
-      //         img {
-      //           width: 20px;
-      //           vertical-align: middle;
-      //           margin-right: 16px;
-      //           margin-top: -2px;
-      //         }
-      //         span {
-      //           font-size: 18px;
-      //           font-weight: 400;
-      //           color: #9b9b9b;
-      //           vertical-align: middle;
-      //         }
-      //         span.ic_fire {
-      //           img {
-      //             width: 16px;
-      //             vertical-align: middle;
-      //             margin-left: 4px;
-      //             margin-top: -5px;
-      //           }
-      //         }
-      //       }
-      //     }
-      //     li:nth-last-child(1) {
-      //       border-bottom: 1px solid #e8e8ed;
-      //     }
-      //   }
-      // }
     }
   }
 
@@ -262,6 +231,125 @@
 
   .main {
     margin-top: 12px !important;
+  }
+
+  /*------------인덱스-------------*/
+
+  // .banner-index {
+  //   .banner__col1 {
+  //     height: 80px !important;
+  //   }
+  //   .banner__col2 {
+  //     height: 100px !important;
+  //     img {
+  //       top: 0 !important;
+  //     }
+
+  //     .text {
+  //       width: 100%;
+  //       top: -40px !important;
+  //       span.tit-sub {
+  //       }
+  //       span.tit {
+  //         display: none;
+  //       }
+  //     }
+  //   }
+  // }
+  .index {
+    width: 100% !important;
+  }
+
+  .banner-index {
+    display: none;
+  }
+
+  /*---핫딜있슈---*/
+
+  .hot-deal__serch--index {
+    .inner {
+      padding: 20px 10px !important;
+      .tit--index {
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+      }
+    }
+  }
+  .hot-deal__itemlist--index {
+    .inner {
+      ul {
+        white-space: nowrap;
+        overflow-x: auto;
+        li {
+          display: inline-block;
+          float: none !important;
+          width: 40% !important;
+          a {
+            img {
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*---돈이되는정보----*/
+  .tip--index {
+    // padding: 24px 16px !important;
+    .tip__inner--index {
+      padding: 24px 16px 16px 16px !important;
+      .tit--index {
+        font-size: 20px !important;
+        text-align: left !important;
+        margin-bottom: 16px !important;
+        span {
+          a {
+            font-size: 14px !important;
+            margin-right: 5px;
+            margin-top: 7px !important;
+          }
+        }
+      }
+
+      ul {
+        margin-top: 0px !important;
+        li:nth-last-type(4) {
+          display: none !important;
+          .desc {
+            .tit {
+              color: red !important;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  /*-----투표 인덱스-----*/
+  .vote--index {
+    padding: 24px 16px !important;
+    .inner--index {
+      .tit--index {
+        font-size: 20px !important;
+      }
+      .btn--index {
+        width: 100% !important;
+        // height: 42px !important;
+        // font-size: 14px !important;
+      }
+    }
+  }
+
+  /*----실시간 커뮤니티 인덱스---*/
+  .live-community--index {
+    width: 100% !important;
+    .tit {
+      .addtext {
+        a {
+          margin-top: 7px !important;
+        }
+      }
+    }
   }
 
   /*-----------투표-------------*/
@@ -407,7 +495,34 @@
     article {
       a {
         h1 {
+          display: inline-block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          width: 100%;
           font-size: 16px !important;
+        }
+      }
+    }
+  }
+
+  //*-----------------핫딜있슈---------------*
+
+  .hot-deal__serch {
+    width: 100% !important;
+    input {
+      &::placeholder {
+        font-size: 14px !important;
+      }
+    }
+  }
+
+  .hot-deal__itemlist {
+    .inner {
+      ul {
+        li {
+          .desc {
+          }
         }
       }
     }
@@ -594,7 +709,7 @@
     }
   }
 
-  /*------------꿀팁-------------*/
+  /*------------돈이되는정보-------------*/
   .tip {
     float: none;
     width: 100% !important;
@@ -619,8 +734,10 @@
             font-size: 14px;
 
             .tit {
+              height: 40px !important;
             }
             .author {
+              font-size: 13px !important;
             }
           }
         }

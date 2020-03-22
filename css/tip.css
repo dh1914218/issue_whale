@@ -1,7 +1,7 @@
 .tip .tip__inner {
   background-color: #ffffff;
-  -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1px 3px 0 rgba(104, 87, 87, 0.15);
+          box-shadow: 0 1px 3px 0 rgba(104, 87, 87, 0.15);
 }
 
 .tip {
@@ -38,6 +38,7 @@
 }
 
 .tip .tip__inner ul li a .desc div.tit {
+  font-family: s-core-dream-regular;
   color: #424242;
   height: 48px;
   display: -webkit-box;
@@ -57,5 +58,6 @@
   font-weight: 400;
   font-size: 14px;
   margin-top: 4px;
+  font-family: s-core-dream-regular;
 }
 /*# sourceMappingURL=tip.css.map */
