@@ -148,7 +148,7 @@
   }
   .header .m-header__btn {
     display: inline-block !important;
-    padding: 20px 0;
+    padding: 19px 10px 10px 10px;
   }
   .header .m-header__btn button {
     display: inline-block;
@@ -252,6 +252,13 @@
   }
   .vote--index .inner--index .tit--index {
     font-size: 20px !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
   }
   .vote--index .inner--index .btn--index {
     width: 100% !important;

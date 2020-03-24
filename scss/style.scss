@@ -83,6 +83,10 @@ main {
   display: none;
 }
 
+// .m-header {
+//   display: none;
+// }
+
 /*------icon--------*/
 .ic_new {
   color: #fb5252;
@@ -92,6 +96,12 @@ main {
 }
 
 /*----- active -----*/
+
+.header__fixed {
+  position: fixed;
+  top: 0px;
+}
+
 .sidebar__fixed {
   position: fixed;
   top: 16px;
@@ -187,7 +197,12 @@ main {
   background-color: $bgColor;
 }
 
+.m-header {
+  height: 56px !important;
+}
+
 .header {
+  z-index: 2;
   background-color: $white;
   height: 70px;
   .header__log {

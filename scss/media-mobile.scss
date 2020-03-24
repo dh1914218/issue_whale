@@ -176,7 +176,7 @@
     .m-header__btn {
       display: inline-block !important;
       // padding: 20px 16px 10px 16px;
-      padding: 20px 0;
+      padding: 19px 10px 10px 10px;
 
       button {
         display: inline-block;
@@ -331,6 +331,15 @@
     .inner--index {
       .tit--index {
         font-size: 20px !important;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+
+        height: 60px;
+
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: normal;
       }
       .btn--index {
         width: 100% !important;

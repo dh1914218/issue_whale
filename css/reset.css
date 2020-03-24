@@ -223,6 +223,12 @@ textarea {
   clear: both;
   height: 15px;
 }
+
+.blank16 {
+  clear: both;
+  height: 16px;
+}
+
 .blank20 {
   clear: both;
   height: 20px;

@@ -376,3 +376,32 @@ $(".bgblack-layerpopup").click(function() {
     marginLeft: "0"
   });
 });
+
+// ------------------헤더-----------------
+
+var windowWidth = $(window).width();
+
+if (windowWidth < 600) {
+  $(".header").addClass("m-header");
+  $(document).ready(function() {
+    var jbOffset = $(".m-header").offset();
+    $(window).scroll(function() {
+      if ($(document).scrollTop() > jbOffset.top) {
+        $(".m-header").addClass("header__fixed");
+      } else {
+        $(".header__fixed").removeClass("header__fixed");
+      }
+    });
+  });
+}
+
+// $(document).ready(function() {
+//   var jbOffset = $(".jbMenu").offset();
+//   $(window).scroll(function() {
+//     if ($(document).scrollTop() > jbOffset.top) {
+//       $(".jbMenu").addClass("jbFixed");
+//     } else {
+//       $(".jbMenu").removeClass("jbFixed");
+//     }
+//   });
+// });

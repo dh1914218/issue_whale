@@ -10,6 +10,10 @@
 }
 
 /*--------------------인덱스-----------------*/
+.main--index {
+  margin-top: 0 !important;
+}
+
 .banner-index .banner__col1 {
   height: 170px;
 }
