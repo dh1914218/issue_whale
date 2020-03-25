@@ -220,10 +220,82 @@
 .live-community--index {
   @extend %bxWhiteGray;
   display: inline-block;
+  float: left;
 
   width: 364px;
 
   margin-top: 16px;
+  background-color: #ffffff;
+  padding: 20px;
+  .tit {
+    position: relative;
+    margin-bottom: 12px;
+    img {
+      width: 20px;
+      vertical-align: middle;
+      margin-top: -1px;
+    }
+
+    span {
+      vertical-align: middle;
+      margin-left: 4px;
+      font-weight: 500;
+      color: $purple;
+    }
+
+    .addtext {
+      a {
+        color: #9b9b9b;
+        position: absolute;
+        font-size: 14px;
+        right: 10px;
+        margin-top: 3px;
+        font-weight: 400 !important;
+      }
+    }
+  }
+
+  .itemlist {
+    ul {
+      li {
+        a {
+          display: inline-block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          font-size: 14px;
+          width: 100%;
+
+          b {
+            color: #9b9b9b !important;
+            margin-right: 4px;
+            font-weight: normal;
+          }
+          em {
+            color: $purple;
+          }
+        }
+
+        &:hover a {
+          color: $purple;
+        }
+
+        &:hover b {
+          color: $purple !important;
+        }
+      }
+    }
+  }
+}
+
+.live-community {
+  @extend %bxWhiteGray;
+  display: inline-block;
+
+  width: 744px;
+  float: right;
+  margin-bottom: 16px;
+
   background-color: #ffffff;
   padding: 20px;
   .tit {

@@ -32,6 +32,7 @@
   width: 744px;
   padding: 16px;
   height: 500px;
+  border: none;
 }
 
 .user-feedback__textarea .btn {

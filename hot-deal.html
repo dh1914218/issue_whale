@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/media-mobile.css" />
+    <link rel="stylesheet" href="css/vote.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/user-feedback.css" />
+    <link rel="stylesheet" href="css/hotdeal.css" />
+    <link rel="stylesheet" href="css/tip.css" />
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="top-btn">
+      UP
+    </div>
+
+    <div class="m-top-btn">
+      UP
+    </div>
+
+    <section class="bgblack-layerpopup"></section>
+
+    <section class="m-nav-draw">
+      <div class="m-nav-draw__inner">
+        <div class="btn">
+          <button>로그인</button>
+        </div>
+
+        <nav class="m-nav-draw__nav" style="display: block;">
+          <div class="m-nav-draw__nav-issue">
+            이슈
+            <ul>
+              <li>
+                <a href="vote.html" class="font__active__purple">최근이슈</a>
+              </li>
+              <li><a href="vote-past.html">이슈목록 </a></li>
+            </ul>
+          </div>
+          <!-- //이슈 -->
+          <div class="m-nav-draw__nav-tip">
+            꿀팁
+            <ul>
+              <li>
+                <a href="tip-golae.html"
+                  >고래꿀팁
+                  <span>
+                    <img src="img/ic_fire.svg" alt="불아이콘" />
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- //꿀팁 -->
+          <div class="m-nav-draw__nav-tip">
+            커뮤니티
+            <ul>
+              <li><a href="board-money.html">돈 / 경제</a></li>
+              <li>
+                <a href="board-humor.html"
+                  >유머 / 짤
+                  <span>
+                    <img src="img/ic_fire.svg" alt="불아이콘" />
+                  </span>
+                </a>
+              </li>
+              <li><a href="board-freedebate.html">자유 / 고민</a></li>
+            </ul>
+          </div>
+          <!-- //커뮤니티 -->
+          <div class="m-nav-draw__nav-tip">
+            기타
+            <ul>
+              <li><a href="">공지사항</a></li>
+              <li><a href="user-feedback.html">건의사항</a></li>
+            </ul>
+          </div>
+          <!-- //이슈 -->
+        </nav>
+      </div>
+    </section>
+    <!-- //모바일 네비게이션 드로어 -->
+
+    <header class="blank-header"></header>
+    <!-- //블랭크 헤더 -->
+
+    <header class="header">
+      <div class="row">
+        <div class="container clearfix">
+          <h1 class="header__log">
+            <a href="vote.html"><img src="img/logo.png" alt=""/></a>
+          </h1>
+
+          <!-- //헤더로고 -->
+          <nav class="header__nav">
+            <ul class="clearfix">
+              <li><a href="signup_login.html">로그인</a></li>
+              <li><a href="#a">로그아웃</a></li>
+              <li><a href="userinfo-edit.html">내정보</a></li>
+            </ul>
+          </nav>
+          <!-- //헤더네비 -->
+
+          <nav class="m-header__btn" style="display: none;">
+            <button>
+              <img src="img/ic_nav-btn.svg" alt="" />
+            </button>
+          </nav>
+          <!-- //모바일 헤더네비 -->
+          <!-- <nav class="m-header__nav"></nav> -->
+          <!-- //모바일 헤더네비 -->
+        </div>
+      </div>
+    </header>
+    <!-- //헤더 -->
+    <!-- <div style="width: 100%;height: 3px;"> dd</div> -->
+
+    <section class="banner">
+      <img src="img/banner_board_vote.png" alt="" />
+      <div class="banner__col1"></div>
+      <div class="banner__col2"></div>
+    </section>
+    <!-- //배너 -->
+
+    <main class="main">
+      <div class="container clearfix">
+        <div class="row">
+          <aside class="aside-160x600__right">
+            <img src="img/aside_160x600.jpg" alt="" />
+          </aside>
+
+          <section class="side-bar">
+            <nav class="side-bar__nav">
+              <div class="side-bar__nav-issue">
+                이슈
+                <ul class="clearfix">
+                  <li><a href="vote-past.html">최신이슈</a></li>
+                </ul>
+              </div>
+              <!-- //이슈 -->
+              <div class="side-bar__nav-tip">
+                꿀팁
+                <ul class="clearfix">
+                  <li>
+                    <a href="tip-golae.html"
+                      >돈되는 정보
+                      <span class="ic_new">new</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="tip-golae.html"
+                      >핫딜있슈
+                      <span class="ic_new">new</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <!-- //꿀팁 -->
+              <div class="side-bar__nav-community">
+                커뮤니티
+                <ul class="clearfix">
+                  <li><a href="#">전체</a></li>
+                  <li><a href="board-money.html">돈 / 경제</a></li>
+                  <li>
+                    <a href="board-humor.html"
+                      >유머 / 짤
+                      <span>
+                        <img src="img/ic_fire.svg" alt="" />
+                      </span>
+                    </a>
+                  </li>
+                  <li><a href="board-freedebate.html">자유 / 고민</a></li>
+                </ul>
+              </div>
+              <!-- //커뮤니티 -->
+              <div class="side-bar__nav-community">
+                기타
+                <ul class="clearfix">
+                  <li><a href="notice.html">공지사항</a></li>
+                  <li><a href="user-feedback.html">건의사항</a></li>
+                </ul>
+              </div>
+              <!-- //기타 -->
+            </nav>
+
+            <aside class="aside-300x250__left">
+              <!-- <img src="img/aside_300x250.jpg alt=""> -->
+            </aside>
+          </section>
+          <!-- //사이드바 -->
+
+          <section class="live-community">
+            <div class="inner">
+              <div class="tit">
+                <a href="#">
+                  <img src="img/ic_wale_purple.svg" alt="" />
+                  <span class="text">
+                    실시간 커뮤니티
+                  </span>
+                </a>
+
+                <span class="addtext">
+                  <a href="#">
+                    더보기
+                  </a>
+                </span>
+              </div>
+
+              <div class="itemlist">
+                <ul class="clearfix">
+                  <li>
+                    <a href="#">
+                      <b>[유머 / 짤]</b>
+                      인도인도인도카레야도카레야도카레야도카레야도카레야도카레야인도인도인도카레야
+                      <em>[0]</em>
+                    </a>
+                  </li>
+                  <!-- //아이템 -->
+                  <li>
+                    <a href="#">
+                      <b>[유머 / 짤]</b> 인도인도인도야인도인도인도카레야
+                      <em>[0]</em>
+                    </a>
+                  </li>
+                  <!-- //아이템 -->
+                  <li>
+                    <a href="#">
+                      <b>[유머 / 짤]</b>
+                      인도인도인도카레야도카레야도카레야도카레야도카레야도카레야인도인도인도카레야
+                      <em>[0]</em>
+                    </a>
+                  </li>
+                  <!-- //아이템 -->
+                  <li>
+                    <a href="#">
+                      <b>[유머 / 짤]</b>
+                      인도인도인도카레야도카레야도카레야도카레야도카레야도카레야인도인도인도카레야
+                      <em>[0]</em>
+                    </a>
+                  </li>
+                  <!-- //아이템 -->
+                </ul>
+              </div>
+            </div>
+          </section>
+          <!-- //실시간 커뮤니티 -->
+
+          <section class="hot-deal">
+            <div class="hot-deal__serch">
+              <div class="inner">
+                <form>
+                  <input
+                    type="text"
+                    placeholder="원하는상품, 샘플, 체험, 무료를 검색해보세요!!"
+                  />
+                  <button>
+                    <img src="img/ic_search.svg" alt="" />
+                  </button>
+
+                  <div class="autocomplete">
+                    <div class="inner">
+                      <ul>
+                        <li>item1</li>
+                        <li>item1</li>
+                        <li>item1</li>
+                        <li>item1</li>
+                        <li>item1</li>
+                        <li>item1</li>
+                      </ul>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+
+            <div class="aside-728x90">
+              <img src="img/aside_728x90.jpg" alt="" />
+            </div>
+            <!-- /배너 -->
+
+            <div class="m_aside-320x100">
+              <img src="img/aside_320x100.jpg" alt="" />
+            </div>
+            <!-- //모바일 배너 -->
+
+            <div class="hot-deal__itemlist">
+              <div class="inner">
+                <ul class="clearfix">
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+
+                  <!-- /배너 -->
+
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+
+                  <li>
+                    <div class="img">
+                      <a href="#">
+                        <img src="img/img_hot-deal_default.jpg" alt="" />
+                      </a>
+                    </div>
+                    <div class="desc">
+                      <div class="tit">
+                        <a href="#">
+                          [스d클] 뉴트로지나 아크네 폼클렌저 175g 아크네
+                          폼클렌저 175g 3개
+                        </a>
+                      </div>
+                      <div class="price">25,000<em>원</em></div>
+                      <div class="fee">배송비 <em>무료배송</em></div>
+                      <div class="icon">
+                        <div class="ic_deal_market">G마켓</div>
+                        <div class="ic_deal_community">뽐뿌</div>
+                      </div>
+                    </div>
+                    <div class="btn">
+                      <button class="ic_share">
+                        <img src="img/ic_share_thin-grey.svg" alt="" />
+                      </button>
+                      <button class="ic_like">
+                        <img src="img/ic_heart_thin-grey.svg" alt="" />
+                      </button>
+                    </div>
+                  </li>
+                  <!-- //아이템 -->
+
+                  <div class="aside-728x90">
+                    <img src="img/aside_728x90.jpg" alt="" />
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </section>
+          <!-- //핫딜있슈 -->
+        </div>
+      </div>
+    </main>
+    <!-- //메인-->
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/jquery.placeholder.js"></script>
+  <script src="/js/script.js"></script>
+</html>

@@ -1,4 +1,4 @@
-.hot-deal__serch {
+.hot-deal__serch, .hot-deal__serch .inner form .autocomplete .inner {
   background-color: #ffffff;
   -webkit-box-shadow: 0 1px 3px 0 rgba(104, 87, 87, 0.15);
           box-shadow: 0 1px 3px 0 rgba(104, 87, 87, 0.15);
@@ -9,12 +9,22 @@
   width: 744px;
 }
 
+.hot-deal {
+  float: right;
+  width: 744px;
+}
+
 .hot-deal__serch .inner {
   text-align: center;
   padding: 35px;
 }
 
-.hot-deal__serch .inner input {
+.hot-deal__serch .inner form {
+  display: inline;
+  position: relative;
+}
+
+.hot-deal__serch .inner form input {
   border-top: none;
   border-left: none;
   border-right: none;
@@ -23,39 +33,65 @@
   padding: 8px 4px;
 }
 
-.hot-deal__serch .inner input::-webkit-input-placeholder {
+.hot-deal__serch .inner form input::-webkit-input-placeholder {
   color: #9b9b9b;
   font-size: 15px;
 }
 
-.hot-deal__serch .inner input:-ms-input-placeholder {
+.hot-deal__serch .inner form input:-ms-input-placeholder {
   color: #9b9b9b;
   font-size: 15px;
 }
 
-.hot-deal__serch .inner input::-ms-input-placeholder {
+.hot-deal__serch .inner form input::-ms-input-placeholder {
   color: #9b9b9b;
   font-size: 15px;
 }
 
-.hot-deal__serch .inner input::placeholder {
+.hot-deal__serch .inner form input::placeholder {
   color: #9b9b9b;
   font-size: 15px;
 }
 
-.hot-deal__serch .inner button {
+.hot-deal__serch .inner form button {
   height: 40px;
   width: 30px;
 }
 
-.hot-deal__serch .inner button img {
+.hot-deal__serch .inner form button img {
   width: 20px;
   vertical-align: middle;
   margin-top: 10px;
 }
 
+.hot-deal__serch .inner form .autocomplete {
+  position: absolute;
+  width: 94%;
+  display: none;
+  left: 0;
+  top: 40px;
+}
+
+.hot-deal__serch .inner form .autocomplete .inner {
+  background-color: #ffffff;
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #e8e8ed;
+}
+
+.hot-deal__serch .inner form .autocomplete .inner ul li {
+  color: #9b9b9b;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 4px;
+}
+
+.hot-deal__serch .inner form .autocomplete .inner ul li:hover {
+  background-color: #f2f2f2;
+}
+
 .hot-deal__itemlist .inner ul li {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
   width: 24.2%;
   margin: 0.4%;
   padding: 10px;

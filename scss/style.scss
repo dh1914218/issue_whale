@@ -87,6 +87,22 @@ main {
 //   display: none;
 // }
 
+.top-btn {
+  background-color: #3f3fff;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 30px;
+  position: fixed;
+  bottom: 50px;
+  right: 10%;
+  z-index: 10;
+  cursor: pointer;
+  box-shadow: 3px 3px 8px 2px #9b9b9b;
+}
+
 /*------icon--------*/
 .ic_new {
   color: #fb5252;

@@ -29,6 +29,10 @@ $(".hot-deal__itemlist ul li .btn .ic_like").click(function() {
     });
 });
 
+// $(".hot-deal input").click(function() {
+//   alert(11)
+// });
+
 //------------------vote----------------
 // --탭클릭시
 let voteTabList = 0;
@@ -394,6 +398,48 @@ if (windowWidth < 600) {
     });
   });
 }
+
+// -----------------TOP btn (플로팅버튼)-----------
+
+$(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 200) {
+      $(".m-top-btn").fadeIn();
+    } else {
+      $(".m-top-btn").fadeOut();
+    }
+  });
+
+  $(".m-top-btn").click(function() {
+    $("html, body").animate(
+      {
+        scrollTop: 0
+      },
+      400
+    );
+    return false;
+  });
+});
+
+$(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() > 1000) {
+      $(".top-btn").fadeIn();
+    } else {
+      $(".top-btn").fadeOut();
+    }
+  });
+
+  $(".top-btn").click(function() {
+    $("html, body").animate(
+      {
+        scrollTop: 0
+      },
+      400
+    );
+    return false;
+  });
+});
 
 // $(document).ready(function() {
 //   var jbOffset = $(".jbMenu").offset();

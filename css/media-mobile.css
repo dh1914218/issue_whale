@@ -20,6 +20,9 @@
   .side-bar {
     display: none;
   }
+  .top-btn {
+    display: none !important;
+  }
   .notice__ip-ban {
     width: 100% !important;
   }
@@ -33,6 +36,22 @@
   .notice__ip-ban__board {
     margin-top: 8px !important;
     margin-bottom: 8px !important;
+  }
+  .m-top-btn {
+    position: fixed;
+    right: 16px;
+    bottom: 50px;
+    display: none;
+    z-index: 10;
+    background-color: #3f3fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    -webkit-box-shadow: 3px 3px 8px 2px #9b9b9b;
+            box-shadow: 3px 3px 8px 2px #9b9b9b;
   }
   /*----------광고영역------------*/
   .aside-160x600__right {
@@ -270,6 +289,14 @@
   .live-community--index .tit .addtext a {
     margin-top: 7px !important;
   }
+  /*----실시간 커뮤니티 ---*/
+  .live-community {
+    width: 100% !important;
+    float: none !important;
+  }
+  .live-community .tit .addtext a {
+    margin-top: 7px !important;
+  }
   /*-----------투표-------------*/
   .vote {
     width: 100% !important;
@@ -409,6 +436,34 @@
   }
   .hot-deal__serch input::placeholder {
     font-size: 14px !important;
+  }
+  .hot-deal__serch .autocomplete {
+    width: 90% !important;
+  }
+  .hot-deal__serch .autocomplete .inner {
+    padding: 8px !important;
+  }
+  .hot-deal {
+    float: none !important;
+    width: 100% !important;
+  }
+  .hot-deal__serch .inner {
+    padding: 20px 10px !important;
+  }
+  .hot-deal__serch .inner .tit--index {
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+  }
+  .hot-deal__itemlist .inner ul {
+    margin-top: 8px;
+  }
+  .hot-deal__itemlist .inner ul li {
+    margin-bottom: 8px !important;
+    width: 48% !important;
+    margin-right: 2% !important;
+  }
+  .hot-deal__itemlist .inner ul li:nth-of-type(2n) {
+    margin-right: 0 !important;
   }
   /*---------------게시판----------------*/
   .board {

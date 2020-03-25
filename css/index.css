@@ -3,7 +3,7 @@
   background-color: #ffffff;
 }
 
-.hot-deal__add--index, .vote--index, .live-community--index {
+.hot-deal__add--index, .vote--index, .live-community--index, .live-community {
   background-color: #ffffff;
   -webkit-box-shadow: 0 1px 3px 0 rgba(104, 87, 87, 0.15);
           box-shadow: 0 1px 3px 0 rgba(104, 87, 87, 0.15);
@@ -165,6 +165,7 @@
 
 .live-community--index {
   display: inline-block;
+  float: left;
   width: 364px;
   margin-top: 16px;
   background-color: #ffffff;
@@ -222,6 +223,69 @@
 }
 
 .live-community--index .itemlist ul li:hover b {
+  color: #6332f6 !important;
+}
+
+.live-community {
+  display: inline-block;
+  width: 744px;
+  float: right;
+  margin-bottom: 16px;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.live-community .tit {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.live-community .tit img {
+  width: 20px;
+  vertical-align: middle;
+  margin-top: -1px;
+}
+
+.live-community .tit span {
+  vertical-align: middle;
+  margin-left: 4px;
+  font-weight: 500;
+  color: #6332f6;
+}
+
+.live-community .tit .addtext a {
+  color: #9b9b9b;
+  position: absolute;
+  font-size: 14px;
+  right: 10px;
+  margin-top: 3px;
+  font-weight: 400 !important;
+}
+
+.live-community .itemlist ul li a {
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  width: 100%;
+}
+
+.live-community .itemlist ul li a b {
+  color: #9b9b9b !important;
+  margin-right: 4px;
+  font-weight: normal;
+}
+
+.live-community .itemlist ul li a em {
+  color: #6332f6;
+}
+
+.live-community .itemlist ul li:hover a {
+  color: #6332f6;
+}
+
+.live-community .itemlist ul li:hover b {
   color: #6332f6 !important;
 }
 /*# sourceMappingURL=index.css.map */

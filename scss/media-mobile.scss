@@ -25,6 +25,10 @@
     display: none;
   }
 
+  .top-btn {
+    display: none !important;
+  }
+
   .notice__ip-ban {
     width: 100% !important;
     a {
@@ -39,6 +43,22 @@
   .notice__ip-ban__board {
     margin-top: 8px !important;
     margin-bottom: 8px !important;
+  }
+
+  .m-top-btn {
+    position: fixed;
+    right: 16px;
+    bottom: 50px;
+    display: none;
+    z-index: 10;
+    background-color: #3f3fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+    color: #ffffff;
+    box-shadow: 3px 3px 8px 2px #9b9b9b;
   }
 
   /*----------광고영역------------*/
@@ -275,6 +295,7 @@
       }
     }
   }
+
   .hot-deal__itemlist--index {
     .inner {
       ul {
@@ -352,6 +373,18 @@
   /*----실시간 커뮤니티 인덱스---*/
   .live-community--index {
     width: 100% !important;
+    .tit {
+      .addtext {
+        a {
+          margin-top: 7px !important;
+        }
+      }
+    }
+  }
+  /*----실시간 커뮤니티 ---*/
+  .live-community {
+    width: 100% !important;
+    float: none !important;
     .tit {
       .addtext {
         a {
@@ -519,9 +552,34 @@
 
   .hot-deal__serch {
     width: 100% !important;
+
     input {
       &::placeholder {
         font-size: 14px !important;
+      }
+    }
+    .autocomplete {
+      width: 90% !important;
+      .inner {
+        padding: 8px !important;
+      }
+    }
+  }
+
+  .hot-deal__serch .inner .box .autocomplete {
+  }
+
+  .hot-deal {
+    float: none !important;
+    width: 100% !important;
+  }
+
+  .hot-deal__serch {
+    .inner {
+      padding: 20px 10px !important;
+      .tit--index {
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
       }
     }
   }
@@ -529,14 +587,24 @@
   .hot-deal__itemlist {
     .inner {
       ul {
+        margin-top: 8px;
         li {
-          .desc {
+          margin-bottom: 8px !important;
+          // float:;
+          width: 48% !important;
+          margin-right: 2% !important;
+          a {
+            img {
+            }
           }
+        }
+
+        li:nth-of-type(2n) {
+          margin-right: 0 !important;
         }
       }
     }
   }
-
   /*---------------게시판----------------*/
 
   .board {

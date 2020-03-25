@@ -127,10 +127,14 @@ input:focus {
   outline: none;
 }
 
+textarea:focus {
+  outline: none;
+}
+
 /* textarea 초기화 */
 textarea {
   /* overflow: auto; */
-  outline: none;
+  outline: none !important;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
