@@ -21,7 +21,7 @@
     display: none;
   }
   .top-btn {
-    display: none !important;
+    display: none;
   }
   .notice__ip-ban {
     width: 100% !important;
@@ -38,6 +38,7 @@
     margin-bottom: 8px !important;
   }
   .m-top-btn {
+    display: block;
     position: fixed;
     right: 16px;
     bottom: 50px;

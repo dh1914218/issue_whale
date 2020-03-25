@@ -101,6 +101,14 @@ main {
   display: none;
 }
 
+.m-top-btn {
+  display: none !important;
+}
+
+.top-btn {
+  display: none;
+}
+
 .top-btn {
   background-color: #3f3fff;
   width: 50px;

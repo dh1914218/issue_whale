@@ -403,7 +403,7 @@ if (windowWidth < 600) {
 
 $(function() {
   $(window).scroll(function() {
-    if ($(this).scrollTop() > 200) {
+    if ($(this).scrollTop() > 400) {
       $(".m-top-btn").fadeIn();
     } else {
       $(".m-top-btn").fadeOut();
