@@ -297,8 +297,8 @@
     }
   }
 
-  .hot-deal__itemlist--index {
-    .inner {
+  .hot-deal__itemlist.hot-deal__itemlist--index {
+    .inner--index {
       ul {
         white-space: nowrap;
         overflow-x: auto;
@@ -306,6 +306,7 @@
           display: inline-block;
           float: none !important;
           width: 40% !important;
+          margin-right: 0 !important;
           a {
             img {
             }
@@ -769,9 +770,11 @@
   /*---페이지네이지션--*/
   .pagination {
     .wrap {
+      display: flex;
+      justify-content: space-between !important;
       .btn {
         a {
-          padding: 16px 9px !important;
+          padding: 16px 3px !important;
 
           img {
           }
@@ -780,7 +783,7 @@
       .num {
         span {
           a {
-            padding: 16px 9px !important;
+            padding: 16px 7px !important;
           }
         }
       }

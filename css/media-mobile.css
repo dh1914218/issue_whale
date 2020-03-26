@@ -234,14 +234,15 @@
     font-size: 20px !important;
     margin-bottom: 10px !important;
   }
-  .hot-deal__itemlist--index .inner ul {
+  .hot-deal__itemlist.hot-deal__itemlist--index .inner--index ul {
     white-space: nowrap;
     overflow-x: auto;
   }
-  .hot-deal__itemlist--index .inner ul li {
+  .hot-deal__itemlist.hot-deal__itemlist--index .inner--index ul li {
     display: inline-block;
     float: none !important;
     width: 40% !important;
+    margin-right: 0 !important;
   }
   /*---돈이되는정보----*/
   .tip--index .tip__inner--index {
@@ -581,11 +582,19 @@
     margin-right: 20px;
   }
   /*---페이지네이지션--*/
+  .pagination .wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify !important;
+        -ms-flex-pack: justify !important;
+            justify-content: space-between !important;
+  }
   .pagination .wrap .btn a {
-    padding: 16px 9px !important;
+    padding: 16px 3px !important;
   }
   .pagination .wrap .num span a {
-    padding: 16px 9px !important;
+    padding: 16px 7px !important;
   }
   /*------------돈이되는정보-------------*/
   .tip {
