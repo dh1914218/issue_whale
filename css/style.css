@@ -379,7 +379,10 @@ main {
   width: 350px;
 }
 
-/*-----광고배너----*/
+.m_aside-320x100 {
+  display: none !important;
+}
+
 .aside_320x100 {
   display: none;
 }

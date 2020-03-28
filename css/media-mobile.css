@@ -10,6 +10,9 @@
   .m_blank15 {
     display: block !important;
   }
+  .blank15 {
+    display: none;
+  }
   html,
   body {
     height: 100%;
@@ -75,7 +78,7 @@
     display: none;
   }
   .m_aside-320x100 {
-    display: block !important;
+    display: block;
   }
   .m_aside-320x100 img {
     display: block;
@@ -485,8 +488,8 @@
     margin-right: 0 !important;
   }
   button.hot-deal__add--index {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
   }
   /*---------------게시판----------------*/
   .board {
