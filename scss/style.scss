@@ -384,7 +384,11 @@ main {
 }
 
 .m_aside-320x100 {
-  display: none !important;
+  display: none;
+}
+
+.m_aside-320x50 {
+  display: none;
 }
 
 .aside_320x100 {

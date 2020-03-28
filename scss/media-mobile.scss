@@ -92,14 +92,13 @@
   }
 
   .m_aside-320x100 {
-    display: block;
-    img {
-      display: block;
-    }
+    display: block !important;
+    margin-top: 5px;
   }
 
-  .aside_320x100 {
+  .m_aside-320x50 {
     display: block !important;
+    margin-top: 5px !important;
   }
 
   .aside-300x250__right {
