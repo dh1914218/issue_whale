@@ -65,6 +65,7 @@
 }
 
 .hot-deal__serch .inner form .autocomplete {
+  z-index: 10;
   position: absolute;
   width: 94%;
   left: 0;

@@ -17,6 +17,10 @@
           box-shadow: 0 1px 3px 0 rgba(104, 87, 87, 0.15);
 }
 
+p {
+  color: #555555;
+}
+
 /*-----광고영역-----*/
 .m_aside-320x100 {
   display: none;
