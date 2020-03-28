@@ -1,5 +1,15 @@
 @charset "UTF-8";
 @media (max-width: 480px) {
+  /*-----블랭크------*/
+  .m_blank5 {
+    display: block !important;
+  }
+  .m_blank10 {
+    display: block !important;
+  }
+  .m_blank15 {
+    display: block !important;
+  }
   html,
   body {
     height: 100%;
@@ -65,11 +75,13 @@
     display: none;
   }
   .m_aside-320x100 {
-    margin-top: 8px;
     display: block !important;
   }
   .m_aside-320x100 img {
     display: block;
+  }
+  .aside_320x100 {
+    display: block !important;
   }
   .aside-300x250__right {
     display: none !important;
@@ -227,12 +239,12 @@
     display: none;
   }
   /*---핫딜있슈---*/
-  .hot-deal__serch--index .inner {
-    padding: 20px 10px !important;
-  }
-  .hot-deal__serch--index .inner .tit--index {
+  .hot-deal__serch--index .tit--index {
     font-size: 20px !important;
-    margin-bottom: 10px !important;
+    margin: 0 !important;
+  }
+  .hot-deal__serch .inner .tit--index {
+    margin-bottom: 0 !important;
   }
   .hot-deal__itemlist.hot-deal__itemlist--index .inner--index ul {
     white-space: nowrap;
@@ -269,6 +281,7 @@
   }
   /*-----투표 인덱스-----*/
   .vote--index {
+    margin-top: 0px !important;
     padding: 24px 16px !important;
   }
   .vote--index .inner--index .tit--index {
@@ -286,6 +299,7 @@
   }
   /*----실시간 커뮤니티 인덱스---*/
   .live-community--index {
+    margin-top: 0 !important;
     width: 100% !important;
   }
   .live-community--index .tit .addtext a {
@@ -469,6 +483,10 @@
   }
   .hot-deal__itemlist .inner ul li:nth-of-type(2n) {
     margin-right: 0 !important;
+  }
+  button.hot-deal__add--index {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
   }
   /*---------------게시판----------------*/
   .board {

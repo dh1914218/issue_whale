@@ -65,6 +65,8 @@
 
 .hot-deal__serch--index {
   margin-bottom: 8px;
+  padding: 20px !important;
+  text-align: center;
 }
 
 .hot-deal__serch--index .tit--index {
@@ -123,7 +125,7 @@
 }
 
 .vote--index {
-  margin-top: 24px !important;
+  margin-top: 24px;
   padding: 30px;
   text-align: center;
 }
@@ -166,7 +168,6 @@
   display: inline-block;
   float: left;
   width: 364px;
-  margin-top: 16px;
   background-color: #ffffff;
   padding: 20px;
 }

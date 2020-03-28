@@ -21,14 +21,18 @@ p {
   color: #555555;
 }
 
-/*-----광고영역-----*/
-.m_aside-320x100 {
-  display: none;
-}
-
 /*-----레이아웃-----*/
 body {
   background-color: #f2f2f2;
+}
+
+.m-banner-index {
+  display: block;
+}
+
+.m-banner-index img {
+  display: block;
+  width: 100%;
 }
 
 .container {
@@ -357,7 +361,6 @@ main {
 }
 
 .side-bar .aside-300x250__left {
-  margin-top: 16px;
   text-align: center;
 }
 
@@ -367,7 +370,6 @@ main {
 }
 
 .aside-300x250__right {
-  margin-top: 16px;
   display: inline-block;
   text-align: center;
   float: right;
@@ -378,8 +380,12 @@ main {
 }
 
 /*-----광고배너----*/
-.aside-728x90 {
-  margin-top: 8px;
+.aside_320x100 {
+  display: none;
+}
+
+.aside_320x100 img {
+  display: block;
 }
 
 .aside-728x90 img {

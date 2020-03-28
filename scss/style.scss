@@ -4,15 +4,18 @@ p {
   color: #555555;
 }
 
-/*-----광고영역-----*/
-.m_aside-320x100 {
-  display: none;
-}
-
 /*-----레이아웃-----*/
 body {
   background-color: $bgColor;
   // background-color: #f2f2f2;
+}
+
+.m-banner-index {
+  display: block;
+  img {
+    display: block;
+    width: 100%;
+  }
 }
 
 .container {
@@ -362,7 +365,6 @@ main {
 
   /*---광고배너__컨테이너---*/
   .aside-300x250__left {
-    margin-top: 16px;
     text-align: center;
 
     img {
@@ -373,7 +375,6 @@ main {
 }
 
 .aside-300x250__right {
-  margin-top: 16px;
   display: inline-block;
   text-align: center;
   float: right;
@@ -383,8 +384,15 @@ main {
 }
 
 /*-----광고배너----*/
+
+.aside_320x100 {
+  display: none;
+  img {
+    display: block;
+  }
+}
+
 .aside-728x90 {
-  margin-top: 8px;
   img {
     display: block;
   }

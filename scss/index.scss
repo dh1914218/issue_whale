@@ -117,6 +117,8 @@
 
 .hot-deal__serch--index {
   margin-bottom: 8px;
+  padding: 20px !important;
+  text-align: center;
   .tit--index {
     position: relative;
     font-size: 25px;
@@ -174,7 +176,7 @@
 }
 
 .vote--index {
-  margin-top: 24px !important;
+  margin-top: 24px;
   @extend %bxWhiteGray;
   padding: 30px;
   text-align: center;
@@ -224,7 +226,7 @@
 
   width: 364px;
 
-  margin-top: 16px;
+  // margin-top: 16px;
   background-color: #ffffff;
   padding: 20px;
   .tit {
