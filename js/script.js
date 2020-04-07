@@ -1,8 +1,8 @@
 // ----------사이드바----------
 // --사이드바 고정
-$(document).ready(function() {
+$(document).ready(function () {
   var jbOffset = $(".side-bar").offset();
-  $(window).scroll(function() {
+  $(window).scroll(function () {
     if ($(document).scrollTop() > jbOffset.top) {
       $(".side-bar").addClass("sidebar__fixed");
     } else {
@@ -11,16 +11,16 @@ $(document).ready(function() {
   });
 });
 
-$(".vote__tab-left .btn__item--3").click(function() {
+$(".vote__tab-left .btn__item--3").click(function () {
   console.log(1);
 });
 
 // -------------hotdeal----------------
 // ----장바구니 이미지 on/off----
-$(".hot-deal__itemlist ul li .btn .ic_like").click(function() {
+$(".hot-deal__itemlist ul li .btn .ic_like").click(function () {
   $(this)
     .find("img")
-    .attr("src", function(index, attr) {
+    .attr("src", function (index, attr) {
       if (attr.match("thin-grey")) {
         return attr.replace("thin-grey", "purple");
       } else {
@@ -36,7 +36,7 @@ $(".hot-deal__itemlist ul li .btn .ic_like").click(function() {
 //------------------vote----------------
 // --탭클릭시
 let voteTabList = 0;
-$(".vote__tab-left.exception ul li").click(function() {
+$(".vote__tab-left.exception ul li").click(function () {
   voteTabList = $(this).index();
 
   // 첫번째버튼
@@ -44,9 +44,7 @@ $(".vote__tab-left.exception ul li").click(function() {
     $(".vote__tab-left.exception ul li")
       .find("span")
       .removeClass("font__active__purple_400");
-    $(this)
-      .find("span")
-      .addClass("font__active__purple_400");
+    $(this).find("span").addClass("font__active__purple_400");
 
     //이미지 - 기존것지우기
     $(".vote__tab-left.exception .btn__item--2")
@@ -62,10 +60,7 @@ $(".vote__tab-left.exception ul li").click(function() {
       .find("img")
       .attr(
         "src",
-        $(this)
-          .find("img")
-          .attr("src")
-          .replace("_off.svg", "_on.svg")
+        $(this).find("img").attr("src").replace("_off.svg", "_on.svg")
       );
   }
 
@@ -74,9 +69,7 @@ $(".vote__tab-left.exception ul li").click(function() {
     $(".vote__tab-left.exception ul li")
       .find("span")
       .removeClass("font__active__purple_400");
-    $(this)
-      .find("span")
-      .addClass("font__active__purple_400");
+    $(this).find("span").addClass("font__active__purple_400");
 
     // 기존이미지 지우기
     $(".vote__tab-left.exception .btn__item--1")
@@ -92,10 +85,7 @@ $(".vote__tab-left.exception ul li").click(function() {
       .find("img")
       .attr(
         "src",
-        $(this)
-          .find("img")
-          .attr("src")
-          .replace("_off.svg", "_on.svg")
+        $(this).find("img").attr("src").replace("_off.svg", "_on.svg")
       );
 
     // 세번째버튼
@@ -103,9 +93,7 @@ $(".vote__tab-left.exception ul li").click(function() {
     $(".vote__tab-left.exception ul li")
       .find("span")
       .removeClass("font__active__purple_400");
-    $(this)
-      .find("span")
-      .addClass("font__active__purple_400");
+    $(this).find("span").addClass("font__active__purple_400");
 
     //이미지 - 기존것지우기
     $(".vote__tab-left.exception .btn__item--1")
@@ -121,17 +109,14 @@ $(".vote__tab-left.exception ul li").click(function() {
       .find("img")
       .attr(
         "src",
-        $(this)
-          .find("img")
-          .attr("src")
-          .replace("_off.svg", "_on.svg")
+        $(this).find("img").attr("src").replace("_off.svg", "_on.svg")
       );
   }
 });
 
 // --찬반투표 투표버튼 클릭시
 let voteGraphBtn = 0;
-$(".vote__main .btn ul li").click(function() {
+$(".vote__main .btn ul li").click(function () {
   voteGraphBtn = $(this).index();
 
   if (voteGraphBtn == 0) {
@@ -153,17 +138,13 @@ let voteFeedBtn = 0;
 let articleFeedListBtn1 = $(".article-feed__item li.btn__item--1");
 let articleFeedListBtn2 = $(".article-feed__item li.btn__item--2");
 
-articleFeedListBtn1.on("click", function() {
-  $(this)
-    .find("span")
-    .toggleClass("font__active__red");
-  $(this)
-    .find("em")
-    .toggleClass("font__active__red");
+articleFeedListBtn1.on("click", function () {
+  $(this).find("span").toggleClass("font__active__red");
+  $(this).find("em").toggleClass("font__active__red");
 
   $(this)
     .find("img")
-    .attr("src", function(index, attr) {
+    .attr("src", function (index, attr) {
       if (attr.match("on")) {
         return attr.replace("on", "off");
       } else {
@@ -174,27 +155,21 @@ articleFeedListBtn1.on("click", function() {
 
 // --댓글보기
 let a = null;
-articleFeedListBtn2.on("click", function() {
+articleFeedListBtn2.on("click", function () {
   a = $(this).parents();
 
-  $(this)
-    .parents()
-    .find(".feed-comment")
-    .toggle();
+  $(this).parents().find(".feed-comment").toggle();
 
-  $(this)
-    .parents()
-    .find(".comment-write")
-    .toggle();
+  $(this).parents().find(".comment-write").toggle();
 });
 
 // --피드 댓글더보기 클릭시
-$(".feed-comment__addreply").click(function() {
+$(".feed-comment__addreply").click(function () {
   $(".feed-comment__relpy").toggleClass("div__flex");
 });
 
 // --찬반투표 레이어팝업--
-$(".vote-layerpopup a").click(function() {
+$(".vote-layerpopup a").click(function () {
   $(".vote-layerpopup").hide();
   $(".bgblack-layerpopup").hide();
 });
@@ -203,7 +178,7 @@ $(".vote-layerpopup a").click(function() {
 
 // --탭클릭시
 let votePastTabList = 0;
-$(".vote__tab-left.exception2 ul li").click(function() {
+$(".vote__tab-left.exception2 ul li").click(function () {
   votePastTabList = $(this).index();
 
   // 첫번째버튼
@@ -213,9 +188,7 @@ $(".vote__tab-left.exception2 ul li").click(function() {
     $(".vote__tab-left.exception2 ul li")
       .find("span")
       .removeClass("font__active__purple_400");
-    $(this)
-      .find("span")
-      .addClass("font__active__purple_400");
+    $(this).find("span").addClass("font__active__purple_400");
 
     //이미지 - 기존것지우기
     $(".vote__tab-left.exception2 ul li.btn__item--2")
@@ -227,10 +200,7 @@ $(".vote__tab-left.exception2 ul li").click(function() {
       .find("img")
       .attr(
         "src",
-        $(this)
-          .find("img")
-          .attr("src")
-          .replace("_off.svg", "_on.svg")
+        $(this).find("img").attr("src").replace("_off.svg", "_on.svg")
       );
   } else {
     console.log(2);
@@ -238,9 +208,7 @@ $(".vote__tab-left.exception2 ul li").click(function() {
     $(".vote__tab-left.exception2 ul li")
       .find("span")
       .removeClass("font__active__purple_400");
-    $(this)
-      .find("span")
-      .addClass("font__active__purple_400");
+    $(this).find("span").addClass("font__active__purple_400");
 
     //이미지 - 기존것지우기
     $(".vote__tab-left.exception2 ul li.btn__item--1")
@@ -252,10 +220,7 @@ $(".vote__tab-left.exception2 ul li").click(function() {
       .find("img")
       .attr(
         "src",
-        $(this)
-          .find("img")
-          .attr("src")
-          .replace("_off.svg", "_on.svg")
+        $(this).find("img").attr("src").replace("_off.svg", "_on.svg")
       );
   }
 });
@@ -263,7 +228,7 @@ $(".vote__tab-left.exception2 ul li").click(function() {
 // -----------------board---------------------
 // 탭메뉴 클릭시
 let boardTabList = 0;
-$(".borard__tab-left ul li").click(function() {
+$(".borard__tab-left ul li").click(function () {
   boardTabList = $(this).index();
 
   // 첫번째버튼
@@ -273,9 +238,7 @@ $(".borard__tab-left ul li").click(function() {
     $(".borard__tab-left ul li")
       .find("span")
       .removeClass("font__active__purple_400");
-    $(this)
-      .find("span")
-      .addClass("font__active__purple_400");
+    $(this).find("span").addClass("font__active__purple_400");
 
     //이미지 - 기존것지우기
     $(".borard__tab-left ul li.btn__item--2")
@@ -287,10 +250,7 @@ $(".borard__tab-left ul li").click(function() {
       .find("img")
       .attr(
         "src",
-        $(this)
-          .find("img")
-          .attr("src")
-          .replace("_off.svg", "_on.svg")
+        $(this).find("img").attr("src").replace("_off.svg", "_on.svg")
       );
   } else {
     console.log(2);
@@ -298,9 +258,7 @@ $(".borard__tab-left ul li").click(function() {
     $(".borard__tab-left ul li")
       .find("span")
       .removeClass("font__active__purple_400");
-    $(this)
-      .find("span")
-      .addClass("font__active__purple_400");
+    $(this).find("span").addClass("font__active__purple_400");
 
     //이미지 - 기존것지우기
     $(".borard__tab-left ul li.btn__item--1")
@@ -312,20 +270,17 @@ $(".borard__tab-left ul li").click(function() {
       .find("img")
       .attr(
         "src",
-        $(this)
-          .find("img")
-          .attr("src")
-          .replace("_off.svg", "_on.svg")
+        $(this).find("img").attr("src").replace("_off.svg", "_on.svg")
       );
   }
 });
 
 // ----------------- board-detialview ---------------------
 // --하트아이콘 클릭시
-$(".view-btn .btn__item--1").click(function() {
+$(".view-btn .btn__item--1").click(function () {
   $(this)
     .find("img")
-    .attr("src", function(index, attr) {
+    .attr("src", function (index, attr) {
       if (attr.match("on")) {
         return attr.replace("on", "off");
       } else {
@@ -335,22 +290,14 @@ $(".view-btn .btn__item--1").click(function() {
 });
 
 // 공감하기 클릭시
-$(".comment-list .btn__item--1").click(function() {
-  $(this)
-    .find("span")
-    .toggleClass("font__active__purple");
+$(".comment-list .btn__item--1").click(function () {
+  $(this).find("span").toggleClass("font__active__purple");
 
-  $(this)
-    .find("b")
-    .toggleClass("font__active__purple");
+  $(this).find("b").toggleClass("font__active__purple");
 
-  $(this)
-    .find("strong")
-    .toggleClass("font__active__purple");
+  $(this).find("strong").toggleClass("font__active__purple");
 
-  $(this)
-    .find("em")
-    .toggleClass("font__active__purple");
+  $(this).find("em").toggleClass("font__active__purple");
 });
 
 // $(".reply .btn__item--2").click(function() {
@@ -365,19 +312,19 @@ $(".comment-list .btn__item--1").click(function() {
 
 // ----------------네비게이션드로어------------
 
-$(".m-header__btn").click(function() {
+$(".m-header__btn").click(function () {
   console.log(1);
   $(".bgblack-layerpopup").show();
   $(".m-nav-draw").animate({
-    marginLeft: "100%"
+    marginLeft: "100%",
   });
 });
 
-$(".bgblack-layerpopup").click(function() {
+$(".bgblack-layerpopup").click(function () {
   $(".bgblack-layerpopup").hide();
   $(".vote-layerpopup").hide();
   $(".m-nav-draw").animate({
-    marginLeft: "0"
+    marginLeft: "0",
   });
 });
 
@@ -387,9 +334,9 @@ var windowWidth = $(window).width();
 
 if (windowWidth < 600) {
   $(".header").addClass("m-header");
-  $(document).ready(function() {
+  $(document).ready(function () {
     var jbOffset = $(".m-header").offset();
-    $(window).scroll(function() {
+    $(window).scroll(function () {
       if ($(document).scrollTop() > jbOffset.top) {
         $(".m-header").addClass("header__fixed");
       } else {
@@ -401,8 +348,8 @@ if (windowWidth < 600) {
 
 // -----------------TOP btn (플로팅버튼)-----------
 
-$(function() {
-  $(window).scroll(function() {
+$(function () {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 400) {
       $(".m-top-btn").fadeIn();
     } else {
@@ -410,10 +357,10 @@ $(function() {
     }
   });
 
-  $(".m-top-btn").click(function() {
+  $(".m-top-btn").click(function () {
     $("html, body").animate(
       {
-        scrollTop: 0
+        scrollTop: 0,
       },
       400
     );
@@ -421,8 +368,8 @@ $(function() {
   });
 });
 
-$(function() {
-  $(window).scroll(function() {
+$(function () {
+  $(window).scroll(function () {
     if ($(this).scrollTop() > 1000) {
       $(".top-btn").fadeIn();
     } else {
@@ -430,10 +377,10 @@ $(function() {
     }
   });
 
-  $(".top-btn").click(function() {
+  $(".top-btn").click(function () {
     $("html, body").animate(
       {
-        scrollTop: 0
+        scrollTop: 0,
       },
       400
     );
